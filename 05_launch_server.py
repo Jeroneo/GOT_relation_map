@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 serve.py — Local server for 05_visualise.html
-Serves the current directory on http://localhost:8000 and opens the browser.
+Serves the current directory on http://localhost and opens the browser.
 """
 
 import http.server

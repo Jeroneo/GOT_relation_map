@@ -24,7 +24,8 @@ got_pipeline/
 ├── 02_cluster_aliases.py
 ├── 03_extract_edges.py
 ├── 04_build_graph.py
-├── 05_visualise.html
+├── 05_launch_server.py
+├── index.html
 └── README.md
 ```
 
@@ -73,13 +74,10 @@ The visualiser loads `data/graph.json` via fetch(), so you need a local server:
 
 ```bash
 # Python (simplest)
-python3 -m http.server 8000
-
-# Or Node
-npx serve .
+python 05_launch_server.py
 ```
 
-Then open: http://localhost:8000/05_visualise.html
+Then open: http://localhost
 
 ---
 
