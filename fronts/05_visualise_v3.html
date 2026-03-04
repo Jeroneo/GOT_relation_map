@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game of Thrones (Books) — Character Map</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #08080e;
+    --gold: #d4a017;
+    --parchment: #c8a96e;
+    --panel-bg: rgba(10,10,20,0.94);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    font-family: 'Cinzel', serif;
+    color: var(--parchment);
+    overflow: hidden;
+    height: 100vh; width: 100vw;
+  }
+
+  /* ── Header ── */
+  header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+    padding: 12px 20px;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: linear-gradient(to bottom, rgba(8,8,14,0.97) 70%, transparent);
+  }
+  h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: clamp(12px, 1.8vw, 20px);
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+  }
+  h1 small {
+    display: block;
+    font-family: 'Cinzel', serif; font-weight: 400;
+    font-size: 0.55em; letter-spacing: 0.3em;
+    opacity: 0.55; margin-top: 2px;
+  }
+
+  .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+  /* ── Top-X control ── */
+  .topx-wrap {
+    display: flex; align-items: center; gap: 7px;
+    border: 1px solid rgba(200,169,110,0.28);
+    padding: 4px 10px; border-radius: 2px;
+    background: rgba(255,255,255,0.03);
+  }
+  .topx-wrap label {
+    font-size: 9px; letter-spacing: 0.15em; opacity: 0.65; white-space: nowrap;
+  }
+  #topx-slider {
+    -webkit-appearance: none; appearance: none;
+    width: 80px; height: 3px;
+    background: rgba(200,169,110,0.25); border-radius: 2px; outline: none; cursor: pointer;
+  }
+  #topx-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--gold); cursor: pointer;
+    box-shadow: 0 0 6px rgba(212,160,23,0.5);
+  }
+  #topx-slider::-moz-range-thumb {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--gold); cursor: pointer; border: none;
+  }
+  #topx-val {
+    font-size: 12px; color: var(--gold); min-width: 28px; text-align: right;
+    font-family: 'Cinzel', serif;
+  }
+  .topx-apply-btn {
+    padding: 4px 10px !important;
+    font-size: 9px !important;
+    transition: all 0.2s;
+  }
+  .topx-apply-btn.pending {
+    background: rgba(212,160,23,0.22) !important;
+    border-color: var(--gold) !important;
+    color: var(--gold) !important;
+    box-shadow: 0 0 8px rgba(212,160,23,0.25);
+  }
+
+  input#search {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(200,169,110,0.3);
+    color: var(--parchment); font-family: 'IM Fell English', serif;
+    font-size: 13px; padding: 5px 12px; border-radius: 2px;
+    outline: none; width: 150px; transition: border-color 0.2s;
+  }
+  input#search::placeholder { color: rgba(200,169,110,0.35); }
+  input#search:focus { border-color: var(--gold); }
+
+  .btn {
+    background: transparent;
+    border: 1px solid rgba(200,169,110,0.28);
+    color: var(--parchment); font-family: 'Cinzel', serif;
+    font-size: 9px; padding: 5px 9px; cursor: pointer;
+    letter-spacing: 0.1em; transition: all 0.2s; border-radius: 2px;
+  }
+  .btn:hover, .btn.active {
+    background: rgba(212,160,23,0.14); border-color: var(--gold); color: var(--gold);
+  }
+
+  /* ── Side panel ── */
+  #panel {
+    position: fixed; right: 0; top: 0; bottom: 0; width: 320px;
+    background: var(--panel-bg);
+    border-left: 1px solid rgba(200,169,110,0.18);
+    padding: 0;
+    transform: translateX(100%); transition: transform 0.28s ease;
+    z-index: 60; overflow: hidden;
+    backdrop-filter: blur(10px);
+    display: flex; flex-direction: column;
+  }
+  #panel-scrollable {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto; overflow-x: hidden;
+    scrollbar-width: none;
+    padding: 70px 20px 20px;
+  }
+  #panel-scrollable::-webkit-scrollbar { display: none; }
+  #panel.open { transform: translateX(0); }
+  #panel-close {
+    position: absolute; top: 66px; right: 14px;
+    background: none; border: 1px solid rgba(200,169,110,0.25);
+    color: var(--parchment); cursor: pointer;
+    width: 26px; height: 26px; font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  #panel-close:hover { border-color: var(--gold); color: var(--gold); }
+  #panel h2 {
+    font-family: 'Cinzel Decorative', cursive; font-size: 15px;
+    color: var(--gold); margin-bottom: 4px;
+  }
+  #panel .subtitle {
+    font-size: 9px; letter-spacing: 0.3em; opacity: 0.5; margin-bottom: 12px;
+  }
+  #panel .stat-row {
+    display: flex; gap: 12px; margin-bottom: 14px;
+  }
+  .stat {
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(200,169,110,0.12);
+    padding: 6px 10px; flex: 1; text-align: center;
+  }
+  .stat .val {
+    font-size: 16px; color: var(--gold); display: block; margin-bottom: 2px;
+  }
+  .stat .lbl { font-size: 8px; letter-spacing: 0.2em; opacity: 0.5; }
+  .sep { height: 1px; background: rgba(200,169,110,0.12); margin: 12px 0; }
+  #panel h4 { font-size: 9px; letter-spacing: 0.3em; color: var(--gold); opacity: 0.65; margin-bottom: 8px; }
+  .rel-item {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 7px; font-family: 'IM Fell English', serif; font-size: 12px;
+  }
+  .rel-badge {
+    font-size: 8px; letter-spacing: 0.08em; padding: 2px 6px; border-radius: 2px;
+    flex-shrink: 0; font-family: 'Cinzel', serif;
+  }
+  .type-family  { background: rgba(212,160,23,0.2);  color: #e8c060; }
+  .type-ally    { background: rgba(74,124,89,0.3);   color: #7fcf9a; }
+  .type-enemy   { background: rgba(139,26,26,0.3);   color: #e07070; }
+  .type-romance { background: rgba(180,80,120,0.3);  color: #e8a0c0; }
+  .type-sworn   { background: rgba(100,140,180,0.3); color: #a8d4e6; }
+  .type-other   { background: rgba(100,100,120,0.2); color: #aaaacc; }
+  .rel-weight   { font-size: 10px; opacity: 0.4; margin-left: auto; }
+
+  /* ── Legend ── */
+  #legend {
+    position: fixed; bottom: 14px; left: 14px; z-index: 50;
+    background: var(--panel-bg); border: 1px solid rgba(200,169,110,0.18);
+    padding: 12px 14px; backdrop-filter: blur(6px); max-width: 200px;
+  }
+  #legend h3 { font-size: 8px; letter-spacing: 0.3em; color: var(--gold); margin-bottom: 8px; opacity: 0.7; }
+  .lg-item { display: flex; align-items: center; gap: 7px; margin-bottom: 4px; font-size: 10px; font-family: 'IM Fell English', serif; }
+  .lg-dot  { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .lg-line { display: flex; align-items: center; gap: 7px; margin-bottom: 4px; font-size: 10px; font-family: 'IM Fell English', serif; }
+  .lg-seg  { width: 24px; height: 2px; flex-shrink: 0; }
+
+  /* ── Tooltip ── */
+  #tip {
+    position: fixed; pointer-events: none; z-index: 200;
+    background: var(--panel-bg); border: 1px solid rgba(212,160,23,0.45);
+    padding: 10px 14px; display: none; backdrop-filter: blur(8px); max-width: 200px;
+  }
+  #tip .tn { font-family: 'Cinzel Decorative', cursive; font-size: 12px; color: var(--gold); margin-bottom: 3px; }
+  #tip .th { font-size: 9px; letter-spacing: 0.2em; opacity: 0.55; margin-bottom: 5px; }
+  #tip .tc { font-size: 10px; opacity: 0.45; }
+
+  #hint {
+    position: fixed; bottom: 14px; right: 14px;
+    font-family: 'IM Fell English', serif; font-style: italic;
+    font-size: 11px; opacity: 0.3; text-align: right; line-height: 1.9;
+    pointer-events: none;
+  }
+
+  #loading {
+    position: fixed; inset: 0; z-index: 999;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(8,8,14,0.85); backdrop-filter: blur(4px);
+    font-family: 'Cinzel', serif; font-size: 13px;
+    color: var(--gold); letter-spacing: 0.3em; pointer-events: none;
+    transition: opacity 0.4s;
+  }
+  #loading.hidden { opacity: 0; }
+  .link { stroke-opacity: 0.45; transition: stroke-opacity 0.2s; }
+  .link:hover { stroke-opacity: 0.9; }
+  .node { cursor: grab; }
+  .node:active { cursor: grabbing; }
+  .node circle { stroke-width: 1.5; transition: r 0.15s; }
+  .node text {
+    font-family: 'Cinzel', serif; font-size: 8.5px; fill: var(--parchment);
+    pointer-events: none; paint-order: stroke;
+    stroke: #08080e; stroke-width: 3px; stroke-linejoin: round;
+  }
+  .dimmed { opacity: 0.06 !important; }
+  .highlighted circle { stroke-width: 2.5px !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Game of Thrones (books)<small>CHARACTER RELATIONSHIP MAP</small></h1>
+  <div class="controls">
+    <div class="topx-wrap">
+      <label>TOP</label>
+      <input type="range" id="topx-slider" min="5" max="200" step="5" value="200">
+      <span id="topx-val">All</span>
+      <button id="topx-apply" class="btn topx-apply-btn">Apply</button>
+    </div>
+    <input type="text" id="search" placeholder="Find character…">
+    <button class="btn active" data-type="all">All</button>
+    <button class="btn" data-type="family">Family</button>
+    <button class="btn" data-type="ally">Ally</button>
+    <button class="btn" data-type="enemy">Enemy</button>
+    <button class="btn" data-type="romance">Romance</button>
+    <button class="btn" data-type="sworn">Sworn</button>
+  </div>
+</header>
+
+<div id="loading">COMPUTING LAYOUT…</div>
+<svg id="graph"></svg>
+
+<div id="legend">
+  <h3>RELATION TYPE</h3>
+  <div class="lg-line"><div class="lg-seg" style="background:#e8c060"></div>Family</div>
+  <div class="lg-line"><div class="lg-seg" style="background:#7fcf9a"></div>Alliance</div>
+  <div class="lg-line"><div class="lg-seg" style="background:#e07070"></div>Rivalry</div>
+  <div class="lg-line"><div class="lg-seg" style="background:#e8a0c0"></div>Romance</div>
+  <div class="lg-line"><div class="lg-seg" style="background:#a8d4e6"></div>Sworn</div>
+  <div class="lg-line"><div class="lg-seg" style="background:#aaaacc"></div>Other</div>
+  <div style="height:1px;background:rgba(200,169,110,0.12);margin:8px 0"></div>
+  <h3>NODE SIZE</h3>
+  <div style="font-family:'IM Fell English',serif;font-size:10px;opacity:0.6;line-height:1.6">
+    Larger = more mentions in books.<br>
+    Brighter = more connections.
+  </div>
+</div>
+
+<div id="panel">
+  <button id="panel-close">✕</button>
+  <div id="panel-scrollable">
+    <h2 id="p-name"></h2>
+    <div class="subtitle" id="p-house"></div>
+    <div class="stat-row">
+      <div class="stat"><span class="val" id="p-mentions">—</span><span class="lbl">MENTIONS</span></div>
+      <div class="stat"><span class="val" id="p-conn">—</span><span class="lbl">CONNECTIONS</span></div>
+      <div class="stat"><span class="val" id="p-bc">—</span><span class="lbl">CENTRALITY</span></div>
+    </div>
+    <div class="sep"></div>
+    <div id="p-aliases-section">
+      <h4>KNOWN AS</h4>
+      <div id="p-aliases" style="font-family:'IM Fell English',serif;font-size:12px;line-height:1.8;font-style:italic;opacity:0.75;margin-bottom:12px"></div>
+      <div class="sep"></div>
+    </div>
+    <h4>CONNECTIONS</h4>
+    <div id="p-relations"></div>
+  </div>
+</div>
+
+<div id="tip">
+  <div class="tn" id="tt-name"></div>
+  <div class="th" id="tt-house"></div>
+  <div class="tc" id="tt-conn"></div>
+</div>
+
+<div id="hint">
+  Click a node to inspect · Drag to rearrange · Scroll to zoom
+</div>
+
+<script>
+// ── Color map ──────────────────────────────────────────────────────────────
+const TYPE_COLORS = {
+  family:  "#e8c060",
+  ally:    "#7fcf9a",
+  enemy:   "#e07070",
+  romance: "#e8a0c0",
+  sworn:   "#a8d4e6",
+  other:   "#aaaacc",
+};
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+
+// ── Load data & build graph ────────────────────────────────────────────────
+/*
+  IMPORTANT: This file must be served from a local web server because it
+  fetches graph.json via fetch(). Run one of:
+    python3 -m http.server 8000
+    npx serve .
+  Then open http://localhost:8000/05_visualise.html
+*/
+fetch("data/graph.json")
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status} — make sure graph.json exists and you're using a local server.`);
+    return r.json();
+  })
+  .then(buildGraph)
+  .catch(err => {
+    document.body.innerHTML += `
+      <div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+                  background:rgba(8,8,14,0.95);font-family:Cinzel,serif;color:#d4a017;text-align:center;padding:40px">
+        <div>
+          <div style="font-size:20px;margin-bottom:16px">⚠ Could not load graph.json</div>
+          <div style="font-size:13px;opacity:0.7;line-height:2">${err.message}<br><br>
+            Run the pipeline (steps 1–4) first, then serve this folder:<br>
+            <code style="background:rgba(255,255,255,0.06);padding:4px 10px">python3 -m http.server 8000</code>
+          </div>
+        </div>
+      </div>`;
+  });
+
+function buildGraph(data) {
+  const W = window.innerWidth, H = window.innerHeight;
+  const svg = d3.select("#graph").attr("width", W).attr("height", H);
+
+  // Zoom container
+  const g = svg.append("g");
+  svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", e => g.attr("transform", e.transform)));
+
+  // ── Sort all nodes by mentions descending (for Top X) ─────────────────────
+  const allNodesSorted = [...data.nodes].sort((a, b) => b.mentions - a.mentions);
+  const totalNodes = allNodesSorted.length;
+
+  // Set slider max to actual node count
+  const slider = $("topx-slider");
+  slider.max = totalNodes;
+  slider.value = totalNodes;
+  $("topx-val").textContent = "All";
+
+  // ── State ─────────────────────────────────────────────────────────────────
+  let activeType  = "all";
+  let activeTopX  = totalNodes;
+  let activeSearch = "";
+
+  // ── Layer groups (links below nodes) ──────────────────────────────────────
+  const linkG = g.append("g");
+  const nodeG = g.append("g");
+
+  // ── Simulation — configured fresh on each render() call ──────────────────
+  const simulation = d3.forceSimulation()
+    .force("charge", d3.forceManyBody().strength(-600))
+    .force("center", d3.forceCenter(W / 2, H / 2))
+    .force("collision", d3.forceCollide(d => d.size + 18))
+    .stop();
+
+  // ── Raw (unmutated) copies kept for re-use across renders ────────────────
+  // D3 forceLink mutates link objects (replaces id strings with node refs),
+  // so we always build fresh copies from the original JSON arrays.
+  const rawNodes = data.nodes.map(n => ({ ...n }));           // shallow copy per node
+  const rawLinks = data.links.map(l => ({ ...l }));           // id strings intact
+
+  // Index rawNodes by id for O(1) lookup
+  const rawNodeById = new Map(rawNodes.map(n => [n.id, n]));
+  window._nodeMap = rawNodeById; // expose for openPanel name resolution
+
+  // ── Cached precomputed positions per topX ─────────────────────────────────
+  const positionCache = new Map();
+
+  function precompute(nodes, links) {
+    // Run a throw-away simulation to convergence, fully synchronous
+    const simNodes = nodes.map(n => ({ ...n }));
+    const simLinks = links.map(l => ({ ...l }));
+    const pre = d3.forceSimulation(simNodes)
+      .force("charge", d3.forceManyBody().strength(-600))
+      .force("center", d3.forceCenter(W / 2, H / 2))
+      .force("collision", d3.forceCollide(d => d.size + 18))
+      .force("link", d3.forceLink(simLinks)
+        .id(d => d.id)
+        .distance(d => Math.max(100, 500 / Math.log(d.weight + 2)))
+        .strength(0.3))
+      .stop();
+    // Tick until alpha decays below threshold (≈300 ticks is usually enough)
+    pre.tick(300);
+    // Return id → {x, y} map
+    const pos = new Map(simNodes.map(n => [n.id, { x: n.x, y: n.y }]));
+    return pos;
+  }
+
+  // ── Main render function ───────────────────────────────────────────────────
+  function render(topX) {
+    // Stop any running simulation immediately
+    simulation.stop();
+
+    // 1. Determine the visible node set
+    const visibleIds = new Set(allNodesSorted.slice(0, topX).map(n => n.id));
+
+    // 2. Fresh link copies with string source/target (not yet mutated by D3)
+    const visibleLinks = rawLinks
+      .filter(l => visibleIds.has(l.source) && visibleIds.has(l.target))
+      .map(l => ({ ...l }));
+
+    // 3. Get or compute stable positions for this node set
+    const cacheKey = [...visibleIds].sort().join(",");
+    if (!positionCache.has(cacheKey)) {
+      const nodesForLayout = [...visibleIds].map(id => ({ ...rawNodeById.get(id) }));
+      positionCache.set(cacheKey, precompute(nodesForLayout, visibleLinks.map(l => ({ ...l }))));
+    }
+    const positions = positionCache.get(cacheKey);
+
+    // 4. Build visible nodes pinned to precomputed positions
+    const visibleNodes = [...visibleIds].map(id => {
+      const raw = rawNodeById.get(id);
+      const pos = positions.get(id);
+      return { ...raw, x: pos.x, y: pos.y, fx: pos.x, fy: pos.y };
+    });
+
+    // 5. Rebuild neighbour index
+    const neighbours = new Map();
+    visibleIds.forEach(id => neighbours.set(id, new Set()));
+    visibleLinks.forEach(l => {
+      neighbours.get(l.source)?.add(l.target);
+      neighbours.get(l.target)?.add(l.source);
+    });
+
+    // ── Hard-clear old DOM then redraw ────────────────────────────────────
+    linkG.selectAll("*").remove();
+    nodeG.selectAll("*").remove();
+
+    // ── Links ─────────────────────────────────────────────────────────────
+    const linkSel = linkG.selectAll("line")
+      .data(visibleLinks)
+      .join("line")
+        .attr("class", "link")
+        .attr("stroke", d => TYPE_COLORS[d.type] || TYPE_COLORS.other)
+        .attr("stroke-width", d => Math.max(0.5, Math.log(d.weight) * 0.6));
+
+    // ── Nodes ─────────────────────────────────────────────────────────────
+    const nodeSel = nodeG.selectAll("g.node")
+      .data(visibleNodes, d => d.id)
+      .join("g")
+        .attr("class", "node")
+        .call(d3.drag()
+          .on("start", (e, d) => {
+            d._dragged = false;
+            d.fx = d.x; d.fy = d.y;
+            if (!e.active) simulation.alphaTarget(0.1).restart();
+          })
+          .on("drag", (e, d) => { d._dragged = true; d.fx = e.x; d.fy = e.y; })
+          .on("end", (e, d) => {
+            if (!e.active) simulation.alphaTarget(0).stop();
+            d.fx = d.x; d.fy = d.y;
+            positions.set(d.id, { x: d.x, y: d.y });
+          }));
+
+    nodeSel.append("circle")
+      .attr("r",      d => d.size)
+      .attr("fill",   d => d.color || "#666688")
+      .attr("stroke", d => d3.color(d.color || "#666688").brighter(0.8));
+
+    nodeSel.append("text")
+      .attr("dy", d => d.size + 10)
+      .attr("text-anchor", "middle")
+      .text(d => d.name.split(" ")[0]);
+
+    // ── Run simulation only to resolve link endpoints (nodes are pinned) ──
+    simulation
+      .nodes(visibleNodes)
+      .force("link", d3.forceLink(visibleLinks)
+        .id(d => d.id)
+        .distance(d => Math.max(100, 500 / Math.log(d.weight + 2)))
+        .strength(0.3));
+    // Single tick to resolve link source/target objects, then render positions
+    simulation.tick(1);
+
+    // ── Draw at precomputed positions immediately (no animation) ──────────
+    linkG.selectAll("line")
+      .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    nodeG.selectAll("g.node")
+      .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    simulation.on("tick", () => {
+      linkG.selectAll("line")
+        .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+      nodeG.selectAll("g.node")
+        .attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+
+    // Re-bind events
+    attachNodeEvents(nodeSel, linkSel, neighbours, data.links);
+
+    // Re-apply active filters
+    applyTypeFilter(activeType);
+    if (activeSearch) applySearch(activeSearch);
+
+    return { nodeSel, linkSel, neighbours };
+  }
+
+  // Initial render — precompute runs synchronously, hide loader after
+  setTimeout(() => {
+    render(activeTopX);
+    const loader = document.getElementById("loading");
+    loader.classList.add("hidden");
+    setTimeout(() => loader.remove(), 450);
+  }, 50);
+
+  // ── Attach node interaction events ────────────────────────────────────────
+  function attachNodeEvents(nodeSel, linkSel, neighbours, allLinks) {
+    const tip = $("tip");
+    nodeSel
+      .on("mousemove", (e, d) => {
+        $("tt-name").textContent  = d.name;
+        $("tt-house").textContent = "House " + capitalize(d.house);
+        $("tt-conn").textContent  = `${neighbours.get(d.id)?.size || 0} connections · ${d.mentions} mentions`;
+        tip.style.display = "block";
+        tip.style.left    = (e.clientX + 14) + "px";
+        tip.style.top     = (e.clientY - 10) + "px";
+      })
+      .on("mouseleave", () => { tip.style.display = "none"; })
+      .on("click", (e, d) => {
+        // D3 drag suppresses clicks when dragging; only open panel if not dragged
+        if (d._dragged) { d._dragged = false; return; }
+        e.stopPropagation();
+        openPanel(d, allLinks, neighbours);
+        highlightNode(d, nodeSel, linkSel);
+      });
+  }
+
+  svg.on("click", () => {
+    $("panel").classList.remove("open");
+    nodeG.selectAll("g.node").classed("dimmed", false).classed("highlighted", false);
+    linkG.selectAll("line").classed("dimmed", false);
+  });
+
+  // ── Top X slider — updates label live, renders only on Apply ─────────────
+  const applyBtn = $("topx-apply");
+
+  slider.addEventListener("input", () => {
+    const val = +slider.value;
+    $("topx-val").textContent = val >= totalNodes ? "All" : val;
+    // Mark button as pending if value differs from what's currently rendered
+    const pending = (val >= totalNodes ? totalNodes : val) !== activeTopX;
+    applyBtn.classList.toggle("pending", pending);
+  });
+
+  applyBtn.addEventListener("click", () => {
+    const val = +slider.value;
+    activeTopX = val >= totalNodes ? totalNodes : val;
+    applyBtn.classList.remove("pending");
+    $("panel").classList.remove("open");
+    // Show loader briefly while precomputing new layout
+    const loaderHtml = `<div id="loading" style="position:fixed;inset:0;z-index:999;display:flex;align-items:center;justify-content:center;background:rgba(8,8,14,0.85);font-family:Cinzel,serif;font-size:13px;color:#d4a017;letter-spacing:0.3em">COMPUTING LAYOUT…</div>`;
+    document.body.insertAdjacentHTML("beforeend", loaderHtml);
+    setTimeout(() => {
+      render(activeTopX);
+      const l = document.getElementById("loading");
+      if (l) { l.style.transition = "opacity 0.4s"; l.style.opacity = "0"; setTimeout(() => l.remove(), 450); }
+    }, 50);
+  });
+
+  // ── Relation type filter buttons ──────────────────────────────────────────
+  document.querySelectorAll(".btn[data-type]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".btn[data-type]").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeType = btn.dataset.type;
+      applyTypeFilter(activeType);
+    });
+  });
+
+  // ── Search ────────────────────────────────────────────────────────────────
+  $("search").addEventListener("input", e => {
+    activeSearch = e.target.value.toLowerCase().trim();
+    applySearch(activeSearch);
+  });
+
+  // ── Panel close ───────────────────────────────────────────────────────────
+  $("panel-close").addEventListener("click", () => {
+    $("panel").classList.remove("open");
+    nodeG.selectAll("g.node").classed("dimmed", false).classed("highlighted", false);
+    linkG.selectAll("line").classed("dimmed", false);
+  });
+
+  // ── Window resize ─────────────────────────────────────────────────────────
+  window.addEventListener("resize", () => {
+    svg.attr("width", window.innerWidth).attr("height", window.innerHeight);
+    simulation.force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2));
+    simulation.alpha(0.1).restart();
+  });
+
+  // ── Filter helpers ────────────────────────────────────────────────────────
+  function applyTypeFilter(type) {
+    linkG.selectAll("line").style("display", d => (type === "all" || d.type === type) ? null : "none");
+  }
+
+  function applySearch(q) {
+    if (!q) {
+      nodeG.selectAll("g.node").classed("dimmed", false).classed("highlighted", false);
+      linkG.selectAll("line").classed("dimmed", false);
+      return;
+    }
+    nodeG.selectAll("g.node").each(function(d) {
+      const match = d.name.toLowerCase().includes(q) ||
+                    (d.aliases || []).some(a => a.toLowerCase().includes(q));
+      d3.select(this).classed("dimmed", !match).classed("highlighted", match);
+    });
+    linkG.selectAll("line").classed("dimmed", d => {
+      const sname = (typeof d.source === "object" ? d.source.name : d.source) || "";
+      const tname = (typeof d.target === "object" ? d.target.name : d.target) || "";
+      return !sname.toLowerCase().includes(q) && !tname.toLowerCase().includes(q);
+    });
+  }
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function capitalize(s) {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : "Unknown";
+}
+
+function highlightNode(d, nodeSel, linkSel) {
+  const nbrs = new Set();
+  linkSel.each(function(l) {
+    if (l.source.id === d.id) nbrs.add(l.target.id);
+    if (l.target.id === d.id) nbrs.add(l.source.id);
+  });
+  nodeSel
+    .classed("dimmed",      n => n.id !== d.id && !nbrs.has(n.id))
+    .classed("highlighted", n => n.id === d.id);
+  linkSel.classed("dimmed", l => l.source.id !== d.id && l.target.id !== d.id);
+}
+
+function openPanel(d, links, neighbours) {
+  $("p-name").textContent     = d.name;
+  $("p-house").textContent    = "House " + capitalize(d.house);
+  $("p-mentions").textContent = d.mentions;
+  $("p-conn").textContent     = neighbours.get(d.id)?.size || 0;
+  $("p-bc").textContent       = (d.betweenness * 100).toFixed(1) + "%";
+
+  const aliasSection = $("p-aliases-section");
+  if (d.aliases && d.aliases.length) {
+    aliasSection.style.display = "";
+    $("p-aliases").textContent = d.aliases.slice(0, 8).join(", ");
+  } else {
+    aliasSection.style.display = "none";
+  }
+
+  // Relations sorted by weight
+  // links may have string or object source/target depending on D3 mutation state
+  const getId  = x => (typeof x === "object" && x !== null) ? x.id   : x;
+  const getName = (x, nodeMap) => {
+    if (typeof x === "object" && x !== null) return x.name;
+    return nodeMap?.get(x)?.name || x;
+  };
+  // Build a node id->node map from the current simulation nodes (passed via neighbours)
+  // Fallback: build from data.nodes stored on window if available
+  const nodeMap = window._nodeMap || new Map();
+
+  const rels = links
+    .filter(l => getId(l.source) === d.id || getId(l.target) === d.id)
+    .sort((a, b) => b.weight - a.weight)
+    .slice(0, 25);
+
+  $("p-relations").innerHTML = rels.map(l => {
+    const srcId = getId(l.source);
+    const other = srcId === d.id ? getName(l.target, nodeMap) : getName(l.source, nodeMap);
+    return `
+      <div class="rel-item">
+        <span class="rel-badge type-${l.type}">${l.type}</span>
+        <span>${other}</span>
+        <span class="rel-weight">${l.weight}</span>
+      </div>`;
+  }).join("");
+
+  $("panel").classList.add("open");
+}
+</script>
+</body>
+</html>
