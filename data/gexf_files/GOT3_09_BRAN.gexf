@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tu" label="Tu">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Me" label="Me">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="N Reed" label="N Reed">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Summer" label="Summer">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Winter" label="Winter">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rob" label="Rob">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ba" label="Ba">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mo" label="Mo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ce" label="Ce">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Man" label="Lord Man">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Derly" label="Derly">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rick" label="Rick">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Theo" label="Theo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Greyjoy" label="Greyjoy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rickard" label="Rickard">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stark" label="Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster Lu" label="Ster Lu">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bran" label="Bran">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Ho" target="Bran" id="0" weight="1.0" />
+      <edge source="Ho" target="Me" id="1" weight="1.0" />
+      <edge source="Ho" target="Tu" id="2" weight="1.0" />
+      <edge source="Ho" target="Jo" id="3" weight="1.0" />
+      <edge source="Ho" target="Winter" id="4" weight="1.0" />
+      <edge source="Ho" target="Stark" id="5" weight="1.0" />
+      <edge source="Ho" target="Brandon" id="6" weight="1.0" />
+      <edge source="Ho" target="Summer" id="7" weight="1.0" />
+      <edge source="Ho" target="Ba" id="8" weight="1.0" />
+      <edge source="Ho" target="Rob" id="9" weight="1.0" />
+      <edge source="Ho" target="Ce" id="10" weight="1.0" />
+      <edge source="Ho" target="Mo" id="11" weight="1.0" />
+      <edge source="Ho" target="Lord Man" id="12" weight="1.0" />
+      <edge source="Ho" target="Theo" id="13" weight="1.0" />
+      <edge source="Ho" target="Rick" id="14" weight="1.0" />
+      <edge source="Ho" target="Greyjoy" id="15" weight="1.0" />
+      <edge source="Ho" target="Rickard" id="16" weight="1.0" />
+      <edge source="Ho" target="Mae" id="17" weight="1.0" />
+      <edge source="Tu" target="Bran" id="18" weight="1.0" />
+      <edge source="Tu" target="Me" id="19" weight="1.0" />
+      <edge source="Tu" target="Jo" id="20" weight="1.0" />
+      <edge source="Tu" target="Winter" id="21" weight="1.0" />
+      <edge source="Tu" target="Summer" id="22" weight="1.0" />
+      <edge source="Tu" target="Ba" id="23" weight="1.0" />
+      <edge source="Tu" target="Rob" id="24" weight="1.0" />
+      <edge source="Tu" target="Ce" id="25" weight="1.0" />
+      <edge source="Tu" target="Mo" id="26" weight="1.0" />
+      <edge source="Tu" target="Lord Man" id="27" weight="1.0" />
+      <edge source="Tu" target="Mae" id="28" weight="1.0" />
+      <edge source="Me" target="Bran" id="29" weight="1.0" />
+      <edge source="Me" target="Jo" id="30" weight="1.0" />
+      <edge source="Me" target="Winter" id="31" weight="1.0" />
+      <edge source="Me" target="Summer" id="32" weight="1.0" />
+      <edge source="Me" target="Ba" id="33" weight="1.0" />
+      <edge source="Me" target="Rob" id="34" weight="1.0" />
+      <edge source="Me" target="Ce" id="35" weight="1.0" />
+      <edge source="Me" target="Mo" id="36" weight="1.0" />
+      <edge source="Me" target="Lord Man" id="37" weight="1.0" />
+      <edge source="Me" target="Stark" id="38" weight="1.0" />
+      <edge source="Me" target="Theo" id="39" weight="1.0" />
+      <edge source="Me" target="Rick" id="40" weight="1.0" />
+      <edge source="Me" target="Greyjoy" id="41" weight="1.0" />
+      <edge source="Me" target="Rickard" id="42" weight="1.0" />
+      <edge source="Me" target="Brandon" id="43" weight="1.0" />
+      <edge source="Jo" target="Bran" id="44" weight="1.0" />
+      <edge source="Jo" target="Winter" id="45" weight="1.0" />
+      <edge source="Jo" target="Summer" id="46" weight="1.0" />
+      <edge source="Jo" target="Stark" id="47" weight="1.0" />
+      <edge source="Jo" target="Brandon" id="48" weight="1.0" />
+      <edge source="Jo" target="Ba" id="49" weight="1.0" />
+      <edge source="Jo" target="Rob" id="50" weight="1.0" />
+      <edge source="Jo" target="Ce" id="51" weight="1.0" />
+      <edge source="Jo" target="Mo" id="52" weight="1.0" />
+      <edge source="Jo" target="Lord Man" id="53" weight="1.0" />
+      <edge source="Jo" target="Theo" id="54" weight="1.0" />
+      <edge source="Jo" target="Rick" id="55" weight="1.0" />
+      <edge source="Jo" target="Greyjoy" id="56" weight="1.0" />
+      <edge source="Jo" target="Rickard" id="57" weight="1.0" />
+      <edge source="Summer" target="Bran" id="58" weight="1.0" />
+      <edge source="Summer" target="Winter" id="59" weight="1.0" />
+      <edge source="Summer" target="Stark" id="60" weight="1.0" />
+      <edge source="Summer" target="Brandon" id="61" weight="1.0" />
+      <edge source="Summer" target="Ce" id="62" weight="1.0" />
+      <edge source="Summer" target="Lord Man" id="63" weight="1.0" />
+      <edge source="Summer" target="Rob" id="64" weight="1.0" />
+      <edge source="Summer" target="Rickard" id="65" weight="1.0" />
+      <edge source="Summer" target="Theo" id="66" weight="1.0" />
+      <edge source="Summer" target="Rick" id="67" weight="1.0" />
+      <edge source="Summer" target="Greyjoy" id="68" weight="1.0" />
+      <edge source="Winter" target="Bran" id="69" weight="1.0" />
+      <edge source="Winter" target="Stark" id="70" weight="1.0" />
+      <edge source="Winter" target="Brandon" id="71" weight="1.0" />
+      <edge source="Winter" target="Ba" id="72" weight="1.0" />
+      <edge source="Winter" target="Rob" id="73" weight="1.0" />
+      <edge source="Winter" target="Ce" id="74" weight="1.0" />
+      <edge source="Winter" target="Mo" id="75" weight="1.0" />
+      <edge source="Winter" target="Theo" id="76" weight="1.0" />
+      <edge source="Winter" target="Rick" id="77" weight="1.0" />
+      <edge source="Winter" target="Greyjoy" id="78" weight="1.0" />
+      <edge source="Winter" target="Rickard" id="79" weight="1.0" />
+      <edge source="Winter" target="Lord Man" id="80" weight="1.0" />
+      <edge source="Winter" target="Mae" id="81" weight="1.0" />
+      <edge source="Rob" target="Bran" id="82" weight="1.0" />
+      <edge source="Rob" target="Ba" id="83" weight="1.0" />
+      <edge source="Rob" target="Ce" id="84" weight="1.0" />
+      <edge source="Rob" target="Mo" id="85" weight="1.0" />
+      <edge source="Rob" target="Lord Man" id="86" weight="1.0" />
+      <edge source="Rob" target="Stark" id="87" weight="1.0" />
+      <edge source="Rob" target="Theo" id="88" weight="1.0" />
+      <edge source="Rob" target="Rick" id="89" weight="1.0" />
+      <edge source="Rob" target="Greyjoy" id="90" weight="1.0" />
+      <edge source="Rob" target="Rickard" id="91" weight="1.0" />
+      <edge source="Rob" target="Brandon" id="92" weight="1.0" />
+      <edge source="Ba" target="Bran" id="93" weight="1.0" />
+      <edge source="Ba" target="Ce" id="94" weight="1.0" />
+      <edge source="Ba" target="Mo" id="95" weight="1.0" />
+      <edge source="Ba" target="Mae" id="96" weight="1.0" />
+      <edge source="Ba" target="Lord Man" id="97" weight="1.0" />
+      <edge source="Mo" target="Bran" id="98" weight="1.0" />
+      <edge source="Mo" target="Ce" id="99" weight="1.0" />
+      <edge source="Mo" target="Lord Man" id="100" weight="1.0" />
+      <edge source="Mo" target="Mae" id="101" weight="1.0" />
+      <edge source="Ce" target="Bran" id="102" weight="1.0" />
+      <edge source="Ce" target="Lord Man" id="103" weight="1.0" />
+      <edge source="Ce" target="Stark" id="104" weight="1.0" />
+      <edge source="Ce" target="Mae" id="105" weight="1.0" />
+      <edge source="Lord Man" target="Bran" id="106" weight="1.0" />
+      <edge source="Lord Man" target="Stark" id="107" weight="1.0" />
+      <edge source="Lord Man" target="Mae" id="108" weight="1.0" />
+      <edge source="Rick" target="Theo" id="109" weight="1.0" />
+      <edge source="Rick" target="Bran" id="110" weight="1.0" />
+      <edge source="Rick" target="Stark" id="111" weight="1.0" />
+      <edge source="Rick" target="Greyjoy" id="112" weight="1.0" />
+      <edge source="Rick" target="Rickard" id="113" weight="1.0" />
+      <edge source="Rick" target="Brandon" id="114" weight="1.0" />
+      <edge source="Theo" target="Bran" id="115" weight="1.0" />
+      <edge source="Theo" target="Stark" id="116" weight="1.0" />
+      <edge source="Theo" target="Greyjoy" id="117" weight="1.0" />
+      <edge source="Theo" target="Rickard" id="118" weight="1.0" />
+      <edge source="Theo" target="Brandon" id="119" weight="1.0" />
+      <edge source="Greyjoy" target="Bran" id="120" weight="1.0" />
+      <edge source="Greyjoy" target="Stark" id="121" weight="1.0" />
+      <edge source="Greyjoy" target="Rickard" id="122" weight="1.0" />
+      <edge source="Greyjoy" target="Brandon" id="123" weight="1.0" />
+      <edge source="Brandon" target="Bran" id="124" weight="1.0" />
+      <edge source="Brandon" target="Stark" id="125" weight="1.0" />
+      <edge source="Brandon" target="Rickard" id="126" weight="1.0" />
+      <edge source="Rickard" target="Bran" id="127" weight="1.0" />
+      <edge source="Rickard" target="Stark" id="128" weight="1.0" />
+      <edge source="Stark" target="Bran" id="129" weight="1.0" />
+      <edge source="Mae" target="Bran" id="130" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

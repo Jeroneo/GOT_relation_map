@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Dan" label="Dan">
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hal Drogo" label="Hal Drogo">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser Jorah" label="Ser Jorah">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dr" label="Dr">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Daener" label="Daener">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Targa" label="Targa">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Il" label="Il">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ro" label="Ro">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hale" label="Hale">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Drogo" label="Drogo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ai" label="Ai">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Khale" label="Khale">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jhog" label="Jhog">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser Jo" label="Ser Jo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ra" label="Ra">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Do" label="Do">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rea" label="Rea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Go" label="Go">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ha" label="Ha">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ma" label="Ma">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Co" label="Co">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lo" label="Lo">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mir" label="Mir">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Du" label="Du">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gg" label="Gg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Maz Du" label="Maz Du">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Great" label="Great">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mar" label="Mar">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Qoth" label="Qoth">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hol" label="Hol">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ogo" label="Ogo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ri Maz Du" label="Ri Maz Du">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Daenerys" label="Daenerys">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Dan" target="Dr" id="0" weight="1.0" />
+      <edge source="Dan" target="Drogo" id="1" weight="1.0" />
+      <edge source="Dan" target="Ogo" id="2" weight="1.0" />
+      <edge source="Dan" target="Do" id="3" weight="1.0" />
+      <edge source="Dan" target="Ser Jo" id="4" weight="1.0" />
+      <edge source="Dan" target="Ser Jorah" id="5" weight="1.0" />
+      <edge source="Dan" target="Jo" id="6" weight="1.0" />
+      <edge source="Dan" target="Daener" id="7" weight="1.0" />
+      <edge source="Dan" target="Targa" id="8" weight="1.0" />
+      <edge source="Dan" target="Daenerys" id="9" weight="1.0" />
+      <edge source="Dan" target="Il" id="10" weight="1.0" />
+      <edge source="Dan" target="Ma" id="11" weight="1.0" />
+      <edge source="Dan" target="Khale" id="12" weight="1.0" />
+      <edge source="Dan" target="Jhog" id="13" weight="1.0" />
+      <edge source="Dan" target="Ai" id="14" weight="1.0" />
+      <edge source="Dan" target="Go" id="15" weight="1.0" />
+      <edge source="Dan" target="Ra" id="16" weight="1.0" />
+      <edge source="Dan" target="Co" id="17" weight="1.0" />
+      <edge source="Dan" target="Ha" id="18" weight="1.0" />
+      <edge source="Dan" target="Qoth" id="19" weight="1.0" />
+      <edge source="Dan" target="Great" id="20" weight="1.0" />
+      <edge source="Dan" target="Maz Du" id="21" weight="1.0" />
+      <edge source="Dan" target="Mir" id="22" weight="1.0" />
+      <edge source="Dan" target="Du" id="23" weight="1.0" />
+      <edge source="Dan" target="Mae" id="24" weight="1.0" />
+      <edge source="Dan" target="Mar" id="25" weight="1.0" />
+      <edge source="Dan" target="Lo" id="26" weight="1.0" />
+      <edge source="Dan" target="Hol" id="27" weight="1.0" />
+      <edge source="Ser Jorah" target="Ser Jo" id="28" weight="1.0" />
+      <edge source="Ser Jorah" target="Dr" id="29" weight="1.0" />
+      <edge source="Ser Jorah" target="Drogo" id="30" weight="1.0" />
+      <edge source="Ser Jorah" target="Jo" id="31" weight="1.0" />
+      <edge source="Ser Jorah" target="Ogo" id="32" weight="1.0" />
+      <edge source="Ser Jorah" target="Do" id="33" weight="1.0" />
+      <edge source="Ser Jorah" target="Daener" id="34" weight="1.0" />
+      <edge source="Ser Jorah" target="Targa" id="35" weight="1.0" />
+      <edge source="Ser Jorah" target="Daenerys" id="36" weight="1.0" />
+      <edge source="Ser Jorah" target="Il" id="37" weight="1.0" />
+      <edge source="Ser Jorah" target="Ma" id="38" weight="1.0" />
+      <edge source="Ser Jorah" target="Khale" id="39" weight="1.0" />
+      <edge source="Ser Jorah" target="Jhog" id="40" weight="1.0" />
+      <edge source="Ser Jorah" target="Ai" id="41" weight="1.0" />
+      <edge source="Ser Jorah" target="Go" id="42" weight="1.0" />
+      <edge source="Ser Jorah" target="Ra" id="43" weight="1.0" />
+      <edge source="Ser Jorah" target="Co" id="44" weight="1.0" />
+      <edge source="Ser Jorah" target="Ha" id="45" weight="1.0" />
+      <edge source="Ser Jorah" target="Qoth" id="46" weight="1.0" />
+      <edge source="Ser Jorah" target="Great" id="47" weight="1.0" />
+      <edge source="Ser Jorah" target="Maz Du" id="48" weight="1.0" />
+      <edge source="Ser Jorah" target="Mae" id="49" weight="1.0" />
+      <edge source="Ser Jorah" target="Du" id="50" weight="1.0" />
+      <edge source="Ser Jorah" target="Mir" id="51" weight="1.0" />
+      <edge source="Ser Jorah" target="Mar" id="52" weight="1.0" />
+      <edge source="Ser Jorah" target="Lo" id="53" weight="1.0" />
+      <edge source="Dr" target="Drogo" id="54" weight="1.0" />
+      <edge source="Dr" target="Ogo" id="55" weight="1.0" />
+      <edge source="Dr" target="Do" id="56" weight="1.0" />
+      <edge source="Dr" target="Ser Jo" id="57" weight="1.0" />
+      <edge source="Dr" target="Jo" id="58" weight="1.0" />
+      <edge source="Dr" target="Daener" id="59" weight="1.0" />
+      <edge source="Dr" target="Targa" id="60" weight="1.0" />
+      <edge source="Dr" target="Daenerys" id="61" weight="1.0" />
+      <edge source="Dr" target="Il" id="62" weight="1.0" />
+      <edge source="Dr" target="Ma" id="63" weight="1.0" />
+      <edge source="Dr" target="Khale" id="64" weight="1.0" />
+      <edge source="Dr" target="Jhog" id="65" weight="1.0" />
+      <edge source="Dr" target="Ai" id="66" weight="1.0" />
+      <edge source="Dr" target="Go" id="67" weight="1.0" />
+      <edge source="Dr" target="Ra" id="68" weight="1.0" />
+      <edge source="Dr" target="Co" id="69" weight="1.0" />
+      <edge source="Dr" target="Ha" id="70" weight="1.0" />
+      <edge source="Dr" target="Qoth" id="71" weight="1.0" />
+      <edge source="Dr" target="Great" id="72" weight="1.0" />
+      <edge source="Dr" target="Maz Du" id="73" weight="1.0" />
+      <edge source="Dr" target="Mir" id="74" weight="1.0" />
+      <edge source="Dr" target="Du" id="75" weight="1.0" />
+      <edge source="Dr" target="Mar" id="76" weight="1.0" />
+      <edge source="Dr" target="Lo" id="77" weight="1.0" />
+      <edge source="Dr" target="Hol" id="78" weight="1.0" />
+      <edge source="Daener" target="Ser Jo" id="79" weight="1.0" />
+      <edge source="Daener" target="Jo" id="80" weight="1.0" />
+      <edge source="Daener" target="Ogo" id="81" weight="1.0" />
+      <edge source="Daener" target="Targa" id="82" weight="1.0" />
+      <edge source="Daener" target="Drogo" id="83" weight="1.0" />
+      <edge source="Daener" target="Daenerys" id="84" weight="1.0" />
+      <edge source="Daener" target="Do" id="85" weight="1.0" />
+      <edge source="Daener" target="Il" id="86" weight="1.0" />
+      <edge source="Daener" target="Ma" id="87" weight="1.0" />
+      <edge source="Daener" target="Khale" id="88" weight="1.0" />
+      <edge source="Daener" target="Qoth" id="89" weight="1.0" />
+      <edge source="Daener" target="Co" id="90" weight="1.0" />
+      <edge source="Daener" target="Jhog" id="91" weight="1.0" />
+      <edge source="Daener" target="Great" id="92" weight="1.0" />
+      <edge source="Targa" target="Ser Jo" id="93" weight="1.0" />
+      <edge source="Targa" target="Jo" id="94" weight="1.0" />
+      <edge source="Targa" target="Ogo" id="95" weight="1.0" />
+      <edge source="Targa" target="Drogo" id="96" weight="1.0" />
+      <edge source="Targa" target="Daenerys" id="97" weight="1.0" />
+      <edge source="Targa" target="Do" id="98" weight="1.0" />
+      <edge source="Targa" target="Il" id="99" weight="1.0" />
+      <edge source="Targa" target="Ma" id="100" weight="1.0" />
+      <edge source="Targa" target="Khale" id="101" weight="1.0" />
+      <edge source="Il" target="Ser Jo" id="102" weight="1.0" />
+      <edge source="Il" target="Ogo" id="103" weight="1.0" />
+      <edge source="Il" target="Jo" id="104" weight="1.0" />
+      <edge source="Il" target="Daenerys" id="105" weight="1.0" />
+      <edge source="Il" target="Drogo" id="106" weight="1.0" />
+      <edge source="Il" target="Do" id="107" weight="1.0" />
+      <edge source="Il" target="Ma" id="108" weight="1.0" />
+      <edge source="Il" target="Khale" id="109" weight="1.0" />
+      <edge source="Il" target="Jhog" id="110" weight="1.0" />
+      <edge source="Drogo" target="Ogo" id="111" weight="1.0" />
+      <edge source="Drogo" target="Do" id="112" weight="1.0" />
+      <edge source="Drogo" target="Ser Jo" id="113" weight="1.0" />
+      <edge source="Drogo" target="Jo" id="114" weight="1.0" />
+      <edge source="Drogo" target="Daenerys" id="115" weight="1.0" />
+      <edge source="Drogo" target="Ma" id="116" weight="1.0" />
+      <edge source="Drogo" target="Khale" id="117" weight="1.0" />
+      <edge source="Drogo" target="Jhog" id="118" weight="1.0" />
+      <edge source="Drogo" target="Ai" id="119" weight="1.0" />
+      <edge source="Drogo" target="Go" id="120" weight="1.0" />
+      <edge source="Drogo" target="Ra" id="121" weight="1.0" />
+      <edge source="Drogo" target="Co" id="122" weight="1.0" />
+      <edge source="Drogo" target="Ha" id="123" weight="1.0" />
+      <edge source="Drogo" target="Qoth" id="124" weight="1.0" />
+      <edge source="Drogo" target="Great" id="125" weight="1.0" />
+      <edge source="Drogo" target="Maz Du" id="126" weight="1.0" />
+      <edge source="Drogo" target="Mir" id="127" weight="1.0" />
+      <edge source="Drogo" target="Du" id="128" weight="1.0" />
+      <edge source="Drogo" target="Mar" id="129" weight="1.0" />
+      <edge source="Drogo" target="Lo" id="130" weight="1.0" />
+      <edge source="Drogo" target="Hol" id="131" weight="1.0" />
+      <edge source="Ai" target="Jo" id="132" weight="1.0" />
+      <edge source="Ai" target="Jhog" id="133" weight="1.0" />
+      <edge source="Ai" target="Khale" id="134" weight="1.0" />
+      <edge source="Ai" target="Do" id="135" weight="1.0" />
+      <edge source="Ai" target="Ser Jo" id="136" weight="1.0" />
+      <edge source="Ai" target="Go" id="137" weight="1.0" />
+      <edge source="Ai" target="Ra" id="138" weight="1.0" />
+      <edge source="Khale" target="Ser Jo" id="139" weight="1.0" />
+      <edge source="Khale" target="Ogo" id="140" weight="1.0" />
+      <edge source="Khale" target="Jo" id="141" weight="1.0" />
+      <edge source="Khale" target="Daenerys" id="142" weight="1.0" />
+      <edge source="Khale" target="Ma" id="143" weight="1.0" />
+      <edge source="Khale" target="Do" id="144" weight="1.0" />
+      <edge source="Khale" target="Jhog" id="145" weight="1.0" />
+      <edge source="Khale" target="Go" id="146" weight="1.0" />
+      <edge source="Khale" target="Ra" id="147" weight="1.0" />
+      <edge source="Khale" target="Co" id="148" weight="1.0" />
+      <edge source="Khale" target="Qoth" id="149" weight="1.0" />
+      <edge source="Khale" target="Great" id="150" weight="1.0" />
+      <edge source="Jhog" target="Ser Jo" id="151" weight="1.0" />
+      <edge source="Jhog" target="Jo" id="152" weight="1.0" />
+      <edge source="Jhog" target="Ogo" id="153" weight="1.0" />
+      <edge source="Jhog" target="Ma" id="154" weight="1.0" />
+      <edge source="Jhog" target="Do" id="155" weight="1.0" />
+      <edge source="Jhog" target="Go" id="156" weight="1.0" />
+      <edge source="Jhog" target="Ra" id="157" weight="1.0" />
+      <edge source="Jhog" target="Co" id="158" weight="1.0" />
+      <edge source="Jhog" target="Great" id="159" weight="1.0" />
+      <edge source="Jhog" target="Daenerys" id="160" weight="1.0" />
+      <edge source="Jhog" target="Qoth" id="161" weight="1.0" />
+      <edge source="Jhog" target="Maz Du" id="162" weight="1.0" />
+      <edge source="Jhog" target="Mir" id="163" weight="1.0" />
+      <edge source="Jhog" target="Du" id="164" weight="1.0" />
+      <edge source="Jhog" target="Ha" id="165" weight="1.0" />
+      <edge source="Jhog" target="Mae" id="166" weight="1.0" />
+      <edge source="Ser Jo" target="Jo" id="167" weight="1.0" />
+      <edge source="Ser Jo" target="Ogo" id="168" weight="1.0" />
+      <edge source="Ser Jo" target="Do" id="169" weight="1.0" />
+      <edge source="Ser Jo" target="Daenerys" id="170" weight="1.0" />
+      <edge source="Ser Jo" target="Ma" id="171" weight="1.0" />
+      <edge source="Ser Jo" target="Go" id="172" weight="1.0" />
+      <edge source="Ser Jo" target="Ra" id="173" weight="1.0" />
+      <edge source="Ser Jo" target="Co" id="174" weight="1.0" />
+      <edge source="Ser Jo" target="Ha" id="175" weight="1.0" />
+      <edge source="Ser Jo" target="Qoth" id="176" weight="1.0" />
+      <edge source="Ser Jo" target="Great" id="177" weight="1.0" />
+      <edge source="Ser Jo" target="Maz Du" id="178" weight="1.0" />
+      <edge source="Ser Jo" target="Mae" id="179" weight="1.0" />
+      <edge source="Ser Jo" target="Du" id="180" weight="1.0" />
+      <edge source="Ser Jo" target="Mir" id="181" weight="1.0" />
+      <edge source="Ser Jo" target="Mar" id="182" weight="1.0" />
+      <edge source="Ser Jo" target="Lo" id="183" weight="1.0" />
+      <edge source="Ra" target="Jo" id="184" weight="1.0" />
+      <edge source="Ra" target="Go" id="185" weight="1.0" />
+      <edge source="Ra" target="Do" id="186" weight="1.0" />
+      <edge source="Jo" target="Ogo" id="187" weight="1.0" />
+      <edge source="Jo" target="Do" id="188" weight="1.0" />
+      <edge source="Jo" target="Daenerys" id="189" weight="1.0" />
+      <edge source="Jo" target="Ma" id="190" weight="1.0" />
+      <edge source="Jo" target="Go" id="191" weight="1.0" />
+      <edge source="Jo" target="Co" id="192" weight="1.0" />
+      <edge source="Jo" target="Ha" id="193" weight="1.0" />
+      <edge source="Jo" target="Qoth" id="194" weight="1.0" />
+      <edge source="Jo" target="Great" id="195" weight="1.0" />
+      <edge source="Jo" target="Maz Du" id="196" weight="1.0" />
+      <edge source="Jo" target="Mae" id="197" weight="1.0" />
+      <edge source="Jo" target="Du" id="198" weight="1.0" />
+      <edge source="Jo" target="Mir" id="199" weight="1.0" />
+      <edge source="Jo" target="Mar" id="200" weight="1.0" />
+      <edge source="Jo" target="Lo" id="201" weight="1.0" />
+      <edge source="Do" target="Ogo" id="202" weight="1.0" />
+      <edge source="Do" target="Daenerys" id="203" weight="1.0" />
+      <edge source="Do" target="Ma" id="204" weight="1.0" />
+      <edge source="Do" target="Go" id="205" weight="1.0" />
+      <edge source="Do" target="Co" id="206" weight="1.0" />
+      <edge source="Do" target="Ha" id="207" weight="1.0" />
+      <edge source="Do" target="Qoth" id="208" weight="1.0" />
+      <edge source="Do" target="Great" id="209" weight="1.0" />
+      <edge source="Do" target="Maz Du" id="210" weight="1.0" />
+      <edge source="Do" target="Mir" id="211" weight="1.0" />
+      <edge source="Do" target="Du" id="212" weight="1.0" />
+      <edge source="Do" target="Mae" id="213" weight="1.0" />
+      <edge source="Do" target="Mar" id="214" weight="1.0" />
+      <edge source="Do" target="Lo" id="215" weight="1.0" />
+      <edge source="Go" target="Maz Du" id="216" weight="1.0" />
+      <edge source="Go" target="Co" id="217" weight="1.0" />
+      <edge source="Go" target="Great" id="218" weight="1.0" />
+      <edge source="Go" target="Qoth" id="219" weight="1.0" />
+      <edge source="Go" target="Mar" id="220" weight="1.0" />
+      <edge source="Go" target="Lo" id="221" weight="1.0" />
+      <edge source="Go" target="Du" id="222" weight="1.0" />
+      <edge source="Go" target="Ma" id="223" weight="1.0" />
+      <edge source="Go" target="Mir" id="224" weight="1.0" />
+      <edge source="Go" target="Ha" id="225" weight="1.0" />
+      <edge source="Go" target="Ogo" id="226" weight="1.0" />
+      <edge source="Go" target="Hol" id="227" weight="1.0" />
+      <edge source="Ha" target="Ogo" id="228" weight="1.0" />
+      <edge source="Ha" target="Co" id="229" weight="1.0" />
+      <edge source="Ha" target="Ma" id="230" weight="1.0" />
+      <edge source="Ha" target="Qoth" id="231" weight="1.0" />
+      <edge source="Ha" target="Maz Du" id="232" weight="1.0" />
+      <edge source="Ha" target="Mir" id="233" weight="1.0" />
+      <edge source="Ha" target="Great" id="234" weight="1.0" />
+      <edge source="Ha" target="Mae" id="235" weight="1.0" />
+      <edge source="Ha" target="Du" id="236" weight="1.0" />
+      <edge source="Ha" target="Mar" id="237" weight="1.0" />
+      <edge source="Ha" target="Lo" id="238" weight="1.0" />
+      <edge source="Ha" target="Hol" id="239" weight="1.0" />
+      <edge source="Ma" target="Ogo" id="240" weight="1.0" />
+      <edge source="Ma" target="Daenerys" id="241" weight="1.0" />
+      <edge source="Ma" target="Co" id="242" weight="1.0" />
+      <edge source="Ma" target="Qoth" id="243" weight="1.0" />
+      <edge source="Ma" target="Great" id="244" weight="1.0" />
+      <edge source="Ma" target="Maz Du" id="245" weight="1.0" />
+      <edge source="Ma" target="Mir" id="246" weight="1.0" />
+      <edge source="Ma" target="Du" id="247" weight="1.0" />
+      <edge source="Ma" target="Mae" id="248" weight="1.0" />
+      <edge source="Ma" target="Mar" id="249" weight="1.0" />
+      <edge source="Ma" target="Lo" id="250" weight="1.0" />
+      <edge source="Ma" target="Hol" id="251" weight="1.0" />
+      <edge source="Co" target="Ogo" id="252" weight="1.0" />
+      <edge source="Co" target="Qoth" id="253" weight="1.0" />
+      <edge source="Co" target="Daenerys" id="254" weight="1.0" />
+      <edge source="Co" target="Great" id="255" weight="1.0" />
+      <edge source="Co" target="Maz Du" id="256" weight="1.0" />
+      <edge source="Co" target="Mar" id="257" weight="1.0" />
+      <edge source="Co" target="Mae" id="258" weight="1.0" />
+      <edge source="Co" target="Du" id="259" weight="1.0" />
+      <edge source="Co" target="Mir" id="260" weight="1.0" />
+      <edge source="Co" target="Lo" id="261" weight="1.0" />
+      <edge source="Co" target="Hol" id="262" weight="1.0" />
+      <edge source="Lo" target="Maz Du" id="263" weight="1.0" />
+      <edge source="Lo" target="Great" id="264" weight="1.0" />
+      <edge source="Lo" target="Qoth" id="265" weight="1.0" />
+      <edge source="Lo" target="Mar" id="266" weight="1.0" />
+      <edge source="Lo" target="Du" id="267" weight="1.0" />
+      <edge source="Lo" target="Mir" id="268" weight="1.0" />
+      <edge source="Lo" target="Ogo" id="269" weight="1.0" />
+      <edge source="Mir" target="Maz Du" id="270" weight="1.0" />
+      <edge source="Mir" target="Great" id="271" weight="1.0" />
+      <edge source="Mir" target="Qoth" id="272" weight="1.0" />
+      <edge source="Mir" target="Du" id="273" weight="1.0" />
+      <edge source="Mir" target="Mae" id="274" weight="1.0" />
+      <edge source="Mir" target="Mar" id="275" weight="1.0" />
+      <edge source="Mir" target="Ogo" id="276" weight="1.0" />
+      <edge source="Mir" target="Hol" id="277" weight="1.0" />
+      <edge source="Du" target="Maz Du" id="278" weight="1.0" />
+      <edge source="Du" target="Great" id="279" weight="1.0" />
+      <edge source="Du" target="Qoth" id="280" weight="1.0" />
+      <edge source="Du" target="Mae" id="281" weight="1.0" />
+      <edge source="Du" target="Mar" id="282" weight="1.0" />
+      <edge source="Du" target="Ogo" id="283" weight="1.0" />
+      <edge source="Du" target="Hol" id="284" weight="1.0" />
+      <edge source="Mae" target="Maz Du" id="285" weight="1.0" />
+      <edge source="Mae" target="Great" id="286" weight="1.0" />
+      <edge source="Mae" target="Qoth" id="287" weight="1.0" />
+      <edge source="Mae" target="Mar" id="288" weight="1.0" />
+      <edge source="Maz Du" target="Great" id="289" weight="1.0" />
+      <edge source="Maz Du" target="Qoth" id="290" weight="1.0" />
+      <edge source="Maz Du" target="Mar" id="291" weight="1.0" />
+      <edge source="Maz Du" target="Ogo" id="292" weight="1.0" />
+      <edge source="Maz Du" target="Hol" id="293" weight="1.0" />
+      <edge source="Great" target="Daenerys" id="294" weight="1.0" />
+      <edge source="Great" target="Qoth" id="295" weight="1.0" />
+      <edge source="Great" target="Mar" id="296" weight="1.0" />
+      <edge source="Great" target="Ogo" id="297" weight="1.0" />
+      <edge source="Great" target="Hol" id="298" weight="1.0" />
+      <edge source="Mar" target="Qoth" id="299" weight="1.0" />
+      <edge source="Mar" target="Ogo" id="300" weight="1.0" />
+      <edge source="Qoth" target="Ogo" id="301" weight="1.0" />
+      <edge source="Qoth" target="Daenerys" id="302" weight="1.0" />
+      <edge source="Qoth" target="Hol" id="303" weight="1.0" />
+      <edge source="Ogo" target="Daenerys" id="304" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

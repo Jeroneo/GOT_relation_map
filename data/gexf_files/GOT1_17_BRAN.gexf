@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster Lu" label="Ster Lu">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster Luwin" label="Ster Luwin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rob" label="Rob">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mi" label="Mi">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Kken" label="Kken">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser Rodrik" label="Ser Rodrik">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="San" label="San">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Summer" label="Summer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bran" label="Bran">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Mae" target="Bran" id="0" weight="1.0" />
+      <edge source="Mae" target="Rob" id="1" weight="1.0" />
+      <edge source="Mae" target="Mi" id="2" weight="1.0" />
+      <edge source="Mae" target="Ho" id="3" weight="1.0" />
+      <edge source="Mae" target="Ser Rodrik" id="4" weight="1.0" />
+      <edge source="Mae" target="San" id="5" weight="1.0" />
+      <edge source="Rob" target="Bran" id="6" weight="1.0" />
+      <edge source="Rob" target="Mi" id="7" weight="1.0" />
+      <edge source="Rob" target="Ho" id="8" weight="1.0" />
+      <edge source="Rob" target="Ser Rodrik" id="9" weight="1.0" />
+      <edge source="Rob" target="San" id="10" weight="1.0" />
+      <edge source="Rob" target="Summer" id="11" weight="1.0" />
+      <edge source="Ho" target="Bran" id="12" weight="1.0" />
+      <edge source="Ho" target="Mi" id="13" weight="1.0" />
+      <edge source="Ho" target="Ser Rodrik" id="14" weight="1.0" />
+      <edge source="Ho" target="San" id="15" weight="1.0" />
+      <edge source="Mi" target="Bran" id="16" weight="1.0" />
+      <edge source="Mi" target="Ser Rodrik" id="17" weight="1.0" />
+      <edge source="Mi" target="San" id="18" weight="1.0" />
+      <edge source="Ser Rodrik" target="Bran" id="19" weight="1.0" />
+      <edge source="Ser Rodrik" target="San" id="20" weight="1.0" />
+      <edge source="Ser Rodrik" target="Jon" id="21" weight="1.0" />
+      <edge source="San" target="Bran" id="22" weight="1.0" />
+      <edge source="San" target="Jon" id="23" weight="1.0" />
+      <edge source="Jon" target="Bran" id="24" weight="1.0" />
+      <edge source="Summer" target="Bran" id="25" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

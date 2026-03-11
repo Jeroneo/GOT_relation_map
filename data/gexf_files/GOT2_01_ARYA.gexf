@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Lo" label="Lo">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Green" label="Green">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lu" label="Lu">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Yo" label="Yo">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Ed" label="Lord Ed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rey" label="Rey">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ren" label="Ren">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hot Pie" label="Hot Pie">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Need" label="Need">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon Snow" label="Jon Snow">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Greenhand" label="Greenhand">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hot" label="Hot">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mmy Greenhands" label="Mmy Greenhands">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bull" label="Bull">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lommy" label="Lommy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ice" label="Ice">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ed" label="Ed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robb" label="Robb">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rick" label="Rick">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Arya" label="Arya">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Lo" target="Green" id="0" weight="1.0" />
+      <edge source="Lo" target="Lu" id="1" weight="1.0" />
+      <edge source="Lo" target="Greenhand" id="2" weight="1.0" />
+      <edge source="Lo" target="Ed" id="3" weight="1.0" />
+      <edge source="Lo" target="Lommy" id="4" weight="1.0" />
+      <edge source="Lo" target="Lord Ed" id="5" weight="1.0" />
+      <edge source="Lo" target="Arya" id="6" weight="1.0" />
+      <edge source="Lo" target="Yo" id="7" weight="1.0" />
+      <edge source="Lo" target="Jo" id="8" weight="1.0" />
+      <edge source="Lo" target="Hot" id="9" weight="1.0" />
+      <edge source="Lo" target="Hot Pie" id="10" weight="1.0" />
+      <edge source="Lo" target="Need" id="11" weight="1.0" />
+      <edge source="Lo" target="Jon" id="12" weight="1.0" />
+      <edge source="Lo" target="Jon Snow" id="13" weight="1.0" />
+      <edge source="Lo" target="Bull" id="14" weight="1.0" />
+      <edge source="Lo" target="Ice" id="15" weight="1.0" />
+      <edge source="Lo" target="Robb" id="16" weight="1.0" />
+      <edge source="Lo" target="Rick" id="17" weight="1.0" />
+      <edge source="Green" target="Lu" id="18" weight="1.0" />
+      <edge source="Green" target="Greenhand" id="19" weight="1.0" />
+      <edge source="Green" target="Ed" id="20" weight="1.0" />
+      <edge source="Green" target="Lommy" id="21" weight="1.0" />
+      <edge source="Green" target="Lord Ed" id="22" weight="1.0" />
+      <edge source="Green" target="Arya" id="23" weight="1.0" />
+      <edge source="Green" target="Yo" id="24" weight="1.0" />
+      <edge source="Green" target="Jo" id="25" weight="1.0" />
+      <edge source="Green" target="Hot" id="26" weight="1.0" />
+      <edge source="Green" target="Hot Pie" id="27" weight="1.0" />
+      <edge source="Green" target="Jon" id="28" weight="1.0" />
+      <edge source="Green" target="Jon Snow" id="29" weight="1.0" />
+      <edge source="Green" target="Need" id="30" weight="1.0" />
+      <edge source="Green" target="Bull" id="31" weight="1.0" />
+      <edge source="Green" target="Ice" id="32" weight="1.0" />
+      <edge source="Green" target="Robb" id="33" weight="1.0" />
+      <edge source="Green" target="Rick" id="34" weight="1.0" />
+      <edge source="Lu" target="Greenhand" id="35" weight="1.0" />
+      <edge source="Lu" target="Ed" id="36" weight="1.0" />
+      <edge source="Lu" target="Lommy" id="37" weight="1.0" />
+      <edge source="Lu" target="Lord Ed" id="38" weight="1.0" />
+      <edge source="Lu" target="Arya" id="39" weight="1.0" />
+      <edge source="Lu" target="Yo" id="40" weight="1.0" />
+      <edge source="Lu" target="Hot" id="41" weight="1.0" />
+      <edge source="Lu" target="Hot Pie" id="42" weight="1.0" />
+      <edge source="Lu" target="Need" id="43" weight="1.0" />
+      <edge source="Lu" target="Jon" id="44" weight="1.0" />
+      <edge source="Lu" target="Jo" id="45" weight="1.0" />
+      <edge source="Lu" target="Jon Snow" id="46" weight="1.0" />
+      <edge source="Lu" target="Bull" id="47" weight="1.0" />
+      <edge source="Yo" target="Greenhand" id="48" weight="1.0" />
+      <edge source="Yo" target="Ed" id="49" weight="1.0" />
+      <edge source="Yo" target="Lommy" id="50" weight="1.0" />
+      <edge source="Yo" target="Lord Ed" id="51" weight="1.0" />
+      <edge source="Yo" target="Arya" id="52" weight="1.0" />
+      <edge source="Yo" target="Jo" id="53" weight="1.0" />
+      <edge source="Yo" target="Hot" id="54" weight="1.0" />
+      <edge source="Yo" target="Hot Pie" id="55" weight="1.0" />
+      <edge source="Yo" target="Need" id="56" weight="1.0" />
+      <edge source="Yo" target="Jon" id="57" weight="1.0" />
+      <edge source="Yo" target="Jon Snow" id="58" weight="1.0" />
+      <edge source="Yo" target="Bull" id="59" weight="1.0" />
+      <edge source="Yo" target="Ice" id="60" weight="1.0" />
+      <edge source="Yo" target="Robb" id="61" weight="1.0" />
+      <edge source="Yo" target="Rick" id="62" weight="1.0" />
+      <edge source="Lord Ed" target="Greenhand" id="63" weight="1.0" />
+      <edge source="Lord Ed" target="Ed" id="64" weight="1.0" />
+      <edge source="Lord Ed" target="Lommy" id="65" weight="1.0" />
+      <edge source="Lord Ed" target="Arya" id="66" weight="1.0" />
+      <edge source="Lord Ed" target="Jo" id="67" weight="1.0" />
+      <edge source="Lord Ed" target="Hot" id="68" weight="1.0" />
+      <edge source="Lord Ed" target="Hot Pie" id="69" weight="1.0" />
+      <edge source="Lord Ed" target="Bull" id="70" weight="1.0" />
+      <edge source="Lord Ed" target="Ice" id="71" weight="1.0" />
+      <edge source="Lord Ed" target="Robb" id="72" weight="1.0" />
+      <edge source="Lord Ed" target="Rick" id="73" weight="1.0" />
+      <edge source="Lord Ed" target="Jon" id="74" weight="1.0" />
+      <edge source="Lord Ed" target="Jon Snow" id="75" weight="1.0" />
+      <edge source="Jo" target="Arya" id="76" weight="1.0" />
+      <edge source="Jo" target="Ed" id="77" weight="1.0" />
+      <edge source="Jo" target="Greenhand" id="78" weight="1.0" />
+      <edge source="Jo" target="Lommy" id="79" weight="1.0" />
+      <edge source="Jo" target="Hot" id="80" weight="1.0" />
+      <edge source="Jo" target="Hot Pie" id="81" weight="1.0" />
+      <edge source="Jo" target="Jon" id="82" weight="1.0" />
+      <edge source="Jo" target="Jon Snow" id="83" weight="1.0" />
+      <edge source="Jo" target="Need" id="84" weight="1.0" />
+      <edge source="Jo" target="Bull" id="85" weight="1.0" />
+      <edge source="Jo" target="Ice" id="86" weight="1.0" />
+      <edge source="Jo" target="Robb" id="87" weight="1.0" />
+      <edge source="Jo" target="Rick" id="88" weight="1.0" />
+      <edge source="Hot Pie" target="Ed" id="89" weight="1.0" />
+      <edge source="Hot Pie" target="Greenhand" id="90" weight="1.0" />
+      <edge source="Hot Pie" target="Lommy" id="91" weight="1.0" />
+      <edge source="Hot Pie" target="Hot" id="92" weight="1.0" />
+      <edge source="Hot Pie" target="Arya" id="93" weight="1.0" />
+      <edge source="Hot Pie" target="Need" id="94" weight="1.0" />
+      <edge source="Hot Pie" target="Jon" id="95" weight="1.0" />
+      <edge source="Hot Pie" target="Jon Snow" id="96" weight="1.0" />
+      <edge source="Hot Pie" target="Bull" id="97" weight="1.0" />
+      <edge source="Hot Pie" target="Ice" id="98" weight="1.0" />
+      <edge source="Hot Pie" target="Robb" id="99" weight="1.0" />
+      <edge source="Hot Pie" target="Rick" id="100" weight="1.0" />
+      <edge source="Need" target="Lommy" id="101" weight="1.0" />
+      <edge source="Need" target="Hot" id="102" weight="1.0" />
+      <edge source="Need" target="Arya" id="103" weight="1.0" />
+      <edge source="Need" target="Jon" id="104" weight="1.0" />
+      <edge source="Need" target="Jon Snow" id="105" weight="1.0" />
+      <edge source="Need" target="Greenhand" id="106" weight="1.0" />
+      <edge source="Need" target="Bull" id="107" weight="1.0" />
+      <edge source="Jon Snow" target="Jon" id="108" weight="1.0" />
+      <edge source="Jon Snow" target="Lommy" id="109" weight="1.0" />
+      <edge source="Jon Snow" target="Hot" id="110" weight="1.0" />
+      <edge source="Jon Snow" target="Arya" id="111" weight="1.0" />
+      <edge source="Jon Snow" target="Greenhand" id="112" weight="1.0" />
+      <edge source="Jon Snow" target="Ed" id="113" weight="1.0" />
+      <edge source="Jon Snow" target="Bull" id="114" weight="1.0" />
+      <edge source="Jon Snow" target="Robb" id="115" weight="1.0" />
+      <edge source="Jon Snow" target="Rick" id="116" weight="1.0" />
+      <edge source="Jon Snow" target="Ice" id="117" weight="1.0" />
+      <edge source="Jon" target="Lommy" id="118" weight="1.0" />
+      <edge source="Jon" target="Hot" id="119" weight="1.0" />
+      <edge source="Jon" target="Arya" id="120" weight="1.0" />
+      <edge source="Jon" target="Greenhand" id="121" weight="1.0" />
+      <edge source="Jon" target="Ed" id="122" weight="1.0" />
+      <edge source="Jon" target="Bull" id="123" weight="1.0" />
+      <edge source="Jon" target="Robb" id="124" weight="1.0" />
+      <edge source="Jon" target="Rick" id="125" weight="1.0" />
+      <edge source="Jon" target="Ice" id="126" weight="1.0" />
+      <edge source="Greenhand" target="Ed" id="127" weight="1.0" />
+      <edge source="Greenhand" target="Lommy" id="128" weight="1.0" />
+      <edge source="Greenhand" target="Arya" id="129" weight="1.0" />
+      <edge source="Greenhand" target="Hot" id="130" weight="1.0" />
+      <edge source="Greenhand" target="Bull" id="131" weight="1.0" />
+      <edge source="Greenhand" target="Ice" id="132" weight="1.0" />
+      <edge source="Greenhand" target="Robb" id="133" weight="1.0" />
+      <edge source="Greenhand" target="Rick" id="134" weight="1.0" />
+      <edge source="Hot" target="Ed" id="135" weight="1.0" />
+      <edge source="Hot" target="Lommy" id="136" weight="1.0" />
+      <edge source="Hot" target="Arya" id="137" weight="1.0" />
+      <edge source="Hot" target="Bull" id="138" weight="1.0" />
+      <edge source="Hot" target="Ice" id="139" weight="1.0" />
+      <edge source="Hot" target="Robb" id="140" weight="1.0" />
+      <edge source="Hot" target="Rick" id="141" weight="1.0" />
+      <edge source="Bull" target="Lommy" id="142" weight="1.0" />
+      <edge source="Bull" target="Arya" id="143" weight="1.0" />
+      <edge source="Bull" target="Ed" id="144" weight="1.0" />
+      <edge source="Bull" target="Ice" id="145" weight="1.0" />
+      <edge source="Bull" target="Robb" id="146" weight="1.0" />
+      <edge source="Bull" target="Rick" id="147" weight="1.0" />
+      <edge source="Lommy" target="Ed" id="148" weight="1.0" />
+      <edge source="Lommy" target="Arya" id="149" weight="1.0" />
+      <edge source="Lommy" target="Ice" id="150" weight="1.0" />
+      <edge source="Lommy" target="Robb" id="151" weight="1.0" />
+      <edge source="Lommy" target="Rick" id="152" weight="1.0" />
+      <edge source="Ice" target="Ed" id="153" weight="1.0" />
+      <edge source="Ice" target="Arya" id="154" weight="1.0" />
+      <edge source="Ice" target="Robb" id="155" weight="1.0" />
+      <edge source="Ice" target="Rick" id="156" weight="1.0" />
+      <edge source="Ed" target="Arya" id="157" weight="1.0" />
+      <edge source="Ed" target="Robb" id="158" weight="1.0" />
+      <edge source="Ed" target="Rick" id="159" weight="1.0" />
+      <edge source="Robb" target="Arya" id="160" weight="1.0" />
+      <edge source="Robb" target="Rick" id="161" weight="1.0" />
+      <edge source="Rick" target="Arya" id="162" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

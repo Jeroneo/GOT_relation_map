@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Sam" label="Sam">
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dare" label="Dare">
+        <attvalues>
+          <attvalue for="0" value="29" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gill" label="Gill">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Moon" label="Moon">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon Snow" label="Jon Snow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Aemon" label="Aemon">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Emon" label="Emon">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Samwell Ta" label="Samwell Ta">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster Aemon" label="Ster Aemon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Egg" label="Egg">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Snow" label="Lord Snow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stranger" label="Stranger">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mo" label="Mo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rog" label="Rog">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Te" label="Te">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rro" label="Rro">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Nightingale" label="Nightingale">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rus" label="Rus">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Co" label="Co">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster A" label="Ster A">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="El" label="El">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Slayer" label="Slayer">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Do" label="Do">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Samwell" label="Samwell">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sam" target="Dare" id="0" weight="1.0" />
+      <edge source="Sam" target="Gill" id="1" weight="1.0" />
+      <edge source="Sam" target="Moon" id="2" weight="1.0" />
+      <edge source="Sam" target="Mo" id="3" weight="1.0" />
+      <edge source="Sam" target="Slayer" id="4" weight="1.0" />
+      <edge source="Sam" target="Jon" id="5" weight="1.0" />
+      <edge source="Sam" target="Jon Snow" id="6" weight="1.0" />
+      <edge source="Sam" target="Aemon" id="7" weight="1.0" />
+      <edge source="Sam" target="Mae" id="8" weight="1.0" />
+      <edge source="Sam" target="Egg" id="9" weight="1.0" />
+      <edge source="Sam" target="Samwell" id="10" weight="1.0" />
+      <edge source="Sam" target="Samwell Ta" id="11" weight="1.0" />
+      <edge source="Sam" target="Te" id="12" weight="1.0" />
+      <edge source="Sam" target="Lord Snow" id="13" weight="1.0" />
+      <edge source="Sam" target="Stranger" id="14" weight="1.0" />
+      <edge source="Sam" target="Do" id="15" weight="1.0" />
+      <edge source="Sam" target="Co" id="16" weight="1.0" />
+      <edge source="Sam" target="Nightingale" id="17" weight="1.0" />
+      <edge source="Sam" target="El" id="18" weight="1.0" />
+      <edge source="Dare" target="Gill" id="19" weight="1.0" />
+      <edge source="Dare" target="Moon" id="20" weight="1.0" />
+      <edge source="Dare" target="Mo" id="21" weight="1.0" />
+      <edge source="Dare" target="Slayer" id="22" weight="1.0" />
+      <edge source="Dare" target="Jon" id="23" weight="1.0" />
+      <edge source="Dare" target="Jon Snow" id="24" weight="1.0" />
+      <edge source="Dare" target="Aemon" id="25" weight="1.0" />
+      <edge source="Dare" target="Mae" id="26" weight="1.0" />
+      <edge source="Dare" target="Egg" id="27" weight="1.0" />
+      <edge source="Dare" target="Te" id="28" weight="1.0" />
+      <edge source="Dare" target="Stranger" id="29" weight="1.0" />
+      <edge source="Dare" target="Do" id="30" weight="1.0" />
+      <edge source="Dare" target="Co" id="31" weight="1.0" />
+      <edge source="Dare" target="Nightingale" id="32" weight="1.0" />
+      <edge source="Dare" target="Samwell" id="33" weight="1.0" />
+      <edge source="Dare" target="El" id="34" weight="1.0" />
+      <edge source="Gill" target="Jon" id="35" weight="1.0" />
+      <edge source="Gill" target="Slayer" id="36" weight="1.0" />
+      <edge source="Gill" target="Mo" id="37" weight="1.0" />
+      <edge source="Gill" target="Moon" id="38" weight="1.0" />
+      <edge source="Gill" target="Jon Snow" id="39" weight="1.0" />
+      <edge source="Gill" target="Aemon" id="40" weight="1.0" />
+      <edge source="Gill" target="Mae" id="41" weight="1.0" />
+      <edge source="Gill" target="Egg" id="42" weight="1.0" />
+      <edge source="Gill" target="Samwell" id="43" weight="1.0" />
+      <edge source="Gill" target="Samwell Ta" id="44" weight="1.0" />
+      <edge source="Gill" target="Stranger" id="45" weight="1.0" />
+      <edge source="Gill" target="Co" id="46" weight="1.0" />
+      <edge source="Moon" target="Mo" id="47" weight="1.0" />
+      <edge source="Moon" target="Slayer" id="48" weight="1.0" />
+      <edge source="Moon" target="Jon" id="49" weight="1.0" />
+      <edge source="Moon" target="Jon Snow" id="50" weight="1.0" />
+      <edge source="Moon" target="Aemon" id="51" weight="1.0" />
+      <edge source="Moon" target="Mae" id="52" weight="1.0" />
+      <edge source="Moon" target="Co" id="53" weight="1.0" />
+      <edge source="Jon" target="Slayer" id="54" weight="1.0" />
+      <edge source="Jon" target="Mo" id="55" weight="1.0" />
+      <edge source="Jon" target="Jon Snow" id="56" weight="1.0" />
+      <edge source="Jon" target="Aemon" id="57" weight="1.0" />
+      <edge source="Jon" target="Mae" id="58" weight="1.0" />
+      <edge source="Jon" target="Egg" id="59" weight="1.0" />
+      <edge source="Jon" target="Samwell" id="60" weight="1.0" />
+      <edge source="Jon" target="Samwell Ta" id="61" weight="1.0" />
+      <edge source="Jon" target="Stranger" id="62" weight="1.0" />
+      <edge source="Jon Snow" target="Slayer" id="63" weight="1.0" />
+      <edge source="Jon Snow" target="Mo" id="64" weight="1.0" />
+      <edge source="Jon Snow" target="Aemon" id="65" weight="1.0" />
+      <edge source="Jon Snow" target="Mae" id="66" weight="1.0" />
+      <edge source="Jon Snow" target="Egg" id="67" weight="1.0" />
+      <edge source="Mae" target="Slayer" id="68" weight="1.0" />
+      <edge source="Mae" target="Aemon" id="69" weight="1.0" />
+      <edge source="Mae" target="Mo" id="70" weight="1.0" />
+      <edge source="Mae" target="Egg" id="71" weight="1.0" />
+      <edge source="Mae" target="Samwell" id="72" weight="1.0" />
+      <edge source="Mae" target="Samwell Ta" id="73" weight="1.0" />
+      <edge source="Mae" target="Te" id="74" weight="1.0" />
+      <edge source="Mae" target="Co" id="75" weight="1.0" />
+      <edge source="Mae" target="Do" id="76" weight="1.0" />
+      <edge source="Mae" target="El" id="77" weight="1.0" />
+      <edge source="Aemon" target="Slayer" id="78" weight="1.0" />
+      <edge source="Aemon" target="Mo" id="79" weight="1.0" />
+      <edge source="Aemon" target="Egg" id="80" weight="1.0" />
+      <edge source="Aemon" target="Samwell" id="81" weight="1.0" />
+      <edge source="Aemon" target="Samwell Ta" id="82" weight="1.0" />
+      <edge source="Aemon" target="Te" id="83" weight="1.0" />
+      <edge source="Aemon" target="Lord Snow" id="84" weight="1.0" />
+      <edge source="Aemon" target="Stranger" id="85" weight="1.0" />
+      <edge source="Aemon" target="Do" id="86" weight="1.0" />
+      <edge source="Aemon" target="Co" id="87" weight="1.0" />
+      <edge source="Aemon" target="El" id="88" weight="1.0" />
+      <edge source="Samwell Ta" target="Samwell" id="89" weight="1.0" />
+      <edge source="Samwell Ta" target="Egg" id="90" weight="1.0" />
+      <edge source="Egg" target="Samwell" id="91" weight="1.0" />
+      <edge source="Lord Snow" target="Stranger" id="92" weight="1.0" />
+      <edge source="Lord Snow" target="Do" id="93" weight="1.0" />
+      <edge source="Stranger" target="Do" id="94" weight="1.0" />
+      <edge source="Mo" target="Slayer" id="95" weight="1.0" />
+      <edge source="Mo" target="Co" id="96" weight="1.0" />
+      <edge source="Mo" target="Do" id="97" weight="1.0" />
+      <edge source="Te" target="Co" id="98" weight="1.0" />
+      <edge source="Te" target="Do" id="99" weight="1.0" />
+      <edge source="Te" target="Nightingale" id="100" weight="1.0" />
+      <edge source="Te" target="Samwell" id="101" weight="1.0" />
+      <edge source="Nightingale" target="Co" id="102" weight="1.0" />
+      <edge source="Nightingale" target="Do" id="103" weight="1.0" />
+      <edge source="Nightingale" target="Samwell" id="104" weight="1.0" />
+      <edge source="Co" target="Do" id="105" weight="1.0" />
+      <edge source="Co" target="Samwell" id="106" weight="1.0" />
+      <edge source="Co" target="Slayer" id="107" weight="1.0" />
+      <edge source="Co" target="El" id="108" weight="1.0" />
+      <edge source="El" target="Slayer" id="109" weight="1.0" />
+      <edge source="El" target="Do" id="110" weight="1.0" />
+      <edge source="Slayer" target="Do" id="111" weight="1.0" />
+      <edge source="Do" target="Samwell" id="112" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

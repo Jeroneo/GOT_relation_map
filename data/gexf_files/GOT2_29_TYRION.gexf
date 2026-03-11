@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Ty" label="Ty">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Po" label="Po">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Drick Payne" label="Drick Payne">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lance" label="Lance">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ce" label="Ce">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Littlefinger" label="Littlefinger">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser Lance" label="Ser Lance">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grand" label="Grand">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jaime" label="Jaime">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Her" label="Her">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robert" label="Robert">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jace" label="Jace">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rion" label="Rion">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="La" label="La">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ke" label="Ke">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jaime Lannister" label="Jaime Lannister">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ron" label="Ron">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ned Stark" label="Ned Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Cha" label="Cha">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Al" label="Al">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dan" label="Dan">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Alaya" label="Alaya">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Milo" label="Milo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mare" label="Mare">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tyrion" label="Tyrion">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Ty" target="Littlefinger" id="0" weight="1.0" />
+      <edge source="Ty" target="Lance" id="1" weight="1.0" />
+      <edge source="Ty" target="Ce" id="2" weight="1.0" />
+      <edge source="Ty" target="La" id="3" weight="1.0" />
+      <edge source="Ty" target="Tyrion" id="4" weight="1.0" />
+      <edge source="Ty" target="Po" id="5" weight="1.0" />
+      <edge source="Ty" target="Ser Lance" id="6" weight="1.0" />
+      <edge source="Ty" target="Her" id="7" weight="1.0" />
+      <edge source="Ty" target="Grand" id="8" weight="1.0" />
+      <edge source="Ty" target="Jaime" id="9" weight="1.0" />
+      <edge source="Ty" target="Robert" id="10" weight="1.0" />
+      <edge source="Ty" target="Jo" id="11" weight="1.0" />
+      <edge source="Ty" target="Jace" id="12" weight="1.0" />
+      <edge source="Ty" target="Al" id="13" weight="1.0" />
+      <edge source="Ty" target="Ke" id="14" weight="1.0" />
+      <edge source="Ty" target="Jaime Lannister" id="15" weight="1.0" />
+      <edge source="Ty" target="Ned Stark" id="16" weight="1.0" />
+      <edge source="Ty" target="Cha" id="17" weight="1.0" />
+      <edge source="Ty" target="Alaya" id="18" weight="1.0" />
+      <edge source="Ty" target="Dan" id="19" weight="1.0" />
+      <edge source="Ty" target="Milo" id="20" weight="1.0" />
+      <edge source="Ty" target="Mare" id="21" weight="1.0" />
+      <edge source="Po" target="Littlefinger" id="22" weight="1.0" />
+      <edge source="Po" target="Lance" id="23" weight="1.0" />
+      <edge source="Po" target="Ce" id="24" weight="1.0" />
+      <edge source="Po" target="La" id="25" weight="1.0" />
+      <edge source="Po" target="Tyrion" id="26" weight="1.0" />
+      <edge source="Po" target="Ser Lance" id="27" weight="1.0" />
+      <edge source="Po" target="Her" id="28" weight="1.0" />
+      <edge source="Po" target="Grand" id="29" weight="1.0" />
+      <edge source="Po" target="Jaime" id="30" weight="1.0" />
+      <edge source="Po" target="Robert" id="31" weight="1.0" />
+      <edge source="Po" target="Jo" id="32" weight="1.0" />
+      <edge source="Po" target="Jace" id="33" weight="1.0" />
+      <edge source="Po" target="Ke" id="34" weight="1.0" />
+      <edge source="Po" target="Jaime Lannister" id="35" weight="1.0" />
+      <edge source="Po" target="Ned Stark" id="36" weight="1.0" />
+      <edge source="Po" target="Al" id="37" weight="1.0" />
+      <edge source="Po" target="Dan" id="38" weight="1.0" />
+      <edge source="Po" target="Alaya" id="39" weight="1.0" />
+      <edge source="Po" target="Milo" id="40" weight="1.0" />
+      <edge source="Po" target="Mare" id="41" weight="1.0" />
+      <edge source="Lance" target="Littlefinger" id="42" weight="1.0" />
+      <edge source="Lance" target="Ce" id="43" weight="1.0" />
+      <edge source="Lance" target="La" id="44" weight="1.0" />
+      <edge source="Lance" target="Tyrion" id="45" weight="1.0" />
+      <edge source="Lance" target="Ser Lance" id="46" weight="1.0" />
+      <edge source="Lance" target="Her" id="47" weight="1.0" />
+      <edge source="Lance" target="Grand" id="48" weight="1.0" />
+      <edge source="Lance" target="Jaime" id="49" weight="1.0" />
+      <edge source="Lance" target="Robert" id="50" weight="1.0" />
+      <edge source="Lance" target="Jo" id="51" weight="1.0" />
+      <edge source="Lance" target="Jace" id="52" weight="1.0" />
+      <edge source="Lance" target="Al" id="53" weight="1.0" />
+      <edge source="Lance" target="Ke" id="54" weight="1.0" />
+      <edge source="Lance" target="Jaime Lannister" id="55" weight="1.0" />
+      <edge source="Lance" target="Ned Stark" id="56" weight="1.0" />
+      <edge source="Ce" target="Littlefinger" id="57" weight="1.0" />
+      <edge source="Ce" target="La" id="58" weight="1.0" />
+      <edge source="Ce" target="Tyrion" id="59" weight="1.0" />
+      <edge source="Ce" target="Ser Lance" id="60" weight="1.0" />
+      <edge source="Ce" target="Her" id="61" weight="1.0" />
+      <edge source="Ce" target="Grand" id="62" weight="1.0" />
+      <edge source="Ce" target="Jaime" id="63" weight="1.0" />
+      <edge source="Ce" target="Robert" id="64" weight="1.0" />
+      <edge source="Ce" target="Jo" id="65" weight="1.0" />
+      <edge source="Ce" target="Jace" id="66" weight="1.0" />
+      <edge source="Ce" target="Al" id="67" weight="1.0" />
+      <edge source="Ce" target="Ke" id="68" weight="1.0" />
+      <edge source="Ce" target="Jaime Lannister" id="69" weight="1.0" />
+      <edge source="Ce" target="Ned Stark" id="70" weight="1.0" />
+      <edge source="Ce" target="Cha" id="71" weight="1.0" />
+      <edge source="Ce" target="Alaya" id="72" weight="1.0" />
+      <edge source="Littlefinger" target="La" id="73" weight="1.0" />
+      <edge source="Littlefinger" target="Tyrion" id="74" weight="1.0" />
+      <edge source="Littlefinger" target="Ser Lance" id="75" weight="1.0" />
+      <edge source="Littlefinger" target="Her" id="76" weight="1.0" />
+      <edge source="Littlefinger" target="Grand" id="77" weight="1.0" />
+      <edge source="Ser Lance" target="La" id="78" weight="1.0" />
+      <edge source="Ser Lance" target="Tyrion" id="79" weight="1.0" />
+      <edge source="Ser Lance" target="Her" id="80" weight="1.0" />
+      <edge source="Ser Lance" target="Grand" id="81" weight="1.0" />
+      <edge source="Ser Lance" target="Jaime" id="82" weight="1.0" />
+      <edge source="Ser Lance" target="Robert" id="83" weight="1.0" />
+      <edge source="Ser Lance" target="Jo" id="84" weight="1.0" />
+      <edge source="Ser Lance" target="Ke" id="85" weight="1.0" />
+      <edge source="Ser Lance" target="Jaime Lannister" id="86" weight="1.0" />
+      <edge source="Grand" target="Her" id="87" weight="1.0" />
+      <edge source="Grand" target="La" id="88" weight="1.0" />
+      <edge source="Grand" target="Tyrion" id="89" weight="1.0" />
+      <edge source="Grand" target="Jaime" id="90" weight="1.0" />
+      <edge source="Grand" target="Robert" id="91" weight="1.0" />
+      <edge source="Grand" target="Jo" id="92" weight="1.0" />
+      <edge source="Grand" target="Jace" id="93" weight="1.0" />
+      <edge source="Jaime" target="Her" id="94" weight="1.0" />
+      <edge source="Jaime" target="La" id="95" weight="1.0" />
+      <edge source="Jaime" target="Tyrion" id="96" weight="1.0" />
+      <edge source="Jaime" target="Robert" id="97" weight="1.0" />
+      <edge source="Jaime" target="Jo" id="98" weight="1.0" />
+      <edge source="Jaime" target="Ke" id="99" weight="1.0" />
+      <edge source="Jaime" target="Jaime Lannister" id="100" weight="1.0" />
+      <edge source="Jaime" target="Ned Stark" id="101" weight="1.0" />
+      <edge source="Jaime" target="Al" id="102" weight="1.0" />
+      <edge source="Jaime" target="Alaya" id="103" weight="1.0" />
+      <edge source="Jaime" target="Mare" id="104" weight="1.0" />
+      <edge source="Jaime" target="Dan" id="105" weight="1.0" />
+      <edge source="Her" target="La" id="106" weight="1.0" />
+      <edge source="Her" target="Tyrion" id="107" weight="1.0" />
+      <edge source="Her" target="Robert" id="108" weight="1.0" />
+      <edge source="Her" target="Jo" id="109" weight="1.0" />
+      <edge source="Her" target="Jace" id="110" weight="1.0" />
+      <edge source="Her" target="Alaya" id="111" weight="1.0" />
+      <edge source="Her" target="Dan" id="112" weight="1.0" />
+      <edge source="Her" target="Mare" id="113" weight="1.0" />
+      <edge source="Her" target="Al" id="114" weight="1.0" />
+      <edge source="Robert" target="La" id="115" weight="1.0" />
+      <edge source="Robert" target="Tyrion" id="116" weight="1.0" />
+      <edge source="Robert" target="Jo" id="117" weight="1.0" />
+      <edge source="Robert" target="Jace" id="118" weight="1.0" />
+      <edge source="Jo" target="La" id="119" weight="1.0" />
+      <edge source="Jo" target="Tyrion" id="120" weight="1.0" />
+      <edge source="Jo" target="Jace" id="121" weight="1.0" />
+      <edge source="Jo" target="Ned Stark" id="122" weight="1.0" />
+      <edge source="Jo" target="Ke" id="123" weight="1.0" />
+      <edge source="Jo" target="Jaime Lannister" id="124" weight="1.0" />
+      <edge source="Jo" target="Al" id="125" weight="1.0" />
+      <edge source="Jace" target="La" id="126" weight="1.0" />
+      <edge source="Jace" target="Tyrion" id="127" weight="1.0" />
+      <edge source="La" target="Tyrion" id="128" weight="1.0" />
+      <edge source="La" target="Al" id="129" weight="1.0" />
+      <edge source="La" target="Ke" id="130" weight="1.0" />
+      <edge source="La" target="Jaime Lannister" id="131" weight="1.0" />
+      <edge source="La" target="Ned Stark" id="132" weight="1.0" />
+      <edge source="La" target="Cha" id="133" weight="1.0" />
+      <edge source="La" target="Alaya" id="134" weight="1.0" />
+      <edge source="La" target="Dan" id="135" weight="1.0" />
+      <edge source="La" target="Mare" id="136" weight="1.0" />
+      <edge source="Ke" target="Tyrion" id="137" weight="1.0" />
+      <edge source="Ke" target="Jaime Lannister" id="138" weight="1.0" />
+      <edge source="Ke" target="Ned Stark" id="139" weight="1.0" />
+      <edge source="Jaime Lannister" target="Tyrion" id="140" weight="1.0" />
+      <edge source="Jaime Lannister" target="Ned Stark" id="141" weight="1.0" />
+      <edge source="Ned Stark" target="Tyrion" id="142" weight="1.0" />
+      <edge source="Ned Stark" target="Al" id="143" weight="1.0" />
+      <edge source="Cha" target="Tyrion" id="144" weight="1.0" />
+      <edge source="Cha" target="Al" id="145" weight="1.0" />
+      <edge source="Cha" target="Alaya" id="146" weight="1.0" />
+      <edge source="Cha" target="Dan" id="147" weight="1.0" />
+      <edge source="Al" target="Tyrion" id="148" weight="1.0" />
+      <edge source="Al" target="Alaya" id="149" weight="1.0" />
+      <edge source="Al" target="Dan" id="150" weight="1.0" />
+      <edge source="Al" target="Milo" id="151" weight="1.0" />
+      <edge source="Al" target="Mare" id="152" weight="1.0" />
+      <edge source="Dan" target="Tyrion" id="153" weight="1.0" />
+      <edge source="Dan" target="Alaya" id="154" weight="1.0" />
+      <edge source="Dan" target="Milo" id="155" weight="1.0" />
+      <edge source="Dan" target="Mare" id="156" weight="1.0" />
+      <edge source="Alaya" target="Tyrion" id="157" weight="1.0" />
+      <edge source="Alaya" target="Milo" id="158" weight="1.0" />
+      <edge source="Alaya" target="Mare" id="159" weight="1.0" />
+      <edge source="Milo" target="Tyrion" id="160" weight="1.0" />
+      <edge source="Milo" target="Mare" id="161" weight="1.0" />
+      <edge source="Mare" target="Tyrion" id="162" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

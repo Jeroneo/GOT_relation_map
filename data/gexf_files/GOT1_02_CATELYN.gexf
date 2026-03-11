@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Cat" label="Cat">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ned" label="Ned">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rick" label="Rick">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rayder" label="Rayder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lu" label="Lu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tu" label="Tu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon Arryn" label="Jon Arryn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robert Barath" label="Robert Barath">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robert" label="Robert">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rry" label="Rry">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ster P" label="Ster P">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Cell" label="Cell">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bryn" label="Bryn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ben" label="Ben">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ce" label="Ce">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tommen" label="Tommen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Catelyn" label="Catelyn">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Cat" target="Catelyn" id="0" weight="1.0" />
+      <edge source="Cat" target="Tu" id="1" weight="1.0" />
+      <edge source="Cat" target="Ned" id="2" weight="1.0" />
+      <edge source="Cat" target="Brandon" id="3" weight="1.0" />
+      <edge source="Cat" target="Rick" id="4" weight="1.0" />
+      <edge source="Cat" target="Ben" id="5" weight="1.0" />
+      <edge source="Cat" target="Rayder" id="6" weight="1.0" />
+      <edge source="Cat" target="Lu" id="7" weight="1.0" />
+      <edge source="Cat" target="Mae" id="8" weight="1.0" />
+      <edge source="Cat" target="Jon" id="9" weight="1.0" />
+      <edge source="Cat" target="Jon Arryn" id="10" weight="1.0" />
+      <edge source="Cat" target="Robert" id="11" weight="1.0" />
+      <edge source="Cat" target="Robert Barath" id="12" weight="1.0" />
+      <edge source="Cat" target="Bryn" id="13" weight="1.0" />
+      <edge source="Cat" target="Ce" id="14" weight="1.0" />
+      <edge source="Cat" target="Tommen" id="15" weight="1.0" />
+      <edge source="Ned" target="Tu" id="16" weight="1.0" />
+      <edge source="Ned" target="Catelyn" id="17" weight="1.0" />
+      <edge source="Ned" target="Brandon" id="18" weight="1.0" />
+      <edge source="Ned" target="Rick" id="19" weight="1.0" />
+      <edge source="Ned" target="Ben" id="20" weight="1.0" />
+      <edge source="Ned" target="Rayder" id="21" weight="1.0" />
+      <edge source="Ned" target="Lu" id="22" weight="1.0" />
+      <edge source="Ned" target="Mae" id="23" weight="1.0" />
+      <edge source="Ned" target="Jon" id="24" weight="1.0" />
+      <edge source="Ned" target="Jon Arryn" id="25" weight="1.0" />
+      <edge source="Ned" target="Robert" id="26" weight="1.0" />
+      <edge source="Ned" target="Robert Barath" id="27" weight="1.0" />
+      <edge source="Ned" target="Bryn" id="28" weight="1.0" />
+      <edge source="Ned" target="Ce" id="29" weight="1.0" />
+      <edge source="Ned" target="Tommen" id="30" weight="1.0" />
+      <edge source="Brandon" target="Catelyn" id="31" weight="1.0" />
+      <edge source="Brandon" target="Tu" id="32" weight="1.0" />
+      <edge source="Rick" target="Catelyn" id="33" weight="1.0" />
+      <edge source="Rayder" target="Ben" id="34" weight="1.0" />
+      <edge source="Rayder" target="Catelyn" id="35" weight="1.0" />
+      <edge source="Rayder" target="Lu" id="36" weight="1.0" />
+      <edge source="Rayder" target="Mae" id="37" weight="1.0" />
+      <edge source="Rayder" target="Tu" id="38" weight="1.0" />
+      <edge source="Rayder" target="Jon" id="39" weight="1.0" />
+      <edge source="Rayder" target="Jon Arryn" id="40" weight="1.0" />
+      <edge source="Mae" target="Lu" id="41" weight="1.0" />
+      <edge source="Mae" target="Ben" id="42" weight="1.0" />
+      <edge source="Mae" target="Catelyn" id="43" weight="1.0" />
+      <edge source="Mae" target="Tu" id="44" weight="1.0" />
+      <edge source="Mae" target="Jon" id="45" weight="1.0" />
+      <edge source="Mae" target="Jon Arryn" id="46" weight="1.0" />
+      <edge source="Mae" target="Robert" id="47" weight="1.0" />
+      <edge source="Mae" target="Robert Barath" id="48" weight="1.0" />
+      <edge source="Mae" target="Bryn" id="49" weight="1.0" />
+      <edge source="Mae" target="Ce" id="50" weight="1.0" />
+      <edge source="Mae" target="Tommen" id="51" weight="1.0" />
+      <edge source="Lu" target="Ben" id="52" weight="1.0" />
+      <edge source="Lu" target="Catelyn" id="53" weight="1.0" />
+      <edge source="Lu" target="Tu" id="54" weight="1.0" />
+      <edge source="Lu" target="Jon" id="55" weight="1.0" />
+      <edge source="Lu" target="Jon Arryn" id="56" weight="1.0" />
+      <edge source="Lu" target="Robert" id="57" weight="1.0" />
+      <edge source="Lu" target="Robert Barath" id="58" weight="1.0" />
+      <edge source="Lu" target="Bryn" id="59" weight="1.0" />
+      <edge source="Lu" target="Ce" id="60" weight="1.0" />
+      <edge source="Lu" target="Tommen" id="61" weight="1.0" />
+      <edge source="Tu" target="Catelyn" id="62" weight="1.0" />
+      <edge source="Tu" target="Ben" id="63" weight="1.0" />
+      <edge source="Tu" target="Jon" id="64" weight="1.0" />
+      <edge source="Tu" target="Jon Arryn" id="65" weight="1.0" />
+      <edge source="Tu" target="Robert" id="66" weight="1.0" />
+      <edge source="Tu" target="Robert Barath" id="67" weight="1.0" />
+      <edge source="Jon Arryn" target="Jon" id="68" weight="1.0" />
+      <edge source="Jon Arryn" target="Catelyn" id="69" weight="1.0" />
+      <edge source="Jon Arryn" target="Robert" id="70" weight="1.0" />
+      <edge source="Jon Arryn" target="Robert Barath" id="71" weight="1.0" />
+      <edge source="Robert Barath" target="Jon" id="72" weight="1.0" />
+      <edge source="Robert Barath" target="Catelyn" id="73" weight="1.0" />
+      <edge source="Robert Barath" target="Robert" id="74" weight="1.0" />
+      <edge source="Jon" target="Catelyn" id="75" weight="1.0" />
+      <edge source="Jon" target="Robert" id="76" weight="1.0" />
+      <edge source="Jon" target="Bryn" id="77" weight="1.0" />
+      <edge source="Jon" target="Ben" id="78" weight="1.0" />
+      <edge source="Robert" target="Catelyn" id="79" weight="1.0" />
+      <edge source="Robert" target="Bryn" id="80" weight="1.0" />
+      <edge source="Robert" target="Ben" id="81" weight="1.0" />
+      <edge source="Robert" target="Ce" id="82" weight="1.0" />
+      <edge source="Robert" target="Tommen" id="83" weight="1.0" />
+      <edge source="Bryn" target="Catelyn" id="84" weight="1.0" />
+      <edge source="Bryn" target="Ben" id="85" weight="1.0" />
+      <edge source="Ben" target="Catelyn" id="86" weight="1.0" />
+      <edge source="Ben" target="Ce" id="87" weight="1.0" />
+      <edge source="Ce" target="Catelyn" id="88" weight="1.0" />
+      <edge source="Ce" target="Tommen" id="89" weight="1.0" />
+      <edge source="Tommen" target="Catelyn" id="90" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

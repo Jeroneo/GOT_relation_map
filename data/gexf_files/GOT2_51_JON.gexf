@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="51" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Dalbridge" label="Dalbridge">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ce Rayder" label="Ce Rayder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Half" label="Half">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stones" label="Stones">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon Snow" label="Jon Snow">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Longc" label="Longc">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rob" label="Rob">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Long" label="Long">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Longclaw" label="Longclaw">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Eddar" label="Eddar">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stark" label="Stark">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ben" label="Ben">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ba" label="Ba">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Winter" label="Winter">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Brandon" label="Lord Brandon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Stark" label="Lord Stark">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ghost" label="Ghost">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Halfhand" label="Halfhand">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stonesna" label="Stonesna">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jon" target="Halfhand" id="0" weight="1.0" />
+      <edge source="Jon" target="Stonesna" id="1" weight="1.0" />
+      <edge source="Jon" target="Dalbridge" id="2" weight="1.0" />
+      <edge source="Jon" target="Half" id="3" weight="1.0" />
+      <edge source="Jon" target="Stones" id="4" weight="1.0" />
+      <edge source="Jon" target="Winter" id="5" weight="1.0" />
+      <edge source="Jon" target="Jon Snow" id="6" weight="1.0" />
+      <edge source="Jon" target="Ghost" id="7" weight="1.0" />
+      <edge source="Jon" target="Long" id="8" weight="1.0" />
+      <edge source="Jon" target="Longc" id="9" weight="1.0" />
+      <edge source="Jon" target="Longclaw" id="10" weight="1.0" />
+      <edge source="Jon" target="Rob" id="11" weight="1.0" />
+      <edge source="Jon" target="Stark" id="12" weight="1.0" />
+      <edge source="Jon" target="Eddar" id="13" weight="1.0" />
+      <edge source="Jon" target="Ben" id="14" weight="1.0" />
+      <edge source="Jon" target="Ba" id="15" weight="1.0" />
+      <edge source="Jon" target="Lord Stark" id="16" weight="1.0" />
+      <edge source="Jon" target="Lord Brandon" id="17" weight="1.0" />
+      <edge source="Jon" target="Brandon" id="18" weight="1.0" />
+      <edge source="Dalbridge" target="Halfhand" id="19" weight="1.0" />
+      <edge source="Dalbridge" target="Stonesna" id="20" weight="1.0" />
+      <edge source="Dalbridge" target="Half" id="21" weight="1.0" />
+      <edge source="Dalbridge" target="Stones" id="22" weight="1.0" />
+      <edge source="Dalbridge" target="Winter" id="23" weight="1.0" />
+      <edge source="Dalbridge" target="Jon Snow" id="24" weight="1.0" />
+      <edge source="Dalbridge" target="Ghost" id="25" weight="1.0" />
+      <edge source="Half" target="Halfhand" id="26" weight="1.0" />
+      <edge source="Half" target="Stonesna" id="27" weight="1.0" />
+      <edge source="Half" target="Stones" id="28" weight="1.0" />
+      <edge source="Half" target="Winter" id="29" weight="1.0" />
+      <edge source="Half" target="Jon Snow" id="30" weight="1.0" />
+      <edge source="Half" target="Ghost" id="31" weight="1.0" />
+      <edge source="Half" target="Rob" id="32" weight="1.0" />
+      <edge source="Half" target="Longc" id="33" weight="1.0" />
+      <edge source="Half" target="Long" id="34" weight="1.0" />
+      <edge source="Half" target="Longclaw" id="35" weight="1.0" />
+      <edge source="Half" target="Ba" id="36" weight="1.0" />
+      <edge source="Half" target="Stark" id="37" weight="1.0" />
+      <edge source="Half" target="Lord Stark" id="38" weight="1.0" />
+      <edge source="Stones" target="Halfhand" id="39" weight="1.0" />
+      <edge source="Stones" target="Stonesna" id="40" weight="1.0" />
+      <edge source="Stones" target="Winter" id="41" weight="1.0" />
+      <edge source="Stones" target="Jon Snow" id="42" weight="1.0" />
+      <edge source="Stones" target="Ghost" id="43" weight="1.0" />
+      <edge source="Stones" target="Long" id="44" weight="1.0" />
+      <edge source="Stones" target="Longc" id="45" weight="1.0" />
+      <edge source="Stones" target="Longclaw" id="46" weight="1.0" />
+      <edge source="Stones" target="Rob" id="47" weight="1.0" />
+      <edge source="Stones" target="Stark" id="48" weight="1.0" />
+      <edge source="Stones" target="Eddar" id="49" weight="1.0" />
+      <edge source="Stones" target="Ben" id="50" weight="1.0" />
+      <edge source="Stones" target="Ba" id="51" weight="1.0" />
+      <edge source="Stones" target="Lord Stark" id="52" weight="1.0" />
+      <edge source="Stones" target="Lord Brandon" id="53" weight="1.0" />
+      <edge source="Stones" target="Brandon" id="54" weight="1.0" />
+      <edge source="Jon Snow" target="Halfhand" id="55" weight="1.0" />
+      <edge source="Jon Snow" target="Stonesna" id="56" weight="1.0" />
+      <edge source="Jon Snow" target="Winter" id="57" weight="1.0" />
+      <edge source="Jon Snow" target="Ghost" id="58" weight="1.0" />
+      <edge source="Jon Snow" target="Long" id="59" weight="1.0" />
+      <edge source="Jon Snow" target="Longc" id="60" weight="1.0" />
+      <edge source="Jon Snow" target="Longclaw" id="61" weight="1.0" />
+      <edge source="Jon Snow" target="Stark" id="62" weight="1.0" />
+      <edge source="Jon Snow" target="Eddar" id="63" weight="1.0" />
+      <edge source="Jon Snow" target="Ba" id="64" weight="1.0" />
+      <edge source="Jon Snow" target="Lord Brandon" id="65" weight="1.0" />
+      <edge source="Jon Snow" target="Brandon" id="66" weight="1.0" />
+      <edge source="Jon Snow" target="Lord Stark" id="67" weight="1.0" />
+      <edge source="Longc" target="Long" id="68" weight="1.0" />
+      <edge source="Longc" target="Longclaw" id="69" weight="1.0" />
+      <edge source="Longc" target="Stonesna" id="70" weight="1.0" />
+      <edge source="Longc" target="Rob" id="71" weight="1.0" />
+      <edge source="Longc" target="Stark" id="72" weight="1.0" />
+      <edge source="Longc" target="Eddar" id="73" weight="1.0" />
+      <edge source="Longc" target="Winter" id="74" weight="1.0" />
+      <edge source="Longc" target="Ghost" id="75" weight="1.0" />
+      <edge source="Longc" target="Halfhand" id="76" weight="1.0" />
+      <edge source="Longc" target="Ba" id="77" weight="1.0" />
+      <edge source="Rob" target="Stonesna" id="78" weight="1.0" />
+      <edge source="Rob" target="Long" id="79" weight="1.0" />
+      <edge source="Rob" target="Longclaw" id="80" weight="1.0" />
+      <edge source="Long" target="Longclaw" id="81" weight="1.0" />
+      <edge source="Long" target="Stonesna" id="82" weight="1.0" />
+      <edge source="Long" target="Stark" id="83" weight="1.0" />
+      <edge source="Long" target="Eddar" id="84" weight="1.0" />
+      <edge source="Long" target="Winter" id="85" weight="1.0" />
+      <edge source="Long" target="Ghost" id="86" weight="1.0" />
+      <edge source="Long" target="Halfhand" id="87" weight="1.0" />
+      <edge source="Long" target="Ba" id="88" weight="1.0" />
+      <edge source="Longclaw" target="Stonesna" id="89" weight="1.0" />
+      <edge source="Longclaw" target="Stark" id="90" weight="1.0" />
+      <edge source="Longclaw" target="Eddar" id="91" weight="1.0" />
+      <edge source="Longclaw" target="Winter" id="92" weight="1.0" />
+      <edge source="Longclaw" target="Ghost" id="93" weight="1.0" />
+      <edge source="Longclaw" target="Halfhand" id="94" weight="1.0" />
+      <edge source="Longclaw" target="Ba" id="95" weight="1.0" />
+      <edge source="Eddar" target="Stonesna" id="96" weight="1.0" />
+      <edge source="Eddar" target="Stark" id="97" weight="1.0" />
+      <edge source="Eddar" target="Winter" id="98" weight="1.0" />
+      <edge source="Stark" target="Stonesna" id="99" weight="1.0" />
+      <edge source="Stark" target="Winter" id="100" weight="1.0" />
+      <edge source="Stark" target="Ben" id="101" weight="1.0" />
+      <edge source="Stark" target="Ba" id="102" weight="1.0" />
+      <edge source="Stark" target="Lord Stark" id="103" weight="1.0" />
+      <edge source="Stark" target="Lord Brandon" id="104" weight="1.0" />
+      <edge source="Stark" target="Brandon" id="105" weight="1.0" />
+      <edge source="Stark" target="Halfhand" id="106" weight="1.0" />
+      <edge source="Stark" target="Ghost" id="107" weight="1.0" />
+      <edge source="Ben" target="Stonesna" id="108" weight="1.0" />
+      <edge source="Ba" target="Winter" id="109" weight="1.0" />
+      <edge source="Ba" target="Stonesna" id="110" weight="1.0" />
+      <edge source="Ba" target="Lord Stark" id="111" weight="1.0" />
+      <edge source="Ba" target="Lord Brandon" id="112" weight="1.0" />
+      <edge source="Ba" target="Brandon" id="113" weight="1.0" />
+      <edge source="Ba" target="Halfhand" id="114" weight="1.0" />
+      <edge source="Ba" target="Ghost" id="115" weight="1.0" />
+      <edge source="Winter" target="Halfhand" id="116" weight="1.0" />
+      <edge source="Winter" target="Stonesna" id="117" weight="1.0" />
+      <edge source="Winter" target="Lord Stark" id="118" weight="1.0" />
+      <edge source="Winter" target="Lord Brandon" id="119" weight="1.0" />
+      <edge source="Winter" target="Brandon" id="120" weight="1.0" />
+      <edge source="Winter" target="Ghost" id="121" weight="1.0" />
+      <edge source="Lord Brandon" target="Brandon" id="122" weight="1.0" />
+      <edge source="Lord Brandon" target="Lord Stark" id="123" weight="1.0" />
+      <edge source="Lord Brandon" target="Stonesna" id="124" weight="1.0" />
+      <edge source="Brandon" target="Lord Stark" id="125" weight="1.0" />
+      <edge source="Brandon" target="Stonesna" id="126" weight="1.0" />
+      <edge source="Lord Stark" target="Stonesna" id="127" weight="1.0" />
+      <edge source="Lord Stark" target="Halfhand" id="128" weight="1.0" />
+      <edge source="Lord Stark" target="Ghost" id="129" weight="1.0" />
+      <edge source="Ghost" target="Halfhand" id="130" weight="1.0" />
+      <edge source="Ghost" target="Stonesna" id="131" weight="1.0" />
+      <edge source="Halfhand" target="Stonesna" id="132" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
