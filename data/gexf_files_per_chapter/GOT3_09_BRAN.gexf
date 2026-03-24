@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Hodor" label="Hodor">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dor" label="Dor">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Even" label="Even">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tu" label="Tu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mble" label="Mble">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bran" label="Bran">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Meera" label="Meera">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jojen Reed" label="Jojen Reed">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jojen" label="Jojen">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Old Nan" label="Old Nan">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Joje" label="Joje">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Summer" label="Summer">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Llen" label="Llen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stark" label="Stark">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Prince" label="Prince">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Winterfell" label="Winterfell">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Reed" label="Reed">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grace" label="Grace">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Era" label="Era">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robb" label="Robb">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Manderly" label="Manderly">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rob" label="Rob">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Neck" label="Neck">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rickon" label="Rickon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Theon Greyjoy" label="Theon Greyjoy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Rickard" label="Lord Rickard">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dragon" label="Dragon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="House" label="House">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Heart" label="Heart">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Wall" label="Wall">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hother Whoresbane" label="Hother Whoresbane">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mors Crowfood" label="Mors Crowfood">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Father" label="Father">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord" label="Lord">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Luwin" label="Luwin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Cley Cerwyn" label="Cley Cerwyn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Derly" label="Derly">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Of Bolton" label="Of Bolton">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ka" label="Ka">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="White" label="White">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Harbor" label="Harbor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grey" label="Grey">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Hodor" target="Ho" id="0" weight="1.0" />
+      <edge source="Hodor" target="Bran" id="1" weight="1.0" />
+      <edge source="Hodor" target="Even" id="2" weight="1.0" />
+      <edge source="Hodor" target="Tu" id="3" weight="1.0" />
+      <edge source="Hodor" target="Meera" id="4" weight="1.0" />
+      <edge source="Hodor" target="Jojen" id="5" weight="1.0" />
+      <edge source="Hodor" target="Joje" id="6" weight="1.0" />
+      <edge source="Hodor" target="Jojen Reed" id="7" weight="1.0" />
+      <edge source="Hodor" target="Reed" id="8" weight="1.0" />
+      <edge source="Hodor" target="Jo" id="9" weight="1.0" />
+      <edge source="Hodor" target="Old Nan" id="10" weight="1.0" />
+      <edge source="Hodor" target="Winterfell" id="11" weight="1.0" />
+      <edge source="Hodor" target="Neck" id="12" weight="1.0" />
+      <edge source="Hodor" target="Grace" id="13" weight="1.0" />
+      <edge source="Hodor" target="Robb" id="14" weight="1.0" />
+      <edge source="Hodor" target="Wall" id="15" weight="1.0" />
+      <edge source="Hodor" target="Rob" id="16" weight="1.0" />
+      <edge source="Hodor" target="Grey" id="17" weight="1.0" />
+      <edge source="Hodor" target="Summer" id="18" weight="1.0" />
+      <edge source="Hodor" target="Heart" id="19" weight="1.0" />
+      <edge source="Hodor" target="Harbor" id="20" weight="1.0" />
+      <edge source="Hodor" target="White" id="21" weight="1.0" />
+      <edge source="Hodor" target="Lord" id="22" weight="1.0" />
+      <edge source="Hodor" target="Manderly" id="23" weight="1.0" />
+      <edge source="Hodor" target="Stark" id="24" weight="1.0" />
+      <edge source="Hodor" target="Theon Greyjoy" id="25" weight="1.0" />
+      <edge source="Hodor" target="Rickon" id="26" weight="1.0" />
+      <edge source="Hodor" target="Brandon" id="27" weight="1.0" />
+      <edge source="Hodor" target="Lord Rickard" id="28" weight="1.0" />
+      <edge source="Ho" target="Bran" id="29" weight="1.0" />
+      <edge source="Ho" target="Even" id="30" weight="1.0" />
+      <edge source="Ho" target="Tu" id="31" weight="1.0" />
+      <edge source="Ho" target="Meera" id="32" weight="1.0" />
+      <edge source="Ho" target="Jojen" id="33" weight="1.0" />
+      <edge source="Ho" target="Joje" id="34" weight="1.0" />
+      <edge source="Ho" target="Jojen Reed" id="35" weight="1.0" />
+      <edge source="Ho" target="Reed" id="36" weight="1.0" />
+      <edge source="Ho" target="Jo" id="37" weight="1.0" />
+      <edge source="Ho" target="Old Nan" id="38" weight="1.0" />
+      <edge source="Ho" target="Winterfell" id="39" weight="1.0" />
+      <edge source="Ho" target="Neck" id="40" weight="1.0" />
+      <edge source="Ho" target="Brandon" id="41" weight="1.0" />
+      <edge source="Ho" target="Prince" id="42" weight="1.0" />
+      <edge source="Ho" target="Stark" id="43" weight="1.0" />
+      <edge source="Ho" target="Summer" id="44" weight="1.0" />
+      <edge source="Ho" target="Grace" id="45" weight="1.0" />
+      <edge source="Ho" target="Robb" id="46" weight="1.0" />
+      <edge source="Ho" target="Wall" id="47" weight="1.0" />
+      <edge source="Ho" target="Rob" id="48" weight="1.0" />
+      <edge source="Ho" target="Grey" id="49" weight="1.0" />
+      <edge source="Ho" target="Heart" id="50" weight="1.0" />
+      <edge source="Ho" target="Harbor" id="51" weight="1.0" />
+      <edge source="Ho" target="White" id="52" weight="1.0" />
+      <edge source="Ho" target="Lord" id="53" weight="1.0" />
+      <edge source="Ho" target="Manderly" id="54" weight="1.0" />
+      <edge source="Ho" target="Theon Greyjoy" id="55" weight="1.0" />
+      <edge source="Ho" target="Rickon" id="56" weight="1.0" />
+      <edge source="Ho" target="Lord Rickard" id="57" weight="1.0" />
+      <edge source="Ho" target="Dragon" id="58" weight="1.0" />
+      <edge source="Ho" target="House" id="59" weight="1.0" />
+      <edge source="Ho" target="Hother Whoresbane" id="60" weight="1.0" />
+      <edge source="Ho" target="Mors Crowfood" id="61" weight="1.0" />
+      <edge source="Ho" target="Ka" id="62" weight="1.0" />
+      <edge source="Ho" target="Father" id="63" weight="1.0" />
+      <edge source="Ho" target="Luwin" id="64" weight="1.0" />
+      <edge source="Ho" target="Cley Cerwyn" id="65" weight="1.0" />
+      <edge source="Ho" target="Mae" id="66" weight="1.0" />
+      <edge source="Even" target="Bran" id="67" weight="1.0" />
+      <edge source="Even" target="Tu" id="68" weight="1.0" />
+      <edge source="Even" target="Meera" id="69" weight="1.0" />
+      <edge source="Even" target="Jojen" id="70" weight="1.0" />
+      <edge source="Even" target="Joje" id="71" weight="1.0" />
+      <edge source="Even" target="Jojen Reed" id="72" weight="1.0" />
+      <edge source="Even" target="Reed" id="73" weight="1.0" />
+      <edge source="Even" target="Jo" id="74" weight="1.0" />
+      <edge source="Even" target="Old Nan" id="75" weight="1.0" />
+      <edge source="Even" target="Winterfell" id="76" weight="1.0" />
+      <edge source="Even" target="Neck" id="77" weight="1.0" />
+      <edge source="Even" target="Summer" id="78" weight="1.0" />
+      <edge source="Even" target="Robb" id="79" weight="1.0" />
+      <edge source="Even" target="Wall" id="80" weight="1.0" />
+      <edge source="Even" target="Rob" id="81" weight="1.0" />
+      <edge source="Even" target="Grey" id="82" weight="1.0" />
+      <edge source="Even" target="Theon Greyjoy" id="83" weight="1.0" />
+      <edge source="Even" target="Brandon" id="84" weight="1.0" />
+      <edge source="Even" target="Lord" id="85" weight="1.0" />
+      <edge source="Even" target="Rickon" id="86" weight="1.0" />
+      <edge source="Even" target="Lord Rickard" id="87" weight="1.0" />
+      <edge source="Even" target="Dragon" id="88" weight="1.0" />
+      <edge source="Even" target="Prince" id="89" weight="1.0" />
+      <edge source="Even" target="House" id="90" weight="1.0" />
+      <edge source="Even" target="Stark" id="91" weight="1.0" />
+      <edge source="Tu" target="Meera" id="92" weight="1.0" />
+      <edge source="Tu" target="Bran" id="93" weight="1.0" />
+      <edge source="Tu" target="Jojen" id="94" weight="1.0" />
+      <edge source="Tu" target="Joje" id="95" weight="1.0" />
+      <edge source="Tu" target="Jojen Reed" id="96" weight="1.0" />
+      <edge source="Tu" target="Reed" id="97" weight="1.0" />
+      <edge source="Tu" target="Jo" id="98" weight="1.0" />
+      <edge source="Tu" target="Old Nan" id="99" weight="1.0" />
+      <edge source="Tu" target="Winterfell" id="100" weight="1.0" />
+      <edge source="Tu" target="Neck" id="101" weight="1.0" />
+      <edge source="Tu" target="Summer" id="102" weight="1.0" />
+      <edge source="Tu" target="Grace" id="103" weight="1.0" />
+      <edge source="Tu" target="Robb" id="104" weight="1.0" />
+      <edge source="Tu" target="Rob" id="105" weight="1.0" />
+      <edge source="Tu" target="Hother Whoresbane" id="106" weight="1.0" />
+      <edge source="Tu" target="Luwin" id="107" weight="1.0" />
+      <edge source="Tu" target="Mors Crowfood" id="108" weight="1.0" />
+      <edge source="Tu" target="Cley Cerwyn" id="109" weight="1.0" />
+      <edge source="Tu" target="Father" id="110" weight="1.0" />
+      <edge source="Tu" target="Lord" id="111" weight="1.0" />
+      <edge source="Tu" target="Harbor" id="112" weight="1.0" />
+      <edge source="Tu" target="Mae" id="113" weight="1.0" />
+      <edge source="Tu" target="Manderly" id="114" weight="1.0" />
+      <edge source="Tu" target="Ka" id="115" weight="1.0" />
+      <edge source="Tu" target="White" id="116" weight="1.0" />
+      <edge source="Tu" target="Grey" id="117" weight="1.0" />
+      <edge source="Bran" target="Meera" id="118" weight="1.0" />
+      <edge source="Bran" target="Jojen" id="119" weight="1.0" />
+      <edge source="Bran" target="Joje" id="120" weight="1.0" />
+      <edge source="Bran" target="Jojen Reed" id="121" weight="1.0" />
+      <edge source="Bran" target="Reed" id="122" weight="1.0" />
+      <edge source="Bran" target="Jo" id="123" weight="1.0" />
+      <edge source="Bran" target="Old Nan" id="124" weight="1.0" />
+      <edge source="Bran" target="Winterfell" id="125" weight="1.0" />
+      <edge source="Bran" target="Neck" id="126" weight="1.0" />
+      <edge source="Bran" target="Summer" id="127" weight="1.0" />
+      <edge source="Bran" target="Stark" id="128" weight="1.0" />
+      <edge source="Bran" target="Brandon" id="129" weight="1.0" />
+      <edge source="Bran" target="Prince" id="130" weight="1.0" />
+      <edge source="Bran" target="Grace" id="131" weight="1.0" />
+      <edge source="Bran" target="Robb" id="132" weight="1.0" />
+      <edge source="Bran" target="Rob" id="133" weight="1.0" />
+      <edge source="Bran" target="Wall" id="134" weight="1.0" />
+      <edge source="Bran" target="Grey" id="135" weight="1.0" />
+      <edge source="Bran" target="Heart" id="136" weight="1.0" />
+      <edge source="Bran" target="Harbor" id="137" weight="1.0" />
+      <edge source="Bran" target="White" id="138" weight="1.0" />
+      <edge source="Bran" target="Lord" id="139" weight="1.0" />
+      <edge source="Bran" target="Manderly" id="140" weight="1.0" />
+      <edge source="Bran" target="Theon Greyjoy" id="141" weight="1.0" />
+      <edge source="Bran" target="Rickon" id="142" weight="1.0" />
+      <edge source="Bran" target="Lord Rickard" id="143" weight="1.0" />
+      <edge source="Bran" target="Dragon" id="144" weight="1.0" />
+      <edge source="Bran" target="House" id="145" weight="1.0" />
+      <edge source="Bran" target="Hother Whoresbane" id="146" weight="1.0" />
+      <edge source="Bran" target="Mors Crowfood" id="147" weight="1.0" />
+      <edge source="Bran" target="Ka" id="148" weight="1.0" />
+      <edge source="Bran" target="Father" id="149" weight="1.0" />
+      <edge source="Bran" target="Luwin" id="150" weight="1.0" />
+      <edge source="Bran" target="Cley Cerwyn" id="151" weight="1.0" />
+      <edge source="Bran" target="Mae" id="152" weight="1.0" />
+      <edge source="Meera" target="Jojen" id="153" weight="1.0" />
+      <edge source="Meera" target="Joje" id="154" weight="1.0" />
+      <edge source="Meera" target="Jojen Reed" id="155" weight="1.0" />
+      <edge source="Meera" target="Reed" id="156" weight="1.0" />
+      <edge source="Meera" target="Jo" id="157" weight="1.0" />
+      <edge source="Meera" target="Old Nan" id="158" weight="1.0" />
+      <edge source="Meera" target="Winterfell" id="159" weight="1.0" />
+      <edge source="Meera" target="Neck" id="160" weight="1.0" />
+      <edge source="Meera" target="Summer" id="161" weight="1.0" />
+      <edge source="Meera" target="Grace" id="162" weight="1.0" />
+      <edge source="Meera" target="Robb" id="163" weight="1.0" />
+      <edge source="Meera" target="Rob" id="164" weight="1.0" />
+      <edge source="Meera" target="Wall" id="165" weight="1.0" />
+      <edge source="Meera" target="Grey" id="166" weight="1.0" />
+      <edge source="Meera" target="Heart" id="167" weight="1.0" />
+      <edge source="Meera" target="Harbor" id="168" weight="1.0" />
+      <edge source="Meera" target="White" id="169" weight="1.0" />
+      <edge source="Meera" target="Lord" id="170" weight="1.0" />
+      <edge source="Meera" target="Manderly" id="171" weight="1.0" />
+      <edge source="Meera" target="Stark" id="172" weight="1.0" />
+      <edge source="Meera" target="Theon Greyjoy" id="173" weight="1.0" />
+      <edge source="Meera" target="Rickon" id="174" weight="1.0" />
+      <edge source="Meera" target="Brandon" id="175" weight="1.0" />
+      <edge source="Meera" target="Lord Rickard" id="176" weight="1.0" />
+      <edge source="Meera" target="Hother Whoresbane" id="177" weight="1.0" />
+      <edge source="Meera" target="Mors Crowfood" id="178" weight="1.0" />
+      <edge source="Meera" target="Ka" id="179" weight="1.0" />
+      <edge source="Meera" target="Father" id="180" weight="1.0" />
+      <edge source="Jojen Reed" target="Jojen" id="181" weight="1.0" />
+      <edge source="Jojen Reed" target="Joje" id="182" weight="1.0" />
+      <edge source="Jojen Reed" target="Reed" id="183" weight="1.0" />
+      <edge source="Jojen Reed" target="Jo" id="184" weight="1.0" />
+      <edge source="Jojen Reed" target="Old Nan" id="185" weight="1.0" />
+      <edge source="Jojen Reed" target="Winterfell" id="186" weight="1.0" />
+      <edge source="Jojen Reed" target="Neck" id="187" weight="1.0" />
+      <edge source="Jojen Reed" target="Summer" id="188" weight="1.0" />
+      <edge source="Jojen Reed" target="Grace" id="189" weight="1.0" />
+      <edge source="Jojen" target="Joje" id="190" weight="1.0" />
+      <edge source="Jojen" target="Reed" id="191" weight="1.0" />
+      <edge source="Jojen" target="Jo" id="192" weight="1.0" />
+      <edge source="Jojen" target="Old Nan" id="193" weight="1.0" />
+      <edge source="Jojen" target="Winterfell" id="194" weight="1.0" />
+      <edge source="Jojen" target="Neck" id="195" weight="1.0" />
+      <edge source="Jojen" target="Summer" id="196" weight="1.0" />
+      <edge source="Jojen" target="Stark" id="197" weight="1.0" />
+      <edge source="Jojen" target="Brandon" id="198" weight="1.0" />
+      <edge source="Jojen" target="Prince" id="199" weight="1.0" />
+      <edge source="Jojen" target="Grace" id="200" weight="1.0" />
+      <edge source="Jojen" target="Robb" id="201" weight="1.0" />
+      <edge source="Jojen" target="Rob" id="202" weight="1.0" />
+      <edge source="Jojen" target="Wall" id="203" weight="1.0" />
+      <edge source="Jojen" target="Grey" id="204" weight="1.0" />
+      <edge source="Jojen" target="Heart" id="205" weight="1.0" />
+      <edge source="Jojen" target="Harbor" id="206" weight="1.0" />
+      <edge source="Jojen" target="White" id="207" weight="1.0" />
+      <edge source="Jojen" target="Lord" id="208" weight="1.0" />
+      <edge source="Jojen" target="Manderly" id="209" weight="1.0" />
+      <edge source="Jojen" target="Theon Greyjoy" id="210" weight="1.0" />
+      <edge source="Jojen" target="Rickon" id="211" weight="1.0" />
+      <edge source="Jojen" target="Lord Rickard" id="212" weight="1.0" />
+      <edge source="Jojen" target="Dragon" id="213" weight="1.0" />
+      <edge source="Jojen" target="House" id="214" weight="1.0" />
+      <edge source="Old Nan" target="Joje" id="215" weight="1.0" />
+      <edge source="Old Nan" target="Reed" id="216" weight="1.0" />
+      <edge source="Old Nan" target="Jo" id="217" weight="1.0" />
+      <edge source="Old Nan" target="Winterfell" id="218" weight="1.0" />
+      <edge source="Old Nan" target="Neck" id="219" weight="1.0" />
+      <edge source="Old Nan" target="Summer" id="220" weight="1.0" />
+      <edge source="Joje" target="Reed" id="221" weight="1.0" />
+      <edge source="Joje" target="Jo" id="222" weight="1.0" />
+      <edge source="Joje" target="Winterfell" id="223" weight="1.0" />
+      <edge source="Joje" target="Neck" id="224" weight="1.0" />
+      <edge source="Joje" target="Summer" id="225" weight="1.0" />
+      <edge source="Joje" target="Stark" id="226" weight="1.0" />
+      <edge source="Joje" target="Brandon" id="227" weight="1.0" />
+      <edge source="Joje" target="Prince" id="228" weight="1.0" />
+      <edge source="Joje" target="Grace" id="229" weight="1.0" />
+      <edge source="Joje" target="Robb" id="230" weight="1.0" />
+      <edge source="Joje" target="Rob" id="231" weight="1.0" />
+      <edge source="Joje" target="Wall" id="232" weight="1.0" />
+      <edge source="Joje" target="Grey" id="233" weight="1.0" />
+      <edge source="Joje" target="Heart" id="234" weight="1.0" />
+      <edge source="Joje" target="Harbor" id="235" weight="1.0" />
+      <edge source="Joje" target="White" id="236" weight="1.0" />
+      <edge source="Joje" target="Lord" id="237" weight="1.0" />
+      <edge source="Joje" target="Manderly" id="238" weight="1.0" />
+      <edge source="Joje" target="Theon Greyjoy" id="239" weight="1.0" />
+      <edge source="Joje" target="Rickon" id="240" weight="1.0" />
+      <edge source="Joje" target="Lord Rickard" id="241" weight="1.0" />
+      <edge source="Joje" target="Dragon" id="242" weight="1.0" />
+      <edge source="Joje" target="House" id="243" weight="1.0" />
+      <edge source="Summer" target="Reed" id="244" weight="1.0" />
+      <edge source="Summer" target="Winterfell" id="245" weight="1.0" />
+      <edge source="Summer" target="Jo" id="246" weight="1.0" />
+      <edge source="Summer" target="Neck" id="247" weight="1.0" />
+      <edge source="Summer" target="Brandon" id="248" weight="1.0" />
+      <edge source="Summer" target="Prince" id="249" weight="1.0" />
+      <edge source="Summer" target="Stark" id="250" weight="1.0" />
+      <edge source="Summer" target="Grey" id="251" weight="1.0" />
+      <edge source="Summer" target="Wall" id="252" weight="1.0" />
+      <edge source="Summer" target="Heart" id="253" weight="1.0" />
+      <edge source="Summer" target="Harbor" id="254" weight="1.0" />
+      <edge source="Summer" target="White" id="255" weight="1.0" />
+      <edge source="Summer" target="Lord" id="256" weight="1.0" />
+      <edge source="Summer" target="Manderly" id="257" weight="1.0" />
+      <edge source="Summer" target="Robb" id="258" weight="1.0" />
+      <edge source="Summer" target="Rob" id="259" weight="1.0" />
+      <edge source="Summer" target="Theon Greyjoy" id="260" weight="1.0" />
+      <edge source="Summer" target="Rickon" id="261" weight="1.0" />
+      <edge source="Summer" target="Lord Rickard" id="262" weight="1.0" />
+      <edge source="Summer" target="Dragon" id="263" weight="1.0" />
+      <edge source="Summer" target="House" id="264" weight="1.0" />
+      <edge source="Jo" target="Reed" id="265" weight="1.0" />
+      <edge source="Jo" target="Winterfell" id="266" weight="1.0" />
+      <edge source="Jo" target="Neck" id="267" weight="1.0" />
+      <edge source="Jo" target="Stark" id="268" weight="1.0" />
+      <edge source="Jo" target="Brandon" id="269" weight="1.0" />
+      <edge source="Jo" target="Prince" id="270" weight="1.0" />
+      <edge source="Jo" target="Grace" id="271" weight="1.0" />
+      <edge source="Jo" target="Robb" id="272" weight="1.0" />
+      <edge source="Jo" target="Rob" id="273" weight="1.0" />
+      <edge source="Jo" target="Wall" id="274" weight="1.0" />
+      <edge source="Jo" target="Grey" id="275" weight="1.0" />
+      <edge source="Jo" target="Heart" id="276" weight="1.0" />
+      <edge source="Jo" target="Harbor" id="277" weight="1.0" />
+      <edge source="Jo" target="White" id="278" weight="1.0" />
+      <edge source="Jo" target="Lord" id="279" weight="1.0" />
+      <edge source="Jo" target="Manderly" id="280" weight="1.0" />
+      <edge source="Jo" target="Theon Greyjoy" id="281" weight="1.0" />
+      <edge source="Jo" target="Rickon" id="282" weight="1.0" />
+      <edge source="Jo" target="Lord Rickard" id="283" weight="1.0" />
+      <edge source="Jo" target="Dragon" id="284" weight="1.0" />
+      <edge source="Jo" target="House" id="285" weight="1.0" />
+      <edge source="Brandon" target="Stark" id="286" weight="1.0" />
+      <edge source="Brandon" target="Prince" id="287" weight="1.0" />
+      <edge source="Brandon" target="Winterfell" id="288" weight="1.0" />
+      <edge source="Brandon" target="Theon Greyjoy" id="289" weight="1.0" />
+      <edge source="Brandon" target="Robb" id="290" weight="1.0" />
+      <edge source="Brandon" target="Grey" id="291" weight="1.0" />
+      <edge source="Brandon" target="Lord" id="292" weight="1.0" />
+      <edge source="Brandon" target="Rickon" id="293" weight="1.0" />
+      <edge source="Brandon" target="Reed" id="294" weight="1.0" />
+      <edge source="Brandon" target="Lord Rickard" id="295" weight="1.0" />
+      <edge source="Brandon" target="Rob" id="296" weight="1.0" />
+      <edge source="Brandon" target="Neck" id="297" weight="1.0" />
+      <edge source="Stark" target="Prince" id="298" weight="1.0" />
+      <edge source="Stark" target="Winterfell" id="299" weight="1.0" />
+      <edge source="Stark" target="Robb" id="300" weight="1.0" />
+      <edge source="Stark" target="Lord" id="301" weight="1.0" />
+      <edge source="Stark" target="White" id="302" weight="1.0" />
+      <edge source="Stark" target="Manderly" id="303" weight="1.0" />
+      <edge source="Stark" target="Heart" id="304" weight="1.0" />
+      <edge source="Stark" target="Reed" id="305" weight="1.0" />
+      <edge source="Stark" target="Harbor" id="306" weight="1.0" />
+      <edge source="Stark" target="Rob" id="307" weight="1.0" />
+      <edge source="Stark" target="Neck" id="308" weight="1.0" />
+      <edge source="Stark" target="Theon Greyjoy" id="309" weight="1.0" />
+      <edge source="Stark" target="Grey" id="310" weight="1.0" />
+      <edge source="Stark" target="Rickon" id="311" weight="1.0" />
+      <edge source="Stark" target="Lord Rickard" id="312" weight="1.0" />
+      <edge source="Stark" target="Dragon" id="313" weight="1.0" />
+      <edge source="Stark" target="House" id="314" weight="1.0" />
+      <edge source="Prince" target="Winterfell" id="315" weight="1.0" />
+      <edge source="Prince" target="Dragon" id="316" weight="1.0" />
+      <edge source="Prince" target="House" id="317" weight="1.0" />
+      <edge source="Winterfell" target="Reed" id="318" weight="1.0" />
+      <edge source="Winterfell" target="Neck" id="319" weight="1.0" />
+      <edge source="Winterfell" target="Grace" id="320" weight="1.0" />
+      <edge source="Winterfell" target="Robb" id="321" weight="1.0" />
+      <edge source="Winterfell" target="Rob" id="322" weight="1.0" />
+      <edge source="Winterfell" target="Wall" id="323" weight="1.0" />
+      <edge source="Winterfell" target="Grey" id="324" weight="1.0" />
+      <edge source="Winterfell" target="Heart" id="325" weight="1.0" />
+      <edge source="Winterfell" target="Harbor" id="326" weight="1.0" />
+      <edge source="Winterfell" target="White" id="327" weight="1.0" />
+      <edge source="Winterfell" target="Theon Greyjoy" id="328" weight="1.0" />
+      <edge source="Winterfell" target="Rickon" id="329" weight="1.0" />
+      <edge source="Winterfell" target="Lord" id="330" weight="1.0" />
+      <edge source="Winterfell" target="Lord Rickard" id="331" weight="1.0" />
+      <edge source="Winterfell" target="Dragon" id="332" weight="1.0" />
+      <edge source="Winterfell" target="House" id="333" weight="1.0" />
+      <edge source="Winterfell" target="Hother Whoresbane" id="334" weight="1.0" />
+      <edge source="Winterfell" target="Mors Crowfood" id="335" weight="1.0" />
+      <edge source="Winterfell" target="Father" id="336" weight="1.0" />
+      <edge source="Winterfell" target="Manderly" id="337" weight="1.0" />
+      <edge source="Winterfell" target="Ka" id="338" weight="1.0" />
+      <edge source="Winterfell" target="Luwin" id="339" weight="1.0" />
+      <edge source="Winterfell" target="Cley Cerwyn" id="340" weight="1.0" />
+      <edge source="Winterfell" target="Mae" id="341" weight="1.0" />
+      <edge source="Reed" target="Neck" id="342" weight="1.0" />
+      <edge source="Reed" target="Grace" id="343" weight="1.0" />
+      <edge source="Reed" target="Robb" id="344" weight="1.0" />
+      <edge source="Reed" target="Lord" id="345" weight="1.0" />
+      <edge source="Reed" target="White" id="346" weight="1.0" />
+      <edge source="Reed" target="Manderly" id="347" weight="1.0" />
+      <edge source="Reed" target="Heart" id="348" weight="1.0" />
+      <edge source="Reed" target="Harbor" id="349" weight="1.0" />
+      <edge source="Reed" target="Rob" id="350" weight="1.0" />
+      <edge source="Reed" target="Theon Greyjoy" id="351" weight="1.0" />
+      <edge source="Reed" target="Grey" id="352" weight="1.0" />
+      <edge source="Reed" target="Rickon" id="353" weight="1.0" />
+      <edge source="Reed" target="Lord Rickard" id="354" weight="1.0" />
+      <edge source="Grace" target="Robb" id="355" weight="1.0" />
+      <edge source="Grace" target="Rob" id="356" weight="1.0" />
+      <edge source="Robb" target="Rob" id="357" weight="1.0" />
+      <edge source="Robb" target="Wall" id="358" weight="1.0" />
+      <edge source="Robb" target="Neck" id="359" weight="1.0" />
+      <edge source="Robb" target="Heart" id="360" weight="1.0" />
+      <edge source="Robb" target="Lord" id="361" weight="1.0" />
+      <edge source="Robb" target="Harbor" id="362" weight="1.0" />
+      <edge source="Robb" target="Manderly" id="363" weight="1.0" />
+      <edge source="Robb" target="White" id="364" weight="1.0" />
+      <edge source="Robb" target="Theon Greyjoy" id="365" weight="1.0" />
+      <edge source="Robb" target="Grey" id="366" weight="1.0" />
+      <edge source="Robb" target="Rickon" id="367" weight="1.0" />
+      <edge source="Robb" target="Lord Rickard" id="368" weight="1.0" />
+      <edge source="Manderly" target="Heart" id="369" weight="1.0" />
+      <edge source="Manderly" target="Wall" id="370" weight="1.0" />
+      <edge source="Manderly" target="Lord" id="371" weight="1.0" />
+      <edge source="Manderly" target="Harbor" id="372" weight="1.0" />
+      <edge source="Manderly" target="White" id="373" weight="1.0" />
+      <edge source="Manderly" target="Rob" id="374" weight="1.0" />
+      <edge source="Manderly" target="Neck" id="375" weight="1.0" />
+      <edge source="Manderly" target="Hother Whoresbane" id="376" weight="1.0" />
+      <edge source="Manderly" target="Mors Crowfood" id="377" weight="1.0" />
+      <edge source="Manderly" target="Father" id="378" weight="1.0" />
+      <edge source="Manderly" target="Ka" id="379" weight="1.0" />
+      <edge source="Manderly" target="Luwin" id="380" weight="1.0" />
+      <edge source="Manderly" target="Cley Cerwyn" id="381" weight="1.0" />
+      <edge source="Manderly" target="Mae" id="382" weight="1.0" />
+      <edge source="Manderly" target="Grey" id="383" weight="1.0" />
+      <edge source="Rob" target="Wall" id="384" weight="1.0" />
+      <edge source="Rob" target="Neck" id="385" weight="1.0" />
+      <edge source="Rob" target="Heart" id="386" weight="1.0" />
+      <edge source="Rob" target="Lord" id="387" weight="1.0" />
+      <edge source="Rob" target="Harbor" id="388" weight="1.0" />
+      <edge source="Rob" target="White" id="389" weight="1.0" />
+      <edge source="Rob" target="Theon Greyjoy" id="390" weight="1.0" />
+      <edge source="Rob" target="Grey" id="391" weight="1.0" />
+      <edge source="Rob" target="Rickon" id="392" weight="1.0" />
+      <edge source="Rob" target="Lord Rickard" id="393" weight="1.0" />
+      <edge source="Neck" target="Wall" id="394" weight="1.0" />
+      <edge source="Neck" target="Grey" id="395" weight="1.0" />
+      <edge source="Neck" target="Lord" id="396" weight="1.0" />
+      <edge source="Neck" target="White" id="397" weight="1.0" />
+      <edge source="Neck" target="Heart" id="398" weight="1.0" />
+      <edge source="Neck" target="Harbor" id="399" weight="1.0" />
+      <edge source="Neck" target="Theon Greyjoy" id="400" weight="1.0" />
+      <edge source="Neck" target="Rickon" id="401" weight="1.0" />
+      <edge source="Neck" target="Lord Rickard" id="402" weight="1.0" />
+      <edge source="Neck" target="Hother Whoresbane" id="403" weight="1.0" />
+      <edge source="Neck" target="Mors Crowfood" id="404" weight="1.0" />
+      <edge source="Rickon" target="Theon Greyjoy" id="405" weight="1.0" />
+      <edge source="Rickon" target="Grey" id="406" weight="1.0" />
+      <edge source="Rickon" target="Lord" id="407" weight="1.0" />
+      <edge source="Rickon" target="Lord Rickard" id="408" weight="1.0" />
+      <edge source="Theon Greyjoy" target="Grey" id="409" weight="1.0" />
+      <edge source="Theon Greyjoy" target="Lord" id="410" weight="1.0" />
+      <edge source="Theon Greyjoy" target="Lord Rickard" id="411" weight="1.0" />
+      <edge source="Lord Rickard" target="Grey" id="412" weight="1.0" />
+      <edge source="Lord Rickard" target="Lord" id="413" weight="1.0" />
+      <edge source="Dragon" target="House" id="414" weight="1.0" />
+      <edge source="Heart" target="Grey" id="415" weight="1.0" />
+      <edge source="Heart" target="Wall" id="416" weight="1.0" />
+      <edge source="Heart" target="Harbor" id="417" weight="1.0" />
+      <edge source="Heart" target="White" id="418" weight="1.0" />
+      <edge source="Heart" target="Lord" id="419" weight="1.0" />
+      <edge source="Heart" target="Hother Whoresbane" id="420" weight="1.0" />
+      <edge source="Heart" target="Mors Crowfood" id="421" weight="1.0" />
+      <edge source="Heart" target="Ka" id="422" weight="1.0" />
+      <edge source="Heart" target="Father" id="423" weight="1.0" />
+      <edge source="Heart" target="Luwin" id="424" weight="1.0" />
+      <edge source="Heart" target="Cley Cerwyn" id="425" weight="1.0" />
+      <edge source="Heart" target="Mae" id="426" weight="1.0" />
+      <edge source="Wall" target="Grey" id="427" weight="1.0" />
+      <edge source="Wall" target="Harbor" id="428" weight="1.0" />
+      <edge source="Wall" target="White" id="429" weight="1.0" />
+      <edge source="Wall" target="Lord" id="430" weight="1.0" />
+      <edge source="Wall" target="Hother Whoresbane" id="431" weight="1.0" />
+      <edge source="Wall" target="Mors Crowfood" id="432" weight="1.0" />
+      <edge source="Wall" target="Ka" id="433" weight="1.0" />
+      <edge source="Wall" target="Father" id="434" weight="1.0" />
+      <edge source="Wall" target="Luwin" id="435" weight="1.0" />
+      <edge source="Wall" target="Cley Cerwyn" id="436" weight="1.0" />
+      <edge source="Wall" target="Mae" id="437" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Mors Crowfood" id="438" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Ka" id="439" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Father" id="440" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Lord" id="441" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Luwin" id="442" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Cley Cerwyn" id="443" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Harbor" id="444" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Mae" id="445" weight="1.0" />
+      <edge source="Hother Whoresbane" target="White" id="446" weight="1.0" />
+      <edge source="Hother Whoresbane" target="Grey" id="447" weight="1.0" />
+      <edge source="Mors Crowfood" target="Ka" id="448" weight="1.0" />
+      <edge source="Mors Crowfood" target="Father" id="449" weight="1.0" />
+      <edge source="Mors Crowfood" target="Lord" id="450" weight="1.0" />
+      <edge source="Mors Crowfood" target="Luwin" id="451" weight="1.0" />
+      <edge source="Mors Crowfood" target="Cley Cerwyn" id="452" weight="1.0" />
+      <edge source="Mors Crowfood" target="Harbor" id="453" weight="1.0" />
+      <edge source="Mors Crowfood" target="Mae" id="454" weight="1.0" />
+      <edge source="Mors Crowfood" target="White" id="455" weight="1.0" />
+      <edge source="Mors Crowfood" target="Grey" id="456" weight="1.0" />
+      <edge source="Father" target="Ka" id="457" weight="1.0" />
+      <edge source="Father" target="Lord" id="458" weight="1.0" />
+      <edge source="Father" target="Luwin" id="459" weight="1.0" />
+      <edge source="Father" target="Cley Cerwyn" id="460" weight="1.0" />
+      <edge source="Father" target="Harbor" id="461" weight="1.0" />
+      <edge source="Father" target="Mae" id="462" weight="1.0" />
+      <edge source="Father" target="White" id="463" weight="1.0" />
+      <edge source="Father" target="Grey" id="464" weight="1.0" />
+      <edge source="Lord" target="Harbor" id="465" weight="1.0" />
+      <edge source="Lord" target="White" id="466" weight="1.0" />
+      <edge source="Lord" target="Grey" id="467" weight="1.0" />
+      <edge source="Lord" target="Ka" id="468" weight="1.0" />
+      <edge source="Lord" target="Luwin" id="469" weight="1.0" />
+      <edge source="Lord" target="Cley Cerwyn" id="470" weight="1.0" />
+      <edge source="Lord" target="Mae" id="471" weight="1.0" />
+      <edge source="Mae" target="Luwin" id="472" weight="1.0" />
+      <edge source="Mae" target="Cley Cerwyn" id="473" weight="1.0" />
+      <edge source="Mae" target="Harbor" id="474" weight="1.0" />
+      <edge source="Mae" target="Ka" id="475" weight="1.0" />
+      <edge source="Mae" target="White" id="476" weight="1.0" />
+      <edge source="Mae" target="Grey" id="477" weight="1.0" />
+      <edge source="Luwin" target="Cley Cerwyn" id="478" weight="1.0" />
+      <edge source="Luwin" target="Harbor" id="479" weight="1.0" />
+      <edge source="Luwin" target="Ka" id="480" weight="1.0" />
+      <edge source="Luwin" target="White" id="481" weight="1.0" />
+      <edge source="Luwin" target="Grey" id="482" weight="1.0" />
+      <edge source="Cley Cerwyn" target="Harbor" id="483" weight="1.0" />
+      <edge source="Cley Cerwyn" target="Ka" id="484" weight="1.0" />
+      <edge source="Cley Cerwyn" target="White" id="485" weight="1.0" />
+      <edge source="Cley Cerwyn" target="Grey" id="486" weight="1.0" />
+      <edge source="Ka" target="Harbor" id="487" weight="1.0" />
+      <edge source="Ka" target="White" id="488" weight="1.0" />
+      <edge source="Ka" target="Grey" id="489" weight="1.0" />
+      <edge source="White" target="Grey" id="490" weight="1.0" />
+      <edge source="White" target="Harbor" id="491" weight="1.0" />
+      <edge source="Harbor" target="Grey" id="492" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

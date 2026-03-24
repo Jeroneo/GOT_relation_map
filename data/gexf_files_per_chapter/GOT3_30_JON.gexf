@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Ghost" label="Ghost">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Jar" label="Jar">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ritte" label="Ritte">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Benjen" label="Benjen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gendel" label="Gendel">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Wall" label="Wall">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stones" label="Stones">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Na" label="Na">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ke" label="Ke">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rattleshirt" label="Rattleshirt">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mance" label="Mance">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Styr" label="Styr">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Goa" label="Goa">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ma" label="Ma">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grigg" label="Grigg">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Errok" label="Errok">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Chun" label="Chun">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jarl" label="Jarl">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grig" label="Grig">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Man" label="Man">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Yg" label="Yg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ygrit" label="Ygrit">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon Snow" label="Jon Snow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Snow" label="Snow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Horn" label="Horn">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Winter" label="Winter">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Ghost" target="Ma" id="0" weight="1.0" />
+      <edge source="Ghost" target="Brandon" id="1" weight="1.0" />
+      <edge source="Ghost" target="Wall" id="2" weight="1.0" />
+      <edge source="Ghost" target="Benjen" id="3" weight="1.0" />
+      <edge source="Ghost" target="Ygrit" id="4" weight="1.0" />
+      <edge source="Ghost" target="Yg" id="5" weight="1.0" />
+      <edge source="Ghost" target="Jar" id="6" weight="1.0" />
+      <edge source="Ghost" target="Jarl" id="7" weight="1.0" />
+      <edge source="Ghost" target="Jo" id="8" weight="1.0" />
+      <edge source="Ghost" target="Jon" id="9" weight="1.0" />
+      <edge source="Jon" target="Ma" id="10" weight="1.0" />
+      <edge source="Jon" target="Brandon" id="11" weight="1.0" />
+      <edge source="Jon" target="Wall" id="12" weight="1.0" />
+      <edge source="Jon" target="Benjen" id="13" weight="1.0" />
+      <edge source="Jon" target="Ygrit" id="14" weight="1.0" />
+      <edge source="Jon" target="Yg" id="15" weight="1.0" />
+      <edge source="Jon" target="Jar" id="16" weight="1.0" />
+      <edge source="Jon" target="Jarl" id="17" weight="1.0" />
+      <edge source="Jon" target="Jo" id="18" weight="1.0" />
+      <edge source="Jon" target="Gendel" id="19" weight="1.0" />
+      <edge source="Jon" target="Stones" id="20" weight="1.0" />
+      <edge source="Jon" target="Rattleshirt" id="21" weight="1.0" />
+      <edge source="Jon" target="Man" id="22" weight="1.0" />
+      <edge source="Jon" target="Mance" id="23" weight="1.0" />
+      <edge source="Jon" target="Styr" id="24" weight="1.0" />
+      <edge source="Jon" target="Goa" id="25" weight="1.0" />
+      <edge source="Jon" target="Grigg" id="26" weight="1.0" />
+      <edge source="Jon" target="Grig" id="27" weight="1.0" />
+      <edge source="Jon" target="Errok" id="28" weight="1.0" />
+      <edge source="Jon" target="Winter" id="29" weight="1.0" />
+      <edge source="Jon" target="Chun" id="30" weight="1.0" />
+      <edge source="Jon" target="Jon Snow" id="31" weight="1.0" />
+      <edge source="Jon" target="Snow" id="32" weight="1.0" />
+      <edge source="Jon" target="Horn" id="33" weight="1.0" />
+      <edge source="Jar" target="Ma" id="34" weight="1.0" />
+      <edge source="Jar" target="Brandon" id="35" weight="1.0" />
+      <edge source="Jar" target="Wall" id="36" weight="1.0" />
+      <edge source="Jar" target="Benjen" id="37" weight="1.0" />
+      <edge source="Jar" target="Ygrit" id="38" weight="1.0" />
+      <edge source="Jar" target="Yg" id="39" weight="1.0" />
+      <edge source="Jar" target="Jarl" id="40" weight="1.0" />
+      <edge source="Jar" target="Jo" id="41" weight="1.0" />
+      <edge source="Jar" target="Gendel" id="42" weight="1.0" />
+      <edge source="Jar" target="Stones" id="43" weight="1.0" />
+      <edge source="Jar" target="Rattleshirt" id="44" weight="1.0" />
+      <edge source="Jar" target="Man" id="45" weight="1.0" />
+      <edge source="Jar" target="Mance" id="46" weight="1.0" />
+      <edge source="Jar" target="Styr" id="47" weight="1.0" />
+      <edge source="Jar" target="Goa" id="48" weight="1.0" />
+      <edge source="Jar" target="Grigg" id="49" weight="1.0" />
+      <edge source="Jar" target="Grig" id="50" weight="1.0" />
+      <edge source="Jar" target="Errok" id="51" weight="1.0" />
+      <edge source="Jar" target="Winter" id="52" weight="1.0" />
+      <edge source="Jar" target="Chun" id="53" weight="1.0" />
+      <edge source="Jar" target="Jon Snow" id="54" weight="1.0" />
+      <edge source="Jar" target="Snow" id="55" weight="1.0" />
+      <edge source="Brandon" target="Ma" id="56" weight="1.0" />
+      <edge source="Brandon" target="Wall" id="57" weight="1.0" />
+      <edge source="Brandon" target="Benjen" id="58" weight="1.0" />
+      <edge source="Brandon" target="Ygrit" id="59" weight="1.0" />
+      <edge source="Brandon" target="Yg" id="60" weight="1.0" />
+      <edge source="Brandon" target="Jarl" id="61" weight="1.0" />
+      <edge source="Brandon" target="Jo" id="62" weight="1.0" />
+      <edge source="Benjen" target="Ma" id="63" weight="1.0" />
+      <edge source="Benjen" target="Wall" id="64" weight="1.0" />
+      <edge source="Benjen" target="Ygrit" id="65" weight="1.0" />
+      <edge source="Benjen" target="Yg" id="66" weight="1.0" />
+      <edge source="Benjen" target="Jarl" id="67" weight="1.0" />
+      <edge source="Benjen" target="Jo" id="68" weight="1.0" />
+      <edge source="Gendel" target="Ygrit" id="69" weight="1.0" />
+      <edge source="Gendel" target="Yg" id="70" weight="1.0" />
+      <edge source="Gendel" target="Ma" id="71" weight="1.0" />
+      <edge source="Gendel" target="Jo" id="72" weight="1.0" />
+      <edge source="Gendel" target="Wall" id="73" weight="1.0" />
+      <edge source="Gendel" target="Jarl" id="74" weight="1.0" />
+      <edge source="Gendel" target="Stones" id="75" weight="1.0" />
+      <edge source="Gendel" target="Rattleshirt" id="76" weight="1.0" />
+      <edge source="Gendel" target="Man" id="77" weight="1.0" />
+      <edge source="Gendel" target="Mance" id="78" weight="1.0" />
+      <edge source="Wall" target="Ma" id="79" weight="1.0" />
+      <edge source="Wall" target="Ygrit" id="80" weight="1.0" />
+      <edge source="Wall" target="Yg" id="81" weight="1.0" />
+      <edge source="Wall" target="Jarl" id="82" weight="1.0" />
+      <edge source="Wall" target="Jo" id="83" weight="1.0" />
+      <edge source="Wall" target="Stones" id="84" weight="1.0" />
+      <edge source="Wall" target="Rattleshirt" id="85" weight="1.0" />
+      <edge source="Wall" target="Man" id="86" weight="1.0" />
+      <edge source="Wall" target="Mance" id="87" weight="1.0" />
+      <edge source="Wall" target="Styr" id="88" weight="1.0" />
+      <edge source="Wall" target="Goa" id="89" weight="1.0" />
+      <edge source="Wall" target="Grigg" id="90" weight="1.0" />
+      <edge source="Wall" target="Grig" id="91" weight="1.0" />
+      <edge source="Wall" target="Errok" id="92" weight="1.0" />
+      <edge source="Wall" target="Winter" id="93" weight="1.0" />
+      <edge source="Wall" target="Chun" id="94" weight="1.0" />
+      <edge source="Wall" target="Jon Snow" id="95" weight="1.0" />
+      <edge source="Wall" target="Snow" id="96" weight="1.0" />
+      <edge source="Wall" target="Horn" id="97" weight="1.0" />
+      <edge source="Stones" target="Jo" id="98" weight="1.0" />
+      <edge source="Stones" target="Rattleshirt" id="99" weight="1.0" />
+      <edge source="Stones" target="Jarl" id="100" weight="1.0" />
+      <edge source="Stones" target="Man" id="101" weight="1.0" />
+      <edge source="Stones" target="Ma" id="102" weight="1.0" />
+      <edge source="Stones" target="Mance" id="103" weight="1.0" />
+      <edge source="Stones" target="Goa" id="104" weight="1.0" />
+      <edge source="Stones" target="Grigg" id="105" weight="1.0" />
+      <edge source="Stones" target="Errok" id="106" weight="1.0" />
+      <edge source="Stones" target="Grig" id="107" weight="1.0" />
+      <edge source="Stones" target="Styr" id="108" weight="1.0" />
+      <edge source="Stones" target="Winter" id="109" weight="1.0" />
+      <edge source="Rattleshirt" target="Jo" id="110" weight="1.0" />
+      <edge source="Rattleshirt" target="Jarl" id="111" weight="1.0" />
+      <edge source="Rattleshirt" target="Man" id="112" weight="1.0" />
+      <edge source="Rattleshirt" target="Ma" id="113" weight="1.0" />
+      <edge source="Rattleshirt" target="Mance" id="114" weight="1.0" />
+      <edge source="Mance" target="Man" id="115" weight="1.0" />
+      <edge source="Mance" target="Ma" id="116" weight="1.0" />
+      <edge source="Mance" target="Jarl" id="117" weight="1.0" />
+      <edge source="Mance" target="Jo" id="118" weight="1.0" />
+      <edge source="Mance" target="Styr" id="119" weight="1.0" />
+      <edge source="Mance" target="Goa" id="120" weight="1.0" />
+      <edge source="Mance" target="Grigg" id="121" weight="1.0" />
+      <edge source="Mance" target="Errok" id="122" weight="1.0" />
+      <edge source="Mance" target="Grig" id="123" weight="1.0" />
+      <edge source="Mance" target="Ygrit" id="124" weight="1.0" />
+      <edge source="Mance" target="Yg" id="125" weight="1.0" />
+      <edge source="Mance" target="Jon Snow" id="126" weight="1.0" />
+      <edge source="Mance" target="Snow" id="127" weight="1.0" />
+      <edge source="Styr" target="Man" id="128" weight="1.0" />
+      <edge source="Styr" target="Ma" id="129" weight="1.0" />
+      <edge source="Styr" target="Jarl" id="130" weight="1.0" />
+      <edge source="Styr" target="Jo" id="131" weight="1.0" />
+      <edge source="Styr" target="Ygrit" id="132" weight="1.0" />
+      <edge source="Styr" target="Yg" id="133" weight="1.0" />
+      <edge source="Styr" target="Goa" id="134" weight="1.0" />
+      <edge source="Styr" target="Grigg" id="135" weight="1.0" />
+      <edge source="Styr" target="Errok" id="136" weight="1.0" />
+      <edge source="Styr" target="Grig" id="137" weight="1.0" />
+      <edge source="Styr" target="Winter" id="138" weight="1.0" />
+      <edge source="Styr" target="Chun" id="139" weight="1.0" />
+      <edge source="Goa" target="Grigg" id="140" weight="1.0" />
+      <edge source="Goa" target="Ygrit" id="141" weight="1.0" />
+      <edge source="Goa" target="Yg" id="142" weight="1.0" />
+      <edge source="Goa" target="Grig" id="143" weight="1.0" />
+      <edge source="Goa" target="Jarl" id="144" weight="1.0" />
+      <edge source="Goa" target="Jo" id="145" weight="1.0" />
+      <edge source="Goa" target="Errok" id="146" weight="1.0" />
+      <edge source="Goa" target="Ma" id="147" weight="1.0" />
+      <edge source="Goa" target="Winter" id="148" weight="1.0" />
+      <edge source="Goa" target="Chun" id="149" weight="1.0" />
+      <edge source="Goa" target="Man" id="150" weight="1.0" />
+      <edge source="Goa" target="Jon Snow" id="151" weight="1.0" />
+      <edge source="Goa" target="Snow" id="152" weight="1.0" />
+      <edge source="Ma" target="Ygrit" id="153" weight="1.0" />
+      <edge source="Ma" target="Yg" id="154" weight="1.0" />
+      <edge source="Ma" target="Jarl" id="155" weight="1.0" />
+      <edge source="Ma" target="Jo" id="156" weight="1.0" />
+      <edge source="Ma" target="Man" id="157" weight="1.0" />
+      <edge source="Ma" target="Errok" id="158" weight="1.0" />
+      <edge source="Ma" target="Grig" id="159" weight="1.0" />
+      <edge source="Ma" target="Grigg" id="160" weight="1.0" />
+      <edge source="Ma" target="Winter" id="161" weight="1.0" />
+      <edge source="Ma" target="Chun" id="162" weight="1.0" />
+      <edge source="Ma" target="Jon Snow" id="163" weight="1.0" />
+      <edge source="Ma" target="Snow" id="164" weight="1.0" />
+      <edge source="Grigg" target="Ygrit" id="165" weight="1.0" />
+      <edge source="Grigg" target="Yg" id="166" weight="1.0" />
+      <edge source="Grigg" target="Grig" id="167" weight="1.0" />
+      <edge source="Grigg" target="Jarl" id="168" weight="1.0" />
+      <edge source="Grigg" target="Jo" id="169" weight="1.0" />
+      <edge source="Grigg" target="Errok" id="170" weight="1.0" />
+      <edge source="Grigg" target="Winter" id="171" weight="1.0" />
+      <edge source="Grigg" target="Chun" id="172" weight="1.0" />
+      <edge source="Grigg" target="Man" id="173" weight="1.0" />
+      <edge source="Grigg" target="Jon Snow" id="174" weight="1.0" />
+      <edge source="Grigg" target="Snow" id="175" weight="1.0" />
+      <edge source="Errok" target="Grig" id="176" weight="1.0" />
+      <edge source="Errok" target="Jarl" id="177" weight="1.0" />
+      <edge source="Errok" target="Jo" id="178" weight="1.0" />
+      <edge source="Errok" target="Winter" id="179" weight="1.0" />
+      <edge source="Errok" target="Chun" id="180" weight="1.0" />
+      <edge source="Errok" target="Man" id="181" weight="1.0" />
+      <edge source="Errok" target="Ygrit" id="182" weight="1.0" />
+      <edge source="Errok" target="Yg" id="183" weight="1.0" />
+      <edge source="Errok" target="Jon Snow" id="184" weight="1.0" />
+      <edge source="Errok" target="Snow" id="185" weight="1.0" />
+      <edge source="Chun" target="Winter" id="186" weight="1.0" />
+      <edge source="Chun" target="Jarl" id="187" weight="1.0" />
+      <edge source="Chun" target="Jo" id="188" weight="1.0" />
+      <edge source="Chun" target="Grig" id="189" weight="1.0" />
+      <edge source="Jarl" target="Ygrit" id="190" weight="1.0" />
+      <edge source="Jarl" target="Yg" id="191" weight="1.0" />
+      <edge source="Jarl" target="Jo" id="192" weight="1.0" />
+      <edge source="Jarl" target="Man" id="193" weight="1.0" />
+      <edge source="Jarl" target="Grig" id="194" weight="1.0" />
+      <edge source="Jarl" target="Winter" id="195" weight="1.0" />
+      <edge source="Jarl" target="Jon Snow" id="196" weight="1.0" />
+      <edge source="Jarl" target="Snow" id="197" weight="1.0" />
+      <edge source="Grig" target="Ygrit" id="198" weight="1.0" />
+      <edge source="Grig" target="Yg" id="199" weight="1.0" />
+      <edge source="Grig" target="Jo" id="200" weight="1.0" />
+      <edge source="Grig" target="Winter" id="201" weight="1.0" />
+      <edge source="Grig" target="Man" id="202" weight="1.0" />
+      <edge source="Grig" target="Jon Snow" id="203" weight="1.0" />
+      <edge source="Grig" target="Snow" id="204" weight="1.0" />
+      <edge source="Man" target="Jo" id="205" weight="1.0" />
+      <edge source="Man" target="Ygrit" id="206" weight="1.0" />
+      <edge source="Man" target="Yg" id="207" weight="1.0" />
+      <edge source="Man" target="Jon Snow" id="208" weight="1.0" />
+      <edge source="Man" target="Snow" id="209" weight="1.0" />
+      <edge source="Yg" target="Ygrit" id="210" weight="1.0" />
+      <edge source="Yg" target="Jo" id="211" weight="1.0" />
+      <edge source="Yg" target="Jon Snow" id="212" weight="1.0" />
+      <edge source="Yg" target="Snow" id="213" weight="1.0" />
+      <edge source="Yg" target="Horn" id="214" weight="1.0" />
+      <edge source="Yg" target="Winter" id="215" weight="1.0" />
+      <edge source="Ygrit" target="Jo" id="216" weight="1.0" />
+      <edge source="Ygrit" target="Jon Snow" id="217" weight="1.0" />
+      <edge source="Ygrit" target="Snow" id="218" weight="1.0" />
+      <edge source="Ygrit" target="Horn" id="219" weight="1.0" />
+      <edge source="Ygrit" target="Winter" id="220" weight="1.0" />
+      <edge source="Jon Snow" target="Snow" id="221" weight="1.0" />
+      <edge source="Jon Snow" target="Jo" id="222" weight="1.0" />
+      <edge source="Jon Snow" target="Horn" id="223" weight="1.0" />
+      <edge source="Jon Snow" target="Winter" id="224" weight="1.0" />
+      <edge source="Snow" target="Jo" id="225" weight="1.0" />
+      <edge source="Snow" target="Horn" id="226" weight="1.0" />
+      <edge source="Snow" target="Winter" id="227" weight="1.0" />
+      <edge source="Horn" target="Winter" id="228" weight="1.0" />
+      <edge source="Horn" target="Jo" id="229" weight="1.0" />
+      <edge source="Winter" target="Jo" id="230" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

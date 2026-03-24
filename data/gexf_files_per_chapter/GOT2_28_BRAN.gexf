@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Summer" label="Summer">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ya" label="Ya">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bran" label="Bran">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Jojen" label="Jojen">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Reed" label="Reed">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Era" label="Era">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Old Nan" label="Old Nan">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Meera" label="Meera">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Arya" label="Arya">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Winter" label="Winter">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser" label="Ser">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rod" label="Rod">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rik" label="Rik">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bolton" label="Bolton">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lady" label="Lady">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hornwood" label="Hornwood">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lady Hornwood" label="Lady Hornwood">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Manderly" label="Lord Manderly">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ser Rodrik" label="Ser Rodrik">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Luwin" label="Luwin">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jojen Reed" label="Jojen Reed">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hodor" label="Hodor">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lu" label="Lu">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Meera Reed" label="Meera Reed">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sea" label="Sea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stark" label="Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Maester Luwin" label="Maester Luwin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Shaggy" label="Shaggy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dog" label="Dog">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Chase" label="Chase">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dor" label="Dor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ha" label="Ha">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Joje" label="Joje">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rickon" label="Rickon">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Er Frey" label="Er Frey">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Su" label="Su">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sad" label="Sad">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rick" label="Rick">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Win" label="Win">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Summer" target="Meera" id="0" weight="1.0" />
+      <edge source="Summer" target="Jojen" id="1" weight="1.0" />
+      <edge source="Summer" target="Su" id="2" weight="1.0" />
+      <edge source="Summer" target="Joje" id="3" weight="1.0" />
+      <edge source="Summer" target="Ya" id="4" weight="1.0" />
+      <edge source="Summer" target="Bran" id="5" weight="1.0" />
+      <edge source="Summer" target="Jo" id="6" weight="1.0" />
+      <edge source="Summer" target="Reed" id="7" weight="1.0" />
+      <edge source="Summer" target="Old Nan" id="8" weight="1.0" />
+      <edge source="Summer" target="Arya" id="9" weight="1.0" />
+      <edge source="Summer" target="Winter" id="10" weight="1.0" />
+      <edge source="Summer" target="Win" id="11" weight="1.0" />
+      <edge source="Summer" target="Ser" id="12" weight="1.0" />
+      <edge source="Summer" target="Rod" id="13" weight="1.0" />
+      <edge source="Summer" target="Ser Rodrik" id="14" weight="1.0" />
+      <edge source="Summer" target="Ho" id="15" weight="1.0" />
+      <edge source="Summer" target="Bolton" id="16" weight="1.0" />
+      <edge source="Summer" target="Lady" id="17" weight="1.0" />
+      <edge source="Summer" target="Hornwood" id="18" weight="1.0" />
+      <edge source="Summer" target="Lady Hornwood" id="19" weight="1.0" />
+      <edge source="Summer" target="Lord Manderly" id="20" weight="1.0" />
+      <edge source="Summer" target="Luwin" id="21" weight="1.0" />
+      <edge source="Summer" target="Hodor" id="22" weight="1.0" />
+      <edge source="Summer" target="Maester Luwin" id="23" weight="1.0" />
+      <edge source="Summer" target="Lu" id="24" weight="1.0" />
+      <edge source="Summer" target="Mae" id="25" weight="1.0" />
+      <edge source="Summer" target="Jon" id="26" weight="1.0" />
+      <edge source="Summer" target="Meera Reed" id="27" weight="1.0" />
+      <edge source="Summer" target="Sea" id="28" weight="1.0" />
+      <edge source="Summer" target="Ha" id="29" weight="1.0" />
+      <edge source="Summer" target="Stark" id="30" weight="1.0" />
+      <edge source="Summer" target="Jojen Reed" id="31" weight="1.0" />
+      <edge source="Summer" target="Shaggy" id="32" weight="1.0" />
+      <edge source="Summer" target="Chase" id="33" weight="1.0" />
+      <edge source="Summer" target="Rickon" id="34" weight="1.0" />
+      <edge source="Summer" target="Rick" id="35" weight="1.0" />
+      <edge source="Ya" target="Meera" id="36" weight="1.0" />
+      <edge source="Ya" target="Jojen" id="37" weight="1.0" />
+      <edge source="Ya" target="Su" id="38" weight="1.0" />
+      <edge source="Ya" target="Joje" id="39" weight="1.0" />
+      <edge source="Ya" target="Bran" id="40" weight="1.0" />
+      <edge source="Ya" target="Jo" id="41" weight="1.0" />
+      <edge source="Ya" target="Reed" id="42" weight="1.0" />
+      <edge source="Bran" target="Meera" id="43" weight="1.0" />
+      <edge source="Bran" target="Jojen" id="44" weight="1.0" />
+      <edge source="Bran" target="Su" id="45" weight="1.0" />
+      <edge source="Bran" target="Joje" id="46" weight="1.0" />
+      <edge source="Bran" target="Jo" id="47" weight="1.0" />
+      <edge source="Bran" target="Reed" id="48" weight="1.0" />
+      <edge source="Bran" target="Old Nan" id="49" weight="1.0" />
+      <edge source="Bran" target="Arya" id="50" weight="1.0" />
+      <edge source="Bran" target="Winter" id="51" weight="1.0" />
+      <edge source="Bran" target="Win" id="52" weight="1.0" />
+      <edge source="Bran" target="Ser" id="53" weight="1.0" />
+      <edge source="Bran" target="Rod" id="54" weight="1.0" />
+      <edge source="Bran" target="Ser Rodrik" id="55" weight="1.0" />
+      <edge source="Bran" target="Ho" id="56" weight="1.0" />
+      <edge source="Bran" target="Bolton" id="57" weight="1.0" />
+      <edge source="Bran" target="Lady" id="58" weight="1.0" />
+      <edge source="Bran" target="Hornwood" id="59" weight="1.0" />
+      <edge source="Bran" target="Lady Hornwood" id="60" weight="1.0" />
+      <edge source="Bran" target="Lord Manderly" id="61" weight="1.0" />
+      <edge source="Bran" target="Luwin" id="62" weight="1.0" />
+      <edge source="Bran" target="Maester Luwin" id="63" weight="1.0" />
+      <edge source="Bran" target="Mae" id="64" weight="1.0" />
+      <edge source="Bran" target="Jojen Reed" id="65" weight="1.0" />
+      <edge source="Bran" target="Lu" id="66" weight="1.0" />
+      <edge source="Bran" target="Hodor" id="67" weight="1.0" />
+      <edge source="Bran" target="Jon" id="68" weight="1.0" />
+      <edge source="Bran" target="Meera Reed" id="69" weight="1.0" />
+      <edge source="Bran" target="Sea" id="70" weight="1.0" />
+      <edge source="Bran" target="Ha" id="71" weight="1.0" />
+      <edge source="Bran" target="Stark" id="72" weight="1.0" />
+      <edge source="Bran" target="Shaggy" id="73" weight="1.0" />
+      <edge source="Bran" target="Chase" id="74" weight="1.0" />
+      <edge source="Bran" target="Rickon" id="75" weight="1.0" />
+      <edge source="Bran" target="Rick" id="76" weight="1.0" />
+      <edge source="Bran" target="Sad" id="77" weight="1.0" />
+      <edge source="Jojen" target="Meera" id="78" weight="1.0" />
+      <edge source="Jojen" target="Su" id="79" weight="1.0" />
+      <edge source="Jojen" target="Joje" id="80" weight="1.0" />
+      <edge source="Jojen" target="Jo" id="81" weight="1.0" />
+      <edge source="Jojen" target="Reed" id="82" weight="1.0" />
+      <edge source="Jojen" target="Old Nan" id="83" weight="1.0" />
+      <edge source="Jojen" target="Arya" id="84" weight="1.0" />
+      <edge source="Jojen" target="Ser" id="85" weight="1.0" />
+      <edge source="Jojen" target="Luwin" id="86" weight="1.0" />
+      <edge source="Jojen" target="Maester Luwin" id="87" weight="1.0" />
+      <edge source="Jojen" target="Lord Manderly" id="88" weight="1.0" />
+      <edge source="Jojen" target="Mae" id="89" weight="1.0" />
+      <edge source="Jojen" target="Winter" id="90" weight="1.0" />
+      <edge source="Jojen" target="Lady Hornwood" id="91" weight="1.0" />
+      <edge source="Jojen" target="Hornwood" id="92" weight="1.0" />
+      <edge source="Jojen" target="Rod" id="93" weight="1.0" />
+      <edge source="Jojen" target="Ser Rodrik" id="94" weight="1.0" />
+      <edge source="Jojen" target="Ho" id="95" weight="1.0" />
+      <edge source="Jojen" target="Jojen Reed" id="96" weight="1.0" />
+      <edge source="Jojen" target="Bolton" id="97" weight="1.0" />
+      <edge source="Jojen" target="Win" id="98" weight="1.0" />
+      <edge source="Jojen" target="Lu" id="99" weight="1.0" />
+      <edge source="Jojen" target="Lady" id="100" weight="1.0" />
+      <edge source="Jojen" target="Hodor" id="101" weight="1.0" />
+      <edge source="Jojen" target="Jon" id="102" weight="1.0" />
+      <edge source="Jojen" target="Meera Reed" id="103" weight="1.0" />
+      <edge source="Jojen" target="Sea" id="104" weight="1.0" />
+      <edge source="Jojen" target="Ha" id="105" weight="1.0" />
+      <edge source="Jojen" target="Stark" id="106" weight="1.0" />
+      <edge source="Jojen" target="Shaggy" id="107" weight="1.0" />
+      <edge source="Jojen" target="Chase" id="108" weight="1.0" />
+      <edge source="Jojen" target="Rickon" id="109" weight="1.0" />
+      <edge source="Jojen" target="Rick" id="110" weight="1.0" />
+      <edge source="Reed" target="Meera" id="111" weight="1.0" />
+      <edge source="Reed" target="Su" id="112" weight="1.0" />
+      <edge source="Reed" target="Joje" id="113" weight="1.0" />
+      <edge source="Reed" target="Jo" id="114" weight="1.0" />
+      <edge source="Reed" target="Old Nan" id="115" weight="1.0" />
+      <edge source="Reed" target="Arya" id="116" weight="1.0" />
+      <edge source="Reed" target="Ser" id="117" weight="1.0" />
+      <edge source="Reed" target="Luwin" id="118" weight="1.0" />
+      <edge source="Reed" target="Maester Luwin" id="119" weight="1.0" />
+      <edge source="Reed" target="Lord Manderly" id="120" weight="1.0" />
+      <edge source="Reed" target="Mae" id="121" weight="1.0" />
+      <edge source="Reed" target="Winter" id="122" weight="1.0" />
+      <edge source="Reed" target="Lady Hornwood" id="123" weight="1.0" />
+      <edge source="Reed" target="Hornwood" id="124" weight="1.0" />
+      <edge source="Reed" target="Rod" id="125" weight="1.0" />
+      <edge source="Reed" target="Ser Rodrik" id="126" weight="1.0" />
+      <edge source="Reed" target="Ho" id="127" weight="1.0" />
+      <edge source="Reed" target="Jojen Reed" id="128" weight="1.0" />
+      <edge source="Reed" target="Bolton" id="129" weight="1.0" />
+      <edge source="Reed" target="Win" id="130" weight="1.0" />
+      <edge source="Reed" target="Lu" id="131" weight="1.0" />
+      <edge source="Reed" target="Lady" id="132" weight="1.0" />
+      <edge source="Reed" target="Hodor" id="133" weight="1.0" />
+      <edge source="Reed" target="Meera Reed" id="134" weight="1.0" />
+      <edge source="Reed" target="Jon" id="135" weight="1.0" />
+      <edge source="Reed" target="Sea" id="136" weight="1.0" />
+      <edge source="Reed" target="Stark" id="137" weight="1.0" />
+      <edge source="Reed" target="Ha" id="138" weight="1.0" />
+      <edge source="Reed" target="Rickon" id="139" weight="1.0" />
+      <edge source="Reed" target="Rick" id="140" weight="1.0" />
+      <edge source="Old Nan" target="Meera" id="141" weight="1.0" />
+      <edge source="Old Nan" target="Su" id="142" weight="1.0" />
+      <edge source="Old Nan" target="Joje" id="143" weight="1.0" />
+      <edge source="Old Nan" target="Arya" id="144" weight="1.0" />
+      <edge source="Old Nan" target="Jo" id="145" weight="1.0" />
+      <edge source="Meera" target="Su" id="146" weight="1.0" />
+      <edge source="Meera" target="Joje" id="147" weight="1.0" />
+      <edge source="Meera" target="Jo" id="148" weight="1.0" />
+      <edge source="Meera" target="Arya" id="149" weight="1.0" />
+      <edge source="Meera" target="Winter" id="150" weight="1.0" />
+      <edge source="Meera" target="Win" id="151" weight="1.0" />
+      <edge source="Meera" target="Ser" id="152" weight="1.0" />
+      <edge source="Meera" target="Rod" id="153" weight="1.0" />
+      <edge source="Meera" target="Ser Rodrik" id="154" weight="1.0" />
+      <edge source="Meera" target="Ho" id="155" weight="1.0" />
+      <edge source="Meera" target="Bolton" id="156" weight="1.0" />
+      <edge source="Meera" target="Lady" id="157" weight="1.0" />
+      <edge source="Meera" target="Hornwood" id="158" weight="1.0" />
+      <edge source="Meera" target="Lady Hornwood" id="159" weight="1.0" />
+      <edge source="Meera" target="Lord Manderly" id="160" weight="1.0" />
+      <edge source="Meera" target="Luwin" id="161" weight="1.0" />
+      <edge source="Meera" target="Maester Luwin" id="162" weight="1.0" />
+      <edge source="Meera" target="Mae" id="163" weight="1.0" />
+      <edge source="Meera" target="Jojen Reed" id="164" weight="1.0" />
+      <edge source="Meera" target="Lu" id="165" weight="1.0" />
+      <edge source="Meera" target="Hodor" id="166" weight="1.0" />
+      <edge source="Meera" target="Jon" id="167" weight="1.0" />
+      <edge source="Meera" target="Meera Reed" id="168" weight="1.0" />
+      <edge source="Meera" target="Sea" id="169" weight="1.0" />
+      <edge source="Meera" target="Ha" id="170" weight="1.0" />
+      <edge source="Meera" target="Stark" id="171" weight="1.0" />
+      <edge source="Meera" target="Shaggy" id="172" weight="1.0" />
+      <edge source="Meera" target="Chase" id="173" weight="1.0" />
+      <edge source="Meera" target="Rickon" id="174" weight="1.0" />
+      <edge source="Meera" target="Rick" id="175" weight="1.0" />
+      <edge source="Arya" target="Su" id="176" weight="1.0" />
+      <edge source="Arya" target="Joje" id="177" weight="1.0" />
+      <edge source="Arya" target="Jo" id="178" weight="1.0" />
+      <edge source="Arya" target="Winter" id="179" weight="1.0" />
+      <edge source="Arya" target="Win" id="180" weight="1.0" />
+      <edge source="Winter" target="Win" id="181" weight="1.0" />
+      <edge source="Winter" target="Su" id="182" weight="1.0" />
+      <edge source="Winter" target="Ser" id="183" weight="1.0" />
+      <edge source="Winter" target="Rod" id="184" weight="1.0" />
+      <edge source="Winter" target="Ser Rodrik" id="185" weight="1.0" />
+      <edge source="Winter" target="Ho" id="186" weight="1.0" />
+      <edge source="Winter" target="Bolton" id="187" weight="1.0" />
+      <edge source="Winter" target="Lady" id="188" weight="1.0" />
+      <edge source="Winter" target="Hornwood" id="189" weight="1.0" />
+      <edge source="Winter" target="Lady Hornwood" id="190" weight="1.0" />
+      <edge source="Winter" target="Lord Manderly" id="191" weight="1.0" />
+      <edge source="Winter" target="Luwin" id="192" weight="1.0" />
+      <edge source="Winter" target="Maester Luwin" id="193" weight="1.0" />
+      <edge source="Winter" target="Joje" id="194" weight="1.0" />
+      <edge source="Winter" target="Mae" id="195" weight="1.0" />
+      <edge source="Winter" target="Jojen Reed" id="196" weight="1.0" />
+      <edge source="Winter" target="Lu" id="197" weight="1.0" />
+      <edge source="Winter" target="Jo" id="198" weight="1.0" />
+      <edge source="Winter" target="Hodor" id="199" weight="1.0" />
+      <edge source="Winter" target="Meera Reed" id="200" weight="1.0" />
+      <edge source="Winter" target="Jon" id="201" weight="1.0" />
+      <edge source="Winter" target="Sea" id="202" weight="1.0" />
+      <edge source="Winter" target="Ha" id="203" weight="1.0" />
+      <edge source="Winter" target="Stark" id="204" weight="1.0" />
+      <edge source="Ser" target="Rod" id="205" weight="1.0" />
+      <edge source="Ser" target="Ser Rodrik" id="206" weight="1.0" />
+      <edge source="Ser" target="Su" id="207" weight="1.0" />
+      <edge source="Ser" target="Win" id="208" weight="1.0" />
+      <edge source="Ser" target="Ho" id="209" weight="1.0" />
+      <edge source="Ser" target="Bolton" id="210" weight="1.0" />
+      <edge source="Ser" target="Lady" id="211" weight="1.0" />
+      <edge source="Ser" target="Hornwood" id="212" weight="1.0" />
+      <edge source="Ser" target="Lady Hornwood" id="213" weight="1.0" />
+      <edge source="Ser" target="Lord Manderly" id="214" weight="1.0" />
+      <edge source="Ser" target="Luwin" id="215" weight="1.0" />
+      <edge source="Ser" target="Maester Luwin" id="216" weight="1.0" />
+      <edge source="Ser" target="Joje" id="217" weight="1.0" />
+      <edge source="Ser" target="Mae" id="218" weight="1.0" />
+      <edge source="Ser" target="Jojen Reed" id="219" weight="1.0" />
+      <edge source="Ser" target="Lu" id="220" weight="1.0" />
+      <edge source="Ser" target="Jo" id="221" weight="1.0" />
+      <edge source="Ser" target="Hodor" id="222" weight="1.0" />
+      <edge source="Ser" target="Stark" id="223" weight="1.0" />
+      <edge source="Ser" target="Chase" id="224" weight="1.0" />
+      <edge source="Ser" target="Shaggy" id="225" weight="1.0" />
+      <edge source="Ser" target="Rickon" id="226" weight="1.0" />
+      <edge source="Ser" target="Rick" id="227" weight="1.0" />
+      <edge source="Rod" target="Ser Rodrik" id="228" weight="1.0" />
+      <edge source="Rod" target="Su" id="229" weight="1.0" />
+      <edge source="Rod" target="Win" id="230" weight="1.0" />
+      <edge source="Rod" target="Ho" id="231" weight="1.0" />
+      <edge source="Rod" target="Bolton" id="232" weight="1.0" />
+      <edge source="Rod" target="Lady" id="233" weight="1.0" />
+      <edge source="Rod" target="Hornwood" id="234" weight="1.0" />
+      <edge source="Rod" target="Lady Hornwood" id="235" weight="1.0" />
+      <edge source="Rod" target="Lord Manderly" id="236" weight="1.0" />
+      <edge source="Rod" target="Luwin" id="237" weight="1.0" />
+      <edge source="Rod" target="Maester Luwin" id="238" weight="1.0" />
+      <edge source="Rod" target="Joje" id="239" weight="1.0" />
+      <edge source="Rod" target="Mae" id="240" weight="1.0" />
+      <edge source="Rod" target="Jojen Reed" id="241" weight="1.0" />
+      <edge source="Rod" target="Lu" id="242" weight="1.0" />
+      <edge source="Rod" target="Jo" id="243" weight="1.0" />
+      <edge source="Rod" target="Hodor" id="244" weight="1.0" />
+      <edge source="Rod" target="Stark" id="245" weight="1.0" />
+      <edge source="Rod" target="Chase" id="246" weight="1.0" />
+      <edge source="Rod" target="Shaggy" id="247" weight="1.0" />
+      <edge source="Rod" target="Rickon" id="248" weight="1.0" />
+      <edge source="Rod" target="Rick" id="249" weight="1.0" />
+      <edge source="Bolton" target="Ser Rodrik" id="250" weight="1.0" />
+      <edge source="Bolton" target="Su" id="251" weight="1.0" />
+      <edge source="Bolton" target="Ho" id="252" weight="1.0" />
+      <edge source="Bolton" target="Win" id="253" weight="1.0" />
+      <edge source="Bolton" target="Lady" id="254" weight="1.0" />
+      <edge source="Bolton" target="Hornwood" id="255" weight="1.0" />
+      <edge source="Bolton" target="Lady Hornwood" id="256" weight="1.0" />
+      <edge source="Bolton" target="Lord Manderly" id="257" weight="1.0" />
+      <edge source="Bolton" target="Luwin" id="258" weight="1.0" />
+      <edge source="Bolton" target="Maester Luwin" id="259" weight="1.0" />
+      <edge source="Bolton" target="Joje" id="260" weight="1.0" />
+      <edge source="Bolton" target="Mae" id="261" weight="1.0" />
+      <edge source="Bolton" target="Jojen Reed" id="262" weight="1.0" />
+      <edge source="Bolton" target="Lu" id="263" weight="1.0" />
+      <edge source="Bolton" target="Jo" id="264" weight="1.0" />
+      <edge source="Bolton" target="Hodor" id="265" weight="1.0" />
+      <edge source="Lady" target="Ser Rodrik" id="266" weight="1.0" />
+      <edge source="Lady" target="Su" id="267" weight="1.0" />
+      <edge source="Lady" target="Ho" id="268" weight="1.0" />
+      <edge source="Lady" target="Win" id="269" weight="1.0" />
+      <edge source="Lady" target="Hornwood" id="270" weight="1.0" />
+      <edge source="Lady" target="Lady Hornwood" id="271" weight="1.0" />
+      <edge source="Lady" target="Lord Manderly" id="272" weight="1.0" />
+      <edge source="Lady" target="Luwin" id="273" weight="1.0" />
+      <edge source="Lady" target="Maester Luwin" id="274" weight="1.0" />
+      <edge source="Lady" target="Joje" id="275" weight="1.0" />
+      <edge source="Lady" target="Mae" id="276" weight="1.0" />
+      <edge source="Lady" target="Jojen Reed" id="277" weight="1.0" />
+      <edge source="Lady" target="Lu" id="278" weight="1.0" />
+      <edge source="Lady" target="Jo" id="279" weight="1.0" />
+      <edge source="Lady" target="Hodor" id="280" weight="1.0" />
+      <edge source="Hornwood" target="Ser Rodrik" id="281" weight="1.0" />
+      <edge source="Hornwood" target="Su" id="282" weight="1.0" />
+      <edge source="Hornwood" target="Ho" id="283" weight="1.0" />
+      <edge source="Hornwood" target="Win" id="284" weight="1.0" />
+      <edge source="Hornwood" target="Lady Hornwood" id="285" weight="1.0" />
+      <edge source="Hornwood" target="Lord Manderly" id="286" weight="1.0" />
+      <edge source="Hornwood" target="Luwin" id="287" weight="1.0" />
+      <edge source="Hornwood" target="Maester Luwin" id="288" weight="1.0" />
+      <edge source="Hornwood" target="Joje" id="289" weight="1.0" />
+      <edge source="Hornwood" target="Mae" id="290" weight="1.0" />
+      <edge source="Hornwood" target="Jojen Reed" id="291" weight="1.0" />
+      <edge source="Hornwood" target="Lu" id="292" weight="1.0" />
+      <edge source="Hornwood" target="Jo" id="293" weight="1.0" />
+      <edge source="Hornwood" target="Hodor" id="294" weight="1.0" />
+      <edge source="Lady Hornwood" target="Ser Rodrik" id="295" weight="1.0" />
+      <edge source="Lady Hornwood" target="Su" id="296" weight="1.0" />
+      <edge source="Lady Hornwood" target="Ho" id="297" weight="1.0" />
+      <edge source="Lady Hornwood" target="Win" id="298" weight="1.0" />
+      <edge source="Lady Hornwood" target="Lord Manderly" id="299" weight="1.0" />
+      <edge source="Lady Hornwood" target="Luwin" id="300" weight="1.0" />
+      <edge source="Lady Hornwood" target="Maester Luwin" id="301" weight="1.0" />
+      <edge source="Lady Hornwood" target="Joje" id="302" weight="1.0" />
+      <edge source="Lady Hornwood" target="Mae" id="303" weight="1.0" />
+      <edge source="Lady Hornwood" target="Jojen Reed" id="304" weight="1.0" />
+      <edge source="Lady Hornwood" target="Lu" id="305" weight="1.0" />
+      <edge source="Lady Hornwood" target="Jo" id="306" weight="1.0" />
+      <edge source="Lady Hornwood" target="Hodor" id="307" weight="1.0" />
+      <edge source="Lord Manderly" target="Ser Rodrik" id="308" weight="1.0" />
+      <edge source="Lord Manderly" target="Su" id="309" weight="1.0" />
+      <edge source="Lord Manderly" target="Ho" id="310" weight="1.0" />
+      <edge source="Lord Manderly" target="Win" id="311" weight="1.0" />
+      <edge source="Lord Manderly" target="Luwin" id="312" weight="1.0" />
+      <edge source="Lord Manderly" target="Maester Luwin" id="313" weight="1.0" />
+      <edge source="Lord Manderly" target="Joje" id="314" weight="1.0" />
+      <edge source="Lord Manderly" target="Mae" id="315" weight="1.0" />
+      <edge source="Lord Manderly" target="Jojen Reed" id="316" weight="1.0" />
+      <edge source="Lord Manderly" target="Lu" id="317" weight="1.0" />
+      <edge source="Lord Manderly" target="Jo" id="318" weight="1.0" />
+      <edge source="Lord Manderly" target="Hodor" id="319" weight="1.0" />
+      <edge source="Ser Rodrik" target="Su" id="320" weight="1.0" />
+      <edge source="Ser Rodrik" target="Win" id="321" weight="1.0" />
+      <edge source="Ser Rodrik" target="Ho" id="322" weight="1.0" />
+      <edge source="Ser Rodrik" target="Luwin" id="323" weight="1.0" />
+      <edge source="Ser Rodrik" target="Maester Luwin" id="324" weight="1.0" />
+      <edge source="Ser Rodrik" target="Joje" id="325" weight="1.0" />
+      <edge source="Ser Rodrik" target="Mae" id="326" weight="1.0" />
+      <edge source="Ser Rodrik" target="Jojen Reed" id="327" weight="1.0" />
+      <edge source="Ser Rodrik" target="Lu" id="328" weight="1.0" />
+      <edge source="Ser Rodrik" target="Jo" id="329" weight="1.0" />
+      <edge source="Ser Rodrik" target="Hodor" id="330" weight="1.0" />
+      <edge source="Ser Rodrik" target="Stark" id="331" weight="1.0" />
+      <edge source="Ser Rodrik" target="Chase" id="332" weight="1.0" />
+      <edge source="Ser Rodrik" target="Shaggy" id="333" weight="1.0" />
+      <edge source="Ser Rodrik" target="Rickon" id="334" weight="1.0" />
+      <edge source="Ser Rodrik" target="Rick" id="335" weight="1.0" />
+      <edge source="Mae" target="Luwin" id="336" weight="1.0" />
+      <edge source="Mae" target="Maester Luwin" id="337" weight="1.0" />
+      <edge source="Mae" target="Joje" id="338" weight="1.0" />
+      <edge source="Mae" target="Ho" id="339" weight="1.0" />
+      <edge source="Mae" target="Jojen Reed" id="340" weight="1.0" />
+      <edge source="Mae" target="Win" id="341" weight="1.0" />
+      <edge source="Mae" target="Lu" id="342" weight="1.0" />
+      <edge source="Mae" target="Jo" id="343" weight="1.0" />
+      <edge source="Mae" target="Hodor" id="344" weight="1.0" />
+      <edge source="Mae" target="Su" id="345" weight="1.0" />
+      <edge source="Mae" target="Jon" id="346" weight="1.0" />
+      <edge source="Mae" target="Stark" id="347" weight="1.0" />
+      <edge source="Mae" target="Chase" id="348" weight="1.0" />
+      <edge source="Mae" target="Shaggy" id="349" weight="1.0" />
+      <edge source="Mae" target="Rickon" id="350" weight="1.0" />
+      <edge source="Mae" target="Rick" id="351" weight="1.0" />
+      <edge source="Mae" target="Sad" id="352" weight="1.0" />
+      <edge source="Mae" target="Meera Reed" id="353" weight="1.0" />
+      <edge source="Luwin" target="Maester Luwin" id="354" weight="1.0" />
+      <edge source="Luwin" target="Joje" id="355" weight="1.0" />
+      <edge source="Luwin" target="Ho" id="356" weight="1.0" />
+      <edge source="Luwin" target="Jojen Reed" id="357" weight="1.0" />
+      <edge source="Luwin" target="Win" id="358" weight="1.0" />
+      <edge source="Luwin" target="Lu" id="359" weight="1.0" />
+      <edge source="Luwin" target="Jo" id="360" weight="1.0" />
+      <edge source="Luwin" target="Hodor" id="361" weight="1.0" />
+      <edge source="Luwin" target="Su" id="362" weight="1.0" />
+      <edge source="Luwin" target="Jon" id="363" weight="1.0" />
+      <edge source="Luwin" target="Stark" id="364" weight="1.0" />
+      <edge source="Luwin" target="Chase" id="365" weight="1.0" />
+      <edge source="Luwin" target="Shaggy" id="366" weight="1.0" />
+      <edge source="Luwin" target="Rickon" id="367" weight="1.0" />
+      <edge source="Luwin" target="Rick" id="368" weight="1.0" />
+      <edge source="Luwin" target="Sad" id="369" weight="1.0" />
+      <edge source="Luwin" target="Meera Reed" id="370" weight="1.0" />
+      <edge source="Jojen Reed" target="Maester Luwin" id="371" weight="1.0" />
+      <edge source="Jojen Reed" target="Joje" id="372" weight="1.0" />
+      <edge source="Jojen Reed" target="Ho" id="373" weight="1.0" />
+      <edge source="Jojen Reed" target="Win" id="374" weight="1.0" />
+      <edge source="Jojen Reed" target="Lu" id="375" weight="1.0" />
+      <edge source="Jojen Reed" target="Jo" id="376" weight="1.0" />
+      <edge source="Jojen Reed" target="Hodor" id="377" weight="1.0" />
+      <edge source="Jojen Reed" target="Su" id="378" weight="1.0" />
+      <edge source="Jojen Reed" target="Stark" id="379" weight="1.0" />
+      <edge source="Jojen Reed" target="Ha" id="380" weight="1.0" />
+      <edge source="Jojen Reed" target="Meera Reed" id="381" weight="1.0" />
+      <edge source="Hodor" target="Maester Luwin" id="382" weight="1.0" />
+      <edge source="Hodor" target="Joje" id="383" weight="1.0" />
+      <edge source="Hodor" target="Ho" id="384" weight="1.0" />
+      <edge source="Hodor" target="Win" id="385" weight="1.0" />
+      <edge source="Hodor" target="Lu" id="386" weight="1.0" />
+      <edge source="Hodor" target="Jo" id="387" weight="1.0" />
+      <edge source="Hodor" target="Su" id="388" weight="1.0" />
+      <edge source="Hodor" target="Shaggy" id="389" weight="1.0" />
+      <edge source="Hodor" target="Chase" id="390" weight="1.0" />
+      <edge source="Hodor" target="Rickon" id="391" weight="1.0" />
+      <edge source="Hodor" target="Rick" id="392" weight="1.0" />
+      <edge source="Lu" target="Maester Luwin" id="393" weight="1.0" />
+      <edge source="Lu" target="Joje" id="394" weight="1.0" />
+      <edge source="Lu" target="Ho" id="395" weight="1.0" />
+      <edge source="Lu" target="Win" id="396" weight="1.0" />
+      <edge source="Lu" target="Jo" id="397" weight="1.0" />
+      <edge source="Lu" target="Su" id="398" weight="1.0" />
+      <edge source="Lu" target="Jon" id="399" weight="1.0" />
+      <edge source="Lu" target="Stark" id="400" weight="1.0" />
+      <edge source="Lu" target="Chase" id="401" weight="1.0" />
+      <edge source="Lu" target="Shaggy" id="402" weight="1.0" />
+      <edge source="Lu" target="Rickon" id="403" weight="1.0" />
+      <edge source="Lu" target="Rick" id="404" weight="1.0" />
+      <edge source="Lu" target="Sad" id="405" weight="1.0" />
+      <edge source="Lu" target="Meera Reed" id="406" weight="1.0" />
+      <edge source="Jon" target="Maester Luwin" id="407" weight="1.0" />
+      <edge source="Jon" target="Su" id="408" weight="1.0" />
+      <edge source="Jon" target="Joje" id="409" weight="1.0" />
+      <edge source="Jon" target="Jo" id="410" weight="1.0" />
+      <edge source="Jon" target="Meera Reed" id="411" weight="1.0" />
+      <edge source="Jon" target="Ho" id="412" weight="1.0" />
+      <edge source="Jon" target="Win" id="413" weight="1.0" />
+      <edge source="Jon" target="Sea" id="414" weight="1.0" />
+      <edge source="Meera Reed" target="Su" id="415" weight="1.0" />
+      <edge source="Meera Reed" target="Joje" id="416" weight="1.0" />
+      <edge source="Meera Reed" target="Jo" id="417" weight="1.0" />
+      <edge source="Meera Reed" target="Ho" id="418" weight="1.0" />
+      <edge source="Meera Reed" target="Win" id="419" weight="1.0" />
+      <edge source="Meera Reed" target="Sea" id="420" weight="1.0" />
+      <edge source="Meera Reed" target="Maester Luwin" id="421" weight="1.0" />
+      <edge source="Sea" target="Su" id="422" weight="1.0" />
+      <edge source="Sea" target="Joje" id="423" weight="1.0" />
+      <edge source="Sea" target="Ho" id="424" weight="1.0" />
+      <edge source="Sea" target="Win" id="425" weight="1.0" />
+      <edge source="Sea" target="Jo" id="426" weight="1.0" />
+      <edge source="Sea" target="Ha" id="427" weight="1.0" />
+      <edge source="Sea" target="Stark" id="428" weight="1.0" />
+      <edge source="Stark" target="Su" id="429" weight="1.0" />
+      <edge source="Stark" target="Win" id="430" weight="1.0" />
+      <edge source="Stark" target="Ha" id="431" weight="1.0" />
+      <edge source="Stark" target="Joje" id="432" weight="1.0" />
+      <edge source="Stark" target="Jo" id="433" weight="1.0" />
+      <edge source="Stark" target="Ho" id="434" weight="1.0" />
+      <edge source="Stark" target="Maester Luwin" id="435" weight="1.0" />
+      <edge source="Maester Luwin" target="Joje" id="436" weight="1.0" />
+      <edge source="Maester Luwin" target="Ho" id="437" weight="1.0" />
+      <edge source="Maester Luwin" target="Win" id="438" weight="1.0" />
+      <edge source="Maester Luwin" target="Jo" id="439" weight="1.0" />
+      <edge source="Maester Luwin" target="Su" id="440" weight="1.0" />
+      <edge source="Maester Luwin" target="Chase" id="441" weight="1.0" />
+      <edge source="Maester Luwin" target="Shaggy" id="442" weight="1.0" />
+      <edge source="Maester Luwin" target="Rickon" id="443" weight="1.0" />
+      <edge source="Maester Luwin" target="Rick" id="444" weight="1.0" />
+      <edge source="Maester Luwin" target="Sad" id="445" weight="1.0" />
+      <edge source="Jo" target="Su" id="446" weight="1.0" />
+      <edge source="Jo" target="Joje" id="447" weight="1.0" />
+      <edge source="Jo" target="Ho" id="448" weight="1.0" />
+      <edge source="Jo" target="Win" id="449" weight="1.0" />
+      <edge source="Jo" target="Ha" id="450" weight="1.0" />
+      <edge source="Jo" target="Shaggy" id="451" weight="1.0" />
+      <edge source="Jo" target="Chase" id="452" weight="1.0" />
+      <edge source="Jo" target="Rickon" id="453" weight="1.0" />
+      <edge source="Jo" target="Rick" id="454" weight="1.0" />
+      <edge source="Shaggy" target="Su" id="455" weight="1.0" />
+      <edge source="Shaggy" target="Joje" id="456" weight="1.0" />
+      <edge source="Shaggy" target="Ho" id="457" weight="1.0" />
+      <edge source="Shaggy" target="Chase" id="458" weight="1.0" />
+      <edge source="Shaggy" target="Rickon" id="459" weight="1.0" />
+      <edge source="Shaggy" target="Rick" id="460" weight="1.0" />
+      <edge source="Chase" target="Su" id="461" weight="1.0" />
+      <edge source="Chase" target="Ho" id="462" weight="1.0" />
+      <edge source="Chase" target="Joje" id="463" weight="1.0" />
+      <edge source="Chase" target="Rickon" id="464" weight="1.0" />
+      <edge source="Chase" target="Rick" id="465" weight="1.0" />
+      <edge source="Ho" target="Su" id="466" weight="1.0" />
+      <edge source="Ho" target="Win" id="467" weight="1.0" />
+      <edge source="Ho" target="Joje" id="468" weight="1.0" />
+      <edge source="Ho" target="Ha" id="469" weight="1.0" />
+      <edge source="Ho" target="Rickon" id="470" weight="1.0" />
+      <edge source="Ho" target="Rick" id="471" weight="1.0" />
+      <edge source="Ha" target="Su" id="472" weight="1.0" />
+      <edge source="Ha" target="Joje" id="473" weight="1.0" />
+      <edge source="Ha" target="Win" id="474" weight="1.0" />
+      <edge source="Joje" target="Su" id="475" weight="1.0" />
+      <edge source="Joje" target="Win" id="476" weight="1.0" />
+      <edge source="Joje" target="Rickon" id="477" weight="1.0" />
+      <edge source="Joje" target="Rick" id="478" weight="1.0" />
+      <edge source="Rickon" target="Su" id="479" weight="1.0" />
+      <edge source="Rickon" target="Rick" id="480" weight="1.0" />
+      <edge source="Rickon" target="Sad" id="481" weight="1.0" />
+      <edge source="Su" target="Win" id="482" weight="1.0" />
+      <edge source="Su" target="Rick" id="483" weight="1.0" />
+      <edge source="Sad" target="Rick" id="484" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

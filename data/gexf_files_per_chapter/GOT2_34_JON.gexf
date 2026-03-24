@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Jon Snow" label="Jon Snow">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lord Mormont" label="Lord Mormont">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ghost" label="Ghost">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jon" label="Jon">
+        <attvalues>
+          <attvalue for="0" value="56" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Thoren" label="Thoren">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bear" label="Bear">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Halfhand" label="Halfhand">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Thoren Smallwood" label="Thoren Smallwood">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mormont" label="Mormont">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Thor" label="Thor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Sam" label="Sam">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Samwell Tarly" label="Samwell Tarly">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Qhorin Halfhand" label="Qhorin Halfhand">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mormon" label="Mormon">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rai" label="Rai">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="N Buckwell" label="N Buckwell">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Rayder" label="Rayder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mallador Locke" label="Mallador Locke">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ottyn Wythers" label="Ottyn Wythers">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mall" label="Mall">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Arma" label="Arma">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jarma" label="Jarma">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mance Rayder" label="Mance Rayder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Smallwood" label="Smallwood">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Craster" label="Craster">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Mae" label="Mae">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Aemon" label="Aemon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ben Stark" label="Ben Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Oth" label="Oth">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jaf" label="Jaf">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Er Flowers" label="Er Flowers">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dywen" label="Dywen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Grenn" label="Grenn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ed" label="Ed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ha" label="Ha">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ett" label="Ett">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ion" label="Ion">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Wen" label="Wen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hake" label="Hake">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gren" label="Gren">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Al" label="Al">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jon Snow" target="Mormon" id="0" weight="1.0" />
+      <edge source="Jon Snow" target="Lord Mormont" id="1" weight="1.0" />
+      <edge source="Jon Snow" target="Thoren" id="2" weight="1.0" />
+      <edge source="Jon Snow" target="Ghost" id="3" weight="1.0" />
+      <edge source="Jon Snow" target="Thor" id="4" weight="1.0" />
+      <edge source="Jon Snow" target="Mormont" id="5" weight="1.0" />
+      <edge source="Jon Snow" target="Halfhand" id="6" weight="1.0" />
+      <edge source="Jon Snow" target="Ha" id="7" weight="1.0" />
+      <edge source="Jon Snow" target="Bear" id="8" weight="1.0" />
+      <edge source="Jon Snow" target="Jon" id="9" weight="1.0" />
+      <edge source="Jon Snow" target="Smallwood" id="10" weight="1.0" />
+      <edge source="Jon Snow" target="Thoren Smallwood" id="11" weight="1.0" />
+      <edge source="Lord Mormont" target="Mormon" id="12" weight="1.0" />
+      <edge source="Lord Mormont" target="Thoren" id="13" weight="1.0" />
+      <edge source="Lord Mormont" target="Ghost" id="14" weight="1.0" />
+      <edge source="Lord Mormont" target="Thor" id="15" weight="1.0" />
+      <edge source="Lord Mormont" target="Mormont" id="16" weight="1.0" />
+      <edge source="Lord Mormont" target="Halfhand" id="17" weight="1.0" />
+      <edge source="Lord Mormont" target="Ha" id="18" weight="1.0" />
+      <edge source="Lord Mormont" target="Bear" id="19" weight="1.0" />
+      <edge source="Lord Mormont" target="Jon" id="20" weight="1.0" />
+      <edge source="Lord Mormont" target="Smallwood" id="21" weight="1.0" />
+      <edge source="Lord Mormont" target="Thoren Smallwood" id="22" weight="1.0" />
+      <edge source="Ghost" target="Mormon" id="23" weight="1.0" />
+      <edge source="Ghost" target="Thoren" id="24" weight="1.0" />
+      <edge source="Ghost" target="Thor" id="25" weight="1.0" />
+      <edge source="Ghost" target="Mormont" id="26" weight="1.0" />
+      <edge source="Ghost" target="Halfhand" id="27" weight="1.0" />
+      <edge source="Ghost" target="Ha" id="28" weight="1.0" />
+      <edge source="Ghost" target="Bear" id="29" weight="1.0" />
+      <edge source="Ghost" target="Jon" id="30" weight="1.0" />
+      <edge source="Ghost" target="Smallwood" id="31" weight="1.0" />
+      <edge source="Ghost" target="Thoren Smallwood" id="32" weight="1.0" />
+      <edge source="Ghost" target="Samwell Tarly" id="33" weight="1.0" />
+      <edge source="Ghost" target="Sam" id="34" weight="1.0" />
+      <edge source="Ghost" target="Qhorin Halfhand" id="35" weight="1.0" />
+      <edge source="Ghost" target="Grenn" id="36" weight="1.0" />
+      <edge source="Ghost" target="Gren" id="37" weight="1.0" />
+      <edge source="Ghost" target="Al" id="38" weight="1.0" />
+      <edge source="Ghost" target="Dywen" id="39" weight="1.0" />
+      <edge source="Jon" target="Mormon" id="40" weight="1.0" />
+      <edge source="Jon" target="Thoren" id="41" weight="1.0" />
+      <edge source="Jon" target="Thor" id="42" weight="1.0" />
+      <edge source="Jon" target="Mormont" id="43" weight="1.0" />
+      <edge source="Jon" target="Halfhand" id="44" weight="1.0" />
+      <edge source="Jon" target="Ha" id="45" weight="1.0" />
+      <edge source="Jon" target="Bear" id="46" weight="1.0" />
+      <edge source="Jon" target="Smallwood" id="47" weight="1.0" />
+      <edge source="Jon" target="Thoren Smallwood" id="48" weight="1.0" />
+      <edge source="Jon" target="Samwell Tarly" id="49" weight="1.0" />
+      <edge source="Jon" target="Sam" id="50" weight="1.0" />
+      <edge source="Jon" target="Qhorin Halfhand" id="51" weight="1.0" />
+      <edge source="Jon" target="Rai" id="52" weight="1.0" />
+      <edge source="Jon" target="Jarma" id="53" weight="1.0" />
+      <edge source="Jon" target="Mallador Locke" id="54" weight="1.0" />
+      <edge source="Jon" target="Mall" id="55" weight="1.0" />
+      <edge source="Jon" target="Rayder" id="56" weight="1.0" />
+      <edge source="Jon" target="Craster" id="57" weight="1.0" />
+      <edge source="Jon" target="Ottyn Wythers" id="58" weight="1.0" />
+      <edge source="Jon" target="Mance Rayder" id="59" weight="1.0" />
+      <edge source="Jon" target="Aemon" id="60" weight="1.0" />
+      <edge source="Jon" target="Mae" id="61" weight="1.0" />
+      <edge source="Jon" target="Ben Stark" id="62" weight="1.0" />
+      <edge source="Jon" target="Jaf" id="63" weight="1.0" />
+      <edge source="Jon" target="Oth" id="64" weight="1.0" />
+      <edge source="Jon" target="Dywen" id="65" weight="1.0" />
+      <edge source="Jon" target="Ed" id="66" weight="1.0" />
+      <edge source="Jon" target="Gren" id="67" weight="1.0" />
+      <edge source="Jon" target="Al" id="68" weight="1.0" />
+      <edge source="Jon" target="Grenn" id="69" weight="1.0" />
+      <edge source="Jon" target="Hake" id="70" weight="1.0" />
+      <edge source="Thoren" target="Mormon" id="71" weight="1.0" />
+      <edge source="Thoren" target="Thor" id="72" weight="1.0" />
+      <edge source="Thoren" target="Mormont" id="73" weight="1.0" />
+      <edge source="Thoren" target="Halfhand" id="74" weight="1.0" />
+      <edge source="Thoren" target="Ha" id="75" weight="1.0" />
+      <edge source="Thoren" target="Bear" id="76" weight="1.0" />
+      <edge source="Thoren" target="Smallwood" id="77" weight="1.0" />
+      <edge source="Thoren" target="Thoren Smallwood" id="78" weight="1.0" />
+      <edge source="Thoren" target="Sam" id="79" weight="1.0" />
+      <edge source="Thoren" target="Rai" id="80" weight="1.0" />
+      <edge source="Thoren" target="Jarma" id="81" weight="1.0" />
+      <edge source="Thoren" target="Mallador Locke" id="82" weight="1.0" />
+      <edge source="Thoren" target="Mall" id="83" weight="1.0" />
+      <edge source="Thoren" target="Rayder" id="84" weight="1.0" />
+      <edge source="Thoren" target="Craster" id="85" weight="1.0" />
+      <edge source="Thoren" target="Mance Rayder" id="86" weight="1.0" />
+      <edge source="Bear" target="Mormon" id="87" weight="1.0" />
+      <edge source="Bear" target="Thor" id="88" weight="1.0" />
+      <edge source="Bear" target="Mormont" id="89" weight="1.0" />
+      <edge source="Bear" target="Halfhand" id="90" weight="1.0" />
+      <edge source="Bear" target="Ha" id="91" weight="1.0" />
+      <edge source="Bear" target="Smallwood" id="92" weight="1.0" />
+      <edge source="Bear" target="Thoren Smallwood" id="93" weight="1.0" />
+      <edge source="Bear" target="Sam" id="94" weight="1.0" />
+      <edge source="Bear" target="Samwell Tarly" id="95" weight="1.0" />
+      <edge source="Bear" target="Qhorin Halfhand" id="96" weight="1.0" />
+      <edge source="Bear" target="Rai" id="97" weight="1.0" />
+      <edge source="Bear" target="Jarma" id="98" weight="1.0" />
+      <edge source="Bear" target="Mallador Locke" id="99" weight="1.0" />
+      <edge source="Bear" target="Mall" id="100" weight="1.0" />
+      <edge source="Bear" target="Rayder" id="101" weight="1.0" />
+      <edge source="Bear" target="Craster" id="102" weight="1.0" />
+      <edge source="Bear" target="Ottyn Wythers" id="103" weight="1.0" />
+      <edge source="Bear" target="Mance Rayder" id="104" weight="1.0" />
+      <edge source="Bear" target="Aemon" id="105" weight="1.0" />
+      <edge source="Bear" target="Mae" id="106" weight="1.0" />
+      <edge source="Bear" target="Ben Stark" id="107" weight="1.0" />
+      <edge source="Bear" target="Jaf" id="108" weight="1.0" />
+      <edge source="Bear" target="Oth" id="109" weight="1.0" />
+      <edge source="Bear" target="Dywen" id="110" weight="1.0" />
+      <edge source="Bear" target="Ed" id="111" weight="1.0" />
+      <edge source="Bear" target="Gren" id="112" weight="1.0" />
+      <edge source="Bear" target="Al" id="113" weight="1.0" />
+      <edge source="Bear" target="Grenn" id="114" weight="1.0" />
+      <edge source="Bear" target="Hake" id="115" weight="1.0" />
+      <edge source="Halfhand" target="Mormon" id="116" weight="1.0" />
+      <edge source="Halfhand" target="Thor" id="117" weight="1.0" />
+      <edge source="Halfhand" target="Mormont" id="118" weight="1.0" />
+      <edge source="Halfhand" target="Ha" id="119" weight="1.0" />
+      <edge source="Halfhand" target="Smallwood" id="120" weight="1.0" />
+      <edge source="Halfhand" target="Thoren Smallwood" id="121" weight="1.0" />
+      <edge source="Halfhand" target="Sam" id="122" weight="1.0" />
+      <edge source="Halfhand" target="Samwell Tarly" id="123" weight="1.0" />
+      <edge source="Halfhand" target="Qhorin Halfhand" id="124" weight="1.0" />
+      <edge source="Halfhand" target="Ottyn Wythers" id="125" weight="1.0" />
+      <edge source="Halfhand" target="Mall" id="126" weight="1.0" />
+      <edge source="Halfhand" target="Jarma" id="127" weight="1.0" />
+      <edge source="Halfhand" target="Rayder" id="128" weight="1.0" />
+      <edge source="Halfhand" target="Mance Rayder" id="129" weight="1.0" />
+      <edge source="Halfhand" target="Craster" id="130" weight="1.0" />
+      <edge source="Halfhand" target="Aemon" id="131" weight="1.0" />
+      <edge source="Halfhand" target="Mae" id="132" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Mormon" id="133" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Thor" id="134" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Mormont" id="135" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Ha" id="136" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Smallwood" id="137" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Sam" id="138" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Rai" id="139" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Jarma" id="140" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Mallador Locke" id="141" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Mall" id="142" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Rayder" id="143" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Craster" id="144" weight="1.0" />
+      <edge source="Thoren Smallwood" target="Mance Rayder" id="145" weight="1.0" />
+      <edge source="Mormont" target="Mormon" id="146" weight="1.0" />
+      <edge source="Mormont" target="Thor" id="147" weight="1.0" />
+      <edge source="Mormont" target="Ha" id="148" weight="1.0" />
+      <edge source="Mormont" target="Smallwood" id="149" weight="1.0" />
+      <edge source="Mormont" target="Sam" id="150" weight="1.0" />
+      <edge source="Mormont" target="Samwell Tarly" id="151" weight="1.0" />
+      <edge source="Mormont" target="Qhorin Halfhand" id="152" weight="1.0" />
+      <edge source="Mormont" target="Rai" id="153" weight="1.0" />
+      <edge source="Mormont" target="Jarma" id="154" weight="1.0" />
+      <edge source="Mormont" target="Mallador Locke" id="155" weight="1.0" />
+      <edge source="Mormont" target="Mall" id="156" weight="1.0" />
+      <edge source="Mormont" target="Rayder" id="157" weight="1.0" />
+      <edge source="Mormont" target="Craster" id="158" weight="1.0" />
+      <edge source="Mormont" target="Ottyn Wythers" id="159" weight="1.0" />
+      <edge source="Mormont" target="Mance Rayder" id="160" weight="1.0" />
+      <edge source="Mormont" target="Aemon" id="161" weight="1.0" />
+      <edge source="Mormont" target="Mae" id="162" weight="1.0" />
+      <edge source="Mormont" target="Ben Stark" id="163" weight="1.0" />
+      <edge source="Mormont" target="Jaf" id="164" weight="1.0" />
+      <edge source="Mormont" target="Oth" id="165" weight="1.0" />
+      <edge source="Mormont" target="Dywen" id="166" weight="1.0" />
+      <edge source="Mormont" target="Ed" id="167" weight="1.0" />
+      <edge source="Mormont" target="Gren" id="168" weight="1.0" />
+      <edge source="Mormont" target="Al" id="169" weight="1.0" />
+      <edge source="Mormont" target="Grenn" id="170" weight="1.0" />
+      <edge source="Mormont" target="Hake" id="171" weight="1.0" />
+      <edge source="Thor" target="Mormon" id="172" weight="1.0" />
+      <edge source="Thor" target="Ha" id="173" weight="1.0" />
+      <edge source="Thor" target="Smallwood" id="174" weight="1.0" />
+      <edge source="Thor" target="Sam" id="175" weight="1.0" />
+      <edge source="Thor" target="Rai" id="176" weight="1.0" />
+      <edge source="Thor" target="Jarma" id="177" weight="1.0" />
+      <edge source="Thor" target="Mallador Locke" id="178" weight="1.0" />
+      <edge source="Thor" target="Mall" id="179" weight="1.0" />
+      <edge source="Thor" target="Rayder" id="180" weight="1.0" />
+      <edge source="Thor" target="Craster" id="181" weight="1.0" />
+      <edge source="Thor" target="Mance Rayder" id="182" weight="1.0" />
+      <edge source="Sam" target="Samwell Tarly" id="183" weight="1.0" />
+      <edge source="Sam" target="Qhorin Halfhand" id="184" weight="1.0" />
+      <edge source="Sam" target="Ha" id="185" weight="1.0" />
+      <edge source="Sam" target="Mormon" id="186" weight="1.0" />
+      <edge source="Sam" target="Smallwood" id="187" weight="1.0" />
+      <edge source="Sam" target="Jarma" id="188" weight="1.0" />
+      <edge source="Sam" target="Mallador Locke" id="189" weight="1.0" />
+      <edge source="Sam" target="Mall" id="190" weight="1.0" />
+      <edge source="Sam" target="Rayder" id="191" weight="1.0" />
+      <edge source="Sam" target="Rai" id="192" weight="1.0" />
+      <edge source="Sam" target="Craster" id="193" weight="1.0" />
+      <edge source="Sam" target="Ottyn Wythers" id="194" weight="1.0" />
+      <edge source="Samwell Tarly" target="Qhorin Halfhand" id="195" weight="1.0" />
+      <edge source="Samwell Tarly" target="Ha" id="196" weight="1.0" />
+      <edge source="Samwell Tarly" target="Mormon" id="197" weight="1.0" />
+      <edge source="Qhorin Halfhand" target="Ha" id="198" weight="1.0" />
+      <edge source="Qhorin Halfhand" target="Mormon" id="199" weight="1.0" />
+      <edge source="Mormon" target="Ha" id="200" weight="1.0" />
+      <edge source="Mormon" target="Smallwood" id="201" weight="1.0" />
+      <edge source="Mormon" target="Rai" id="202" weight="1.0" />
+      <edge source="Mormon" target="Jarma" id="203" weight="1.0" />
+      <edge source="Mormon" target="Mallador Locke" id="204" weight="1.0" />
+      <edge source="Mormon" target="Mall" id="205" weight="1.0" />
+      <edge source="Mormon" target="Rayder" id="206" weight="1.0" />
+      <edge source="Mormon" target="Craster" id="207" weight="1.0" />
+      <edge source="Mormon" target="Ottyn Wythers" id="208" weight="1.0" />
+      <edge source="Mormon" target="Mance Rayder" id="209" weight="1.0" />
+      <edge source="Mormon" target="Aemon" id="210" weight="1.0" />
+      <edge source="Mormon" target="Mae" id="211" weight="1.0" />
+      <edge source="Mormon" target="Ben Stark" id="212" weight="1.0" />
+      <edge source="Mormon" target="Jaf" id="213" weight="1.0" />
+      <edge source="Mormon" target="Oth" id="214" weight="1.0" />
+      <edge source="Mormon" target="Dywen" id="215" weight="1.0" />
+      <edge source="Mormon" target="Ed" id="216" weight="1.0" />
+      <edge source="Mormon" target="Gren" id="217" weight="1.0" />
+      <edge source="Mormon" target="Al" id="218" weight="1.0" />
+      <edge source="Mormon" target="Grenn" id="219" weight="1.0" />
+      <edge source="Mormon" target="Hake" id="220" weight="1.0" />
+      <edge source="Rai" target="Smallwood" id="221" weight="1.0" />
+      <edge source="Rai" target="Jarma" id="222" weight="1.0" />
+      <edge source="Rai" target="Mallador Locke" id="223" weight="1.0" />
+      <edge source="Rai" target="Mall" id="224" weight="1.0" />
+      <edge source="Rai" target="Rayder" id="225" weight="1.0" />
+      <edge source="Rai" target="Craster" id="226" weight="1.0" />
+      <edge source="Rai" target="Ottyn Wythers" id="227" weight="1.0" />
+      <edge source="Rayder" target="Jarma" id="228" weight="1.0" />
+      <edge source="Rayder" target="Mallador Locke" id="229" weight="1.0" />
+      <edge source="Rayder" target="Mall" id="230" weight="1.0" />
+      <edge source="Rayder" target="Smallwood" id="231" weight="1.0" />
+      <edge source="Rayder" target="Craster" id="232" weight="1.0" />
+      <edge source="Rayder" target="Ottyn Wythers" id="233" weight="1.0" />
+      <edge source="Rayder" target="Mance Rayder" id="234" weight="1.0" />
+      <edge source="Rayder" target="Ha" id="235" weight="1.0" />
+      <edge source="Rayder" target="Aemon" id="236" weight="1.0" />
+      <edge source="Rayder" target="Mae" id="237" weight="1.0" />
+      <edge source="Mallador Locke" target="Jarma" id="238" weight="1.0" />
+      <edge source="Mallador Locke" target="Mall" id="239" weight="1.0" />
+      <edge source="Mallador Locke" target="Smallwood" id="240" weight="1.0" />
+      <edge source="Mallador Locke" target="Craster" id="241" weight="1.0" />
+      <edge source="Mallador Locke" target="Ottyn Wythers" id="242" weight="1.0" />
+      <edge source="Ottyn Wythers" target="Jarma" id="243" weight="1.0" />
+      <edge source="Ottyn Wythers" target="Mall" id="244" weight="1.0" />
+      <edge source="Ottyn Wythers" target="Craster" id="245" weight="1.0" />
+      <edge source="Ottyn Wythers" target="Ha" id="246" weight="1.0" />
+      <edge source="Mall" target="Jarma" id="247" weight="1.0" />
+      <edge source="Mall" target="Smallwood" id="248" weight="1.0" />
+      <edge source="Mall" target="Craster" id="249" weight="1.0" />
+      <edge source="Mall" target="Ha" id="250" weight="1.0" />
+      <edge source="Mall" target="Mance Rayder" id="251" weight="1.0" />
+      <edge source="Jarma" target="Smallwood" id="252" weight="1.0" />
+      <edge source="Jarma" target="Craster" id="253" weight="1.0" />
+      <edge source="Jarma" target="Ha" id="254" weight="1.0" />
+      <edge source="Jarma" target="Mance Rayder" id="255" weight="1.0" />
+      <edge source="Mance Rayder" target="Ha" id="256" weight="1.0" />
+      <edge source="Mance Rayder" target="Smallwood" id="257" weight="1.0" />
+      <edge source="Mance Rayder" target="Craster" id="258" weight="1.0" />
+      <edge source="Mance Rayder" target="Aemon" id="259" weight="1.0" />
+      <edge source="Mance Rayder" target="Mae" id="260" weight="1.0" />
+      <edge source="Smallwood" target="Ha" id="261" weight="1.0" />
+      <edge source="Smallwood" target="Craster" id="262" weight="1.0" />
+      <edge source="Smallwood" target="Aemon" id="263" weight="1.0" />
+      <edge source="Smallwood" target="Mae" id="264" weight="1.0" />
+      <edge source="Craster" target="Ha" id="265" weight="1.0" />
+      <edge source="Craster" target="Aemon" id="266" weight="1.0" />
+      <edge source="Craster" target="Mae" id="267" weight="1.0" />
+      <edge source="Mae" target="Ha" id="268" weight="1.0" />
+      <edge source="Mae" target="Aemon" id="269" weight="1.0" />
+      <edge source="Mae" target="Ben Stark" id="270" weight="1.0" />
+      <edge source="Aemon" target="Ha" id="271" weight="1.0" />
+      <edge source="Aemon" target="Ben Stark" id="272" weight="1.0" />
+      <edge source="Ben Stark" target="Jaf" id="273" weight="1.0" />
+      <edge source="Ben Stark" target="Oth" id="274" weight="1.0" />
+      <edge source="Oth" target="Jaf" id="275" weight="1.0" />
+      <edge source="Oth" target="Dywen" id="276" weight="1.0" />
+      <edge source="Oth" target="Ed" id="277" weight="1.0" />
+      <edge source="Oth" target="Gren" id="278" weight="1.0" />
+      <edge source="Oth" target="Al" id="279" weight="1.0" />
+      <edge source="Oth" target="Grenn" id="280" weight="1.0" />
+      <edge source="Jaf" target="Dywen" id="281" weight="1.0" />
+      <edge source="Jaf" target="Ed" id="282" weight="1.0" />
+      <edge source="Jaf" target="Gren" id="283" weight="1.0" />
+      <edge source="Jaf" target="Al" id="284" weight="1.0" />
+      <edge source="Jaf" target="Grenn" id="285" weight="1.0" />
+      <edge source="Dywen" target="Ed" id="286" weight="1.0" />
+      <edge source="Dywen" target="Gren" id="287" weight="1.0" />
+      <edge source="Dywen" target="Al" id="288" weight="1.0" />
+      <edge source="Dywen" target="Grenn" id="289" weight="1.0" />
+      <edge source="Dywen" target="Ha" id="290" weight="1.0" />
+      <edge source="Dywen" target="Hake" id="291" weight="1.0" />
+      <edge source="Grenn" target="Ed" id="292" weight="1.0" />
+      <edge source="Grenn" target="Gren" id="293" weight="1.0" />
+      <edge source="Grenn" target="Al" id="294" weight="1.0" />
+      <edge source="Grenn" target="Ha" id="295" weight="1.0" />
+      <edge source="Grenn" target="Hake" id="296" weight="1.0" />
+      <edge source="Ed" target="Gren" id="297" weight="1.0" />
+      <edge source="Ed" target="Al" id="298" weight="1.0" />
+      <edge source="Ed" target="Ha" id="299" weight="1.0" />
+      <edge source="Ed" target="Hake" id="300" weight="1.0" />
+      <edge source="Ha" target="Gren" id="301" weight="1.0" />
+      <edge source="Ha" target="Al" id="302" weight="1.0" />
+      <edge source="Ha" target="Hake" id="303" weight="1.0" />
+      <edge source="Hake" target="Gren" id="304" weight="1.0" />
+      <edge source="Hake" target="Al" id="305" weight="1.0" />
+      <edge source="Gren" target="Al" id="306" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

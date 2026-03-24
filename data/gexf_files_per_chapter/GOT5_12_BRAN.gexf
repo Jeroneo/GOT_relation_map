@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Summer" label="Summer">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Meera" label="Meera">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Hodor" label="Hodor">
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Coldhand" label="Coldhand">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jo" label="Jo">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Reed" label="Reed">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Food" label="Food">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Jojen" label="Jojen">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Bran" label="Bran">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="Coldhands" label="Coldhands">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Meera Reed" label="Meera Reed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ran" label="Ran">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Era" label="Era">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Dor" label="Dor">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Watch" label="Watch">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Odor" label="Odor">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Arya" label="Arya">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Nan" label="Nan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Lo" label="Lo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gen" label="Gen">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon" label="Brandon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stark" label="Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Brandon Stark" label="Brandon Stark">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Summer" target="Meera" id="0" weight="1.0" />
+      <edge source="Summer" target="Bran" id="1" weight="1.0" />
+      <edge source="Summer" target="Ho" id="2" weight="1.0" />
+      <edge source="Summer" target="Hodor" id="3" weight="1.0" />
+      <edge source="Summer" target="Coldhand" id="4" weight="1.0" />
+      <edge source="Summer" target="Coldhands" id="5" weight="1.0" />
+      <edge source="Summer" target="Jojen" id="6" weight="1.0" />
+      <edge source="Summer" target="Jo" id="7" weight="1.0" />
+      <edge source="Summer" target="Lo" id="8" weight="1.0" />
+      <edge source="Summer" target="Food" id="9" weight="1.0" />
+      <edge source="Summer" target="Meera Reed" id="10" weight="1.0" />
+      <edge source="Summer" target="Reed" id="11" weight="1.0" />
+      <edge source="Summer" target="Watch" id="12" weight="1.0" />
+      <edge source="Summer" target="Arya" id="13" weight="1.0" />
+      <edge source="Meera" target="Bran" id="14" weight="1.0" />
+      <edge source="Meera" target="Ho" id="15" weight="1.0" />
+      <edge source="Meera" target="Hodor" id="16" weight="1.0" />
+      <edge source="Meera" target="Coldhand" id="17" weight="1.0" />
+      <edge source="Meera" target="Coldhands" id="18" weight="1.0" />
+      <edge source="Meera" target="Jojen" id="19" weight="1.0" />
+      <edge source="Meera" target="Jo" id="20" weight="1.0" />
+      <edge source="Meera" target="Lo" id="21" weight="1.0" />
+      <edge source="Meera" target="Reed" id="22" weight="1.0" />
+      <edge source="Meera" target="Meera Reed" id="23" weight="1.0" />
+      <edge source="Meera" target="Food" id="24" weight="1.0" />
+      <edge source="Meera" target="Watch" id="25" weight="1.0" />
+      <edge source="Meera" target="Arya" id="26" weight="1.0" />
+      <edge source="Meera" target="Nan" id="27" weight="1.0" />
+      <edge source="Meera" target="Gen" id="28" weight="1.0" />
+      <edge source="Hodor" target="Ho" id="29" weight="1.0" />
+      <edge source="Hodor" target="Bran" id="30" weight="1.0" />
+      <edge source="Hodor" target="Coldhand" id="31" weight="1.0" />
+      <edge source="Hodor" target="Coldhands" id="32" weight="1.0" />
+      <edge source="Hodor" target="Jojen" id="33" weight="1.0" />
+      <edge source="Hodor" target="Jo" id="34" weight="1.0" />
+      <edge source="Hodor" target="Lo" id="35" weight="1.0" />
+      <edge source="Hodor" target="Food" id="36" weight="1.0" />
+      <edge source="Hodor" target="Meera Reed" id="37" weight="1.0" />
+      <edge source="Hodor" target="Reed" id="38" weight="1.0" />
+      <edge source="Hodor" target="Watch" id="39" weight="1.0" />
+      <edge source="Hodor" target="Arya" id="40" weight="1.0" />
+      <edge source="Hodor" target="Nan" id="41" weight="1.0" />
+      <edge source="Hodor" target="Gen" id="42" weight="1.0" />
+      <edge source="Coldhand" target="Ho" id="43" weight="1.0" />
+      <edge source="Coldhand" target="Coldhands" id="44" weight="1.0" />
+      <edge source="Coldhand" target="Bran" id="45" weight="1.0" />
+      <edge source="Coldhand" target="Jojen" id="46" weight="1.0" />
+      <edge source="Coldhand" target="Jo" id="47" weight="1.0" />
+      <edge source="Coldhand" target="Lo" id="48" weight="1.0" />
+      <edge source="Coldhand" target="Food" id="49" weight="1.0" />
+      <edge source="Coldhand" target="Meera Reed" id="50" weight="1.0" />
+      <edge source="Coldhand" target="Reed" id="51" weight="1.0" />
+      <edge source="Coldhand" target="Watch" id="52" weight="1.0" />
+      <edge source="Jo" target="Coldhands" id="53" weight="1.0" />
+      <edge source="Jo" target="Jojen" id="54" weight="1.0" />
+      <edge source="Jo" target="Ho" id="55" weight="1.0" />
+      <edge source="Jo" target="Bran" id="56" weight="1.0" />
+      <edge source="Jo" target="Lo" id="57" weight="1.0" />
+      <edge source="Jo" target="Reed" id="58" weight="1.0" />
+      <edge source="Jo" target="Meera Reed" id="59" weight="1.0" />
+      <edge source="Jo" target="Food" id="60" weight="1.0" />
+      <edge source="Jo" target="Arya" id="61" weight="1.0" />
+      <edge source="Jo" target="Nan" id="62" weight="1.0" />
+      <edge source="Jo" target="Gen" id="63" weight="1.0" />
+      <edge source="Reed" target="Jojen" id="64" weight="1.0" />
+      <edge source="Reed" target="Lo" id="65" weight="1.0" />
+      <edge source="Reed" target="Bran" id="66" weight="1.0" />
+      <edge source="Reed" target="Meera Reed" id="67" weight="1.0" />
+      <edge source="Reed" target="Food" id="68" weight="1.0" />
+      <edge source="Reed" target="Ho" id="69" weight="1.0" />
+      <edge source="Reed" target="Coldhands" id="70" weight="1.0" />
+      <edge source="Reed" target="Arya" id="71" weight="1.0" />
+      <edge source="Reed" target="Nan" id="72" weight="1.0" />
+      <edge source="Food" target="Jojen" id="73" weight="1.0" />
+      <edge source="Food" target="Bran" id="74" weight="1.0" />
+      <edge source="Food" target="Meera Reed" id="75" weight="1.0" />
+      <edge source="Food" target="Ho" id="76" weight="1.0" />
+      <edge source="Food" target="Coldhands" id="77" weight="1.0" />
+      <edge source="Jojen" target="Coldhands" id="78" weight="1.0" />
+      <edge source="Jojen" target="Ho" id="79" weight="1.0" />
+      <edge source="Jojen" target="Bran" id="80" weight="1.0" />
+      <edge source="Jojen" target="Lo" id="81" weight="1.0" />
+      <edge source="Jojen" target="Meera Reed" id="82" weight="1.0" />
+      <edge source="Jojen" target="Arya" id="83" weight="1.0" />
+      <edge source="Jojen" target="Nan" id="84" weight="1.0" />
+      <edge source="Jojen" target="Gen" id="85" weight="1.0" />
+      <edge source="Bran" target="Ho" id="86" weight="1.0" />
+      <edge source="Bran" target="Coldhands" id="87" weight="1.0" />
+      <edge source="Bran" target="Lo" id="88" weight="1.0" />
+      <edge source="Bran" target="Meera Reed" id="89" weight="1.0" />
+      <edge source="Bran" target="Watch" id="90" weight="1.0" />
+      <edge source="Bran" target="Arya" id="91" weight="1.0" />
+      <edge source="Bran" target="Nan" id="92" weight="1.0" />
+      <edge source="Bran" target="Gen" id="93" weight="1.0" />
+      <edge source="Bran" target="Stark" id="94" weight="1.0" />
+      <edge source="Bran" target="Brandon" id="95" weight="1.0" />
+      <edge source="Bran" target="Brandon Stark" id="96" weight="1.0" />
+      <edge source="Coldhands" target="Ho" id="97" weight="1.0" />
+      <edge source="Coldhands" target="Lo" id="98" weight="1.0" />
+      <edge source="Coldhands" target="Meera Reed" id="99" weight="1.0" />
+      <edge source="Coldhands" target="Watch" id="100" weight="1.0" />
+      <edge source="Meera Reed" target="Lo" id="101" weight="1.0" />
+      <edge source="Meera Reed" target="Ho" id="102" weight="1.0" />
+      <edge source="Meera Reed" target="Arya" id="103" weight="1.0" />
+      <edge source="Meera Reed" target="Nan" id="104" weight="1.0" />
+      <edge source="Ho" target="Lo" id="105" weight="1.0" />
+      <edge source="Ho" target="Watch" id="106" weight="1.0" />
+      <edge source="Ho" target="Arya" id="107" weight="1.0" />
+      <edge source="Ho" target="Nan" id="108" weight="1.0" />
+      <edge source="Ho" target="Gen" id="109" weight="1.0" />
+      <edge source="Arya" target="Nan" id="110" weight="1.0" />
+      <edge source="Nan" target="Gen" id="111" weight="1.0" />
+      <edge source="Brandon" target="Stark" id="112" weight="1.0" />
+      <edge source="Brandon" target="Brandon Stark" id="113" weight="1.0" />
+      <edge source="Stark" target="Brandon Stark" id="114" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

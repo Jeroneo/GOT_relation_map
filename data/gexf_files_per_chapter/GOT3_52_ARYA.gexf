@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-24">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="mentions" type="long" />
+      <attribute id="1" title="is_pov" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Lord Frey" label="Lord Frey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ho" label="Ho">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Cleg" label="Cleg">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Ane" label="Ane">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Syrio" label="Syrio">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Tom O ' Sevens" label="Tom O ' Sevens">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Stranger" label="Stranger">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Clegane" label="Clegane">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Myca" label="Myca">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Gen" label="Gen">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Robb" label="Robb">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Frey" label="Frey">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="false" />
+        </attvalues>
+      </node>
+      <node id="Arya" label="Arya">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Lord Frey" target="Ho" id="0" weight="1.0" />
+      <edge source="Lord Frey" target="Frey" id="1" weight="1.0" />
+      <edge source="Lord Frey" target="Arya" id="2" weight="1.0" />
+      <edge source="Lord Frey" target="Clegane" id="3" weight="1.0" />
+      <edge source="Lord Frey" target="Cleg" id="4" weight="1.0" />
+      <edge source="Lord Frey" target="Syrio" id="5" weight="1.0" />
+      <edge source="Lord Frey" target="Stranger" id="6" weight="1.0" />
+      <edge source="Lord Frey" target="Myca" id="7" weight="1.0" />
+      <edge source="Lord Frey" target="Gen" id="8" weight="1.0" />
+      <edge source="Ho" target="Frey" id="9" weight="1.0" />
+      <edge source="Ho" target="Arya" id="10" weight="1.0" />
+      <edge source="Ho" target="Clegane" id="11" weight="1.0" />
+      <edge source="Ho" target="Cleg" id="12" weight="1.0" />
+      <edge source="Ho" target="Syrio" id="13" weight="1.0" />
+      <edge source="Ho" target="Stranger" id="14" weight="1.0" />
+      <edge source="Ho" target="Myca" id="15" weight="1.0" />
+      <edge source="Ho" target="Gen" id="16" weight="1.0" />
+      <edge source="Cleg" target="Frey" id="17" weight="1.0" />
+      <edge source="Cleg" target="Arya" id="18" weight="1.0" />
+      <edge source="Cleg" target="Clegane" id="19" weight="1.0" />
+      <edge source="Cleg" target="Syrio" id="20" weight="1.0" />
+      <edge source="Cleg" target="Stranger" id="21" weight="1.0" />
+      <edge source="Cleg" target="Myca" id="22" weight="1.0" />
+      <edge source="Cleg" target="Gen" id="23" weight="1.0" />
+      <edge source="Cleg" target="Robb" id="24" weight="1.0" />
+      <edge source="Syrio" target="Frey" id="25" weight="1.0" />
+      <edge source="Syrio" target="Arya" id="26" weight="1.0" />
+      <edge source="Syrio" target="Clegane" id="27" weight="1.0" />
+      <edge source="Stranger" target="Frey" id="28" weight="1.0" />
+      <edge source="Stranger" target="Arya" id="29" weight="1.0" />
+      <edge source="Stranger" target="Clegane" id="30" weight="1.0" />
+      <edge source="Stranger" target="Myca" id="31" weight="1.0" />
+      <edge source="Stranger" target="Gen" id="32" weight="1.0" />
+      <edge source="Stranger" target="Robb" id="33" weight="1.0" />
+      <edge source="Clegane" target="Frey" id="34" weight="1.0" />
+      <edge source="Clegane" target="Arya" id="35" weight="1.0" />
+      <edge source="Clegane" target="Myca" id="36" weight="1.0" />
+      <edge source="Clegane" target="Gen" id="37" weight="1.0" />
+      <edge source="Clegane" target="Robb" id="38" weight="1.0" />
+      <edge source="Myca" target="Arya" id="39" weight="1.0" />
+      <edge source="Myca" target="Frey" id="40" weight="1.0" />
+      <edge source="Myca" target="Gen" id="41" weight="1.0" />
+      <edge source="Gen" target="Frey" id="42" weight="1.0" />
+      <edge source="Gen" target="Arya" id="43" weight="1.0" />
+      <edge source="Robb" target="Arya" id="44" weight="1.0" />
+      <edge source="Robb" target="Frey" id="45" weight="1.0" />
+      <edge source="Frey" target="Arya" id="46" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
