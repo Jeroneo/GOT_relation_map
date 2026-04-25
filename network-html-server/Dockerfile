@@ -1,14 +1,8 @@
-# Use a lightweight version of Python
-FROM python:3.11-alpine
+# Use the lightweight Alpine version of Nginx
+FROM nginx:alpine
 
-# Set the working directory inside the container
-WORKDIR /app
+# Copy EVERYTHING in the current directory to the Nginx public folder
+COPY ./ /usr/share/nginx/html/
 
-# Copy all your website files into the /app directory
-COPY ./ /app/
-
-# Expose port 80 (so we don't have to change your docker-compose.yml)
+# Nginx listens on port 80 by default inside the container
 EXPOSE 80
-
-# Run the same Python server command you used locally, but on port 80
-CMD ["python", "-m", "http.server", "80"]
