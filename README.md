@@ -1,6 +1,8 @@
-# GOT Character Feature Extractor and Search Engine
+# GOT Character Feature Extractor, Search Engine & Relationship Network
 
-This project parses HTML pages from A Wiki of Ice and Fire (AWOIAF) to extract features from Game of Thrones characters and builds a search engine for querying them.
+This project parses HTML pages from A Wiki of Ice and Fire (AWOIAF), extracts rich features for Game of Thrones characters, builds a search engine to query them, and produces an interactive network map visualizing character relationships — exported from Gephi and rendered in-browser via Sigma.js.
+
+---
 
 ## Folder Structure
 
@@ -13,105 +15,179 @@ GOT_relation_map/
 ├── data/                   ← Processed data outputs
 │   ├── got_characters.csv
 │   ├── got_characters.pkl
-│   └── got_search_engine_df.pkl
-├── books/                  ← (if applicable)
-├── Gephi_files/            ← Graph files for visualization
-├── maps/                   ← Map-related files
-├── 1.pipeline_per_chapter.ipynb     ← Pipeline per chapter
-├── 2.scrap_characters.ipynb         ← Character scraping
-├── 3.GOT-NER-model-compare.ipynb    ← NER model comparison
-├── 4.features_parser_&_search_engine.ipynb  ← Main feature extraction and search engine
+│   ├── got_search_engine_df.pkl
+│   └── GOT-characters-phrases-bert.csv
+├── books/                  ← Raw .txt book files (GOT1.txt … GOT5.txt)
+├── Gephi_files/            ← .gephi project files and GEXF exports
+├── network-html-server/                   ← Sigma.js website (interactive network map)
+│   ├── index.html
+│   ├── network/            ← Graph data exported from Gephi
+│   └── ...
+├── 1_pipeline_per_chapter.ipynb
+├── 2_scrap_characters.ipynb
+├── 3_GOT-NER-model-compare.ipynb
+├── 4_features_parser_&_search_engine.ipynb
+├── 5_final_network_map.ipynb
 └── README.md
 ```
+
+---
 
 ## 1. Install Dependencies
 
 ```bash
-pip install beautifulsoup4 pandas numpy re os glob ast warnings networkx matplotlib sklearn scipy
+pip install beautifulsoup4 pandas numpy networkx matplotlib scikit-learn scipy
+pip install transformers torch tqdm spacy cloudscraper html5lib
 ```
+
+---
 
 ## 2. Prepare Data
 
-Place the AWOIAF HTML files in the `awoiaf_pages/` folder.
+- Place the AWOIAF HTML files in the `awoiaf_pages/` folder.
+- Place the raw book text files (`GOT1.txt` … `GOT5.txt`) in the `books/` folder.
+
+---
 
 ## 3. Run the Pipeline
 
 Execute the notebooks in order:
 
-1. **1.pipeline_per_chapter.ipynb**: Processes data per chapter.
-2. **2.scrap_characters.ipynb**: Scrapes character information.
-3. **3.GOT-NER-model-compare.ipynb**: Compares NER models.
-4. **4.features_parser_&_search_engine.ipynb**: Extracts features from HTML, builds search engine.
+1. **1_pipeline_per_chapter.ipynb** — Processes raw book text chapter by chapter, runs NER with `dslim/bert-large-NER`, builds a character co-occurrence graph per chapter, and exports graph data.
+2. **2_scrap_characters.ipynb** — Scrapes character names and wiki URLs from AWOIAF's character list, and collects aliases via infobox parsing.
+3. **3_GOT-NER-model-compare.ipynb** — Compares NER approaches (spaCy `en_core_web_trf`, `fr_core_news_lg`, Hugging Face BERT-large-NER) using bag-of-words baselines and entity extraction benchmarks.
+4. **4_features_parser_&_search_engine.ipynb** — Parses AWOIAF HTML pages, extracts 46 features across 11 families, builds a network graph for ranking (PageRank, HITS, centrality), and implements the three-stage search engine.
+5. **5_final_network_map.ipynb** — Resolves raw NER entities against the canonical character database using the hybrid search engine, filters non-characters by score threshold, and outputs the final relationship graph for Gephi.
 
-Run each notebook in a Jupyter environment.
+---
 
 ## How the Project Works
 
-This project leverages structured data from A Wiki of Ice and Fire (AWOIAF) wiki pages to create a comprehensive feature set for Game of Thrones characters and enable advanced search capabilities. Here's a breakdown of the approach and design choices:
-
 ### Data Source and Parsing
-- **Choice**: HTML pages from AWOIAF were chosen over raw book text because they provide semi-structured, curated information about characters, including infoboxes, categories, and cross-references. This allows for richer feature extraction compared to unstructured text.
-- **Method**: The `WikiHTMLParser` class uses BeautifulSoup to parse HTML and extract 46 distinct features, grouped into 11 families:
-  - **Identity**: Title, meta descriptions, canonical URLs.
-  - **Names**: Aliases, titles, name variants.
-  - **Infobox**: Biographical details like allegiances, culture, family.
-  - **Books**: Appearances and roles in each book.
-  - **Text**: Full article content and statistics.
-  - **Structure**: Sections, subsections, quotes.
-  - **Links**: Outgoing links and anchor texts.
-  - **Categories**: Wiki categories.
-  - **Images**: Portraits and galleries.
-  - **Navboxes**: Navigation elements.
-  - **Page Size**: File size metrics.
-- **Why 46 features?**: To capture a holistic view of each character, enabling both semantic search (via text content) and structured queries (via metadata).
+
+HTML pages from AWOIAF are used rather than raw book text because they provide semi-structured, curated character information — infoboxes, categories, cross-references — enabling richer feature extraction. The `WikiHTMLParser` class uses BeautifulSoup to extract **46 distinct features** grouped into **11 families**:
+
+- **Identity** — title, meta descriptions, canonical URLs
+- **Names** — aliases, titles, name variants
+- **Infobox** — allegiances, culture, family
+- **Books** — appearances and roles per book
+- **Text** — full article content and statistics
+- **Structure** — sections, subsections, quotes
+- **Links** — outgoing links and anchor texts
+- **Categories** — wiki categories
+- **Images** — portraits and galleries
+- **Navboxes** — navigation elements
+- **Page Size** — file size metrics
+
+### NER and Entity Resolution
+
+Three NER approaches are compared in Notebook 3 — spaCy (`en_core_web_trf`), Hugging Face BERT-large-NER, and a bag-of-words baseline. The best-performing model's raw entity extractions are then resolved in Notebook 5 against the canonical character database using the hybrid search engine, which scores and filters candidates to retain only true characters.
 
 ### Data Processing and Cleaning
-- **Cleaning**: Low-signal columns (e.g., redundant titles, empty fields) are dropped. Only characters with book appearances are retained to focus on canonical characters. Numeric features are min-max normalized to ensure equal contribution in distance and ranking computations.
-- **Choice**: Normalization prevents features with larger scales (e.g., word count) from dominating smaller ones (e.g., centrality scores).
+
+Low-signal columns (redundant titles, empty fields) are dropped. Only characters with confirmed book appearances are retained. Numeric features are min-max normalized so that features with large scales (e.g., word count) do not dominate smaller ones (e.g., centrality scores) in distance computations.
 
 ### Network Analysis for Ranking
-- **Graph Construction**: A directed graph is built where nodes are characters and edges are outgoing internal wiki links. This represents the "web" of relationships in the wiki.
-- **Metrics Computed**:
-  - **PageRank**: Measures overall importance based on incoming links.
-  - **HITS (Authority/Hub)**: Distinguishes between influential characters (authorities) and connectors (hubs).
-  - **Centrality (Betweenness/Closeness)**: Identifies bridge characters and those central to information flow.
-- **Choice**: Network metrics provide a data-driven way to rank characters by prominence, complementing content-based features. This is inspired by web search engines like Google, where link structure indicates relevance.
+
+A directed graph is built where nodes are characters and edges are outgoing internal wiki links, mirroring the structure of the AWOIAF "web." Metrics computed:
+
+- **PageRank** — overall importance via incoming links
+- **HITS (Authority / Hub)** — distinguishes influential characters from connectors
+- **Betweenness / Closeness Centrality** — identifies bridge characters and information-flow hubs
+
+These metrics provide a data-driven ranking signal inspired by link-structure approaches used in web search engines.
 
 ### Dimensionality Reduction and Distance Metrics
-- **PCA**: Applied to numeric features to identify principal axes of variance, helping understand which features drive character differences.
-- **Distances**: Euclidean and Minkowski distances from the origin measure how "extreme" or unique a character is across features.
-- **Choice**: These provide novelty signals for search ranking, surfacing characters that stand out in the feature space.
+
+PCA is applied to numeric features to identify principal axes of character variance. Euclidean and Minkowski distances from the origin surface characters that are particularly extreme or unique across the feature space, providing a novelty signal for search ranking.
 
 ### Book Role Parsing
-- **Method**: Raw book strings (e.g., "A Game of Thrones (POV)") are parsed into structured dictionaries with roles like 'pov', 'appears', 'mentioned', 'appendix'.
-- **Choice**: Enables context-aware search, boosting characters based on their role in specific books (e.g., POV characters get higher scores in book-scoped queries).
+
+Raw book strings (e.g., `"A Game of Thrones (POV)"`) are parsed into structured dictionaries with roles: `pov`, `appears`, `mentioned`, `appendix`. This enables context-aware search — POV characters receive a score boost of ×2.0 in book-scoped queries, while `mentioned` characters receive ×0.2.
 
 ### Search Engine Design
-- **Three-Stage Pipeline**:
-  1. **Context Filter**: Optionally restrict to characters in a specific book.
-  2. **Retrieval**: Find candidates via exact match, Jaccard similarity (set overlap), or TF-IDF cosine similarity (semantic matching).
-  3. **Ranking**: Score candidates using hybrid (combines TF-IDF, network boosts, context roles), or specific metrics like PageRank, centrality, or distances.
-- **Choices**:
-  - **Multi-method retrieval**: Supports both keyword (exact/Jaccard) and semantic (TF-IDF) queries.
-  - **Flexible ranking**: Hybrid mode balances content relevance, network importance, and context. Distance metrics sort ascending (closer to origin first) for similarity-based ranking.
-  - **Why not a simple database?**: The engine handles complex, multi-dimensional queries with custom scoring, outperforming basic lookups for exploratory search.
 
-### Implementation Choices
-- **Notebooks**: Used for interactive development, allowing step-by-step execution, visualization, and easy parameter tuning. This is ideal for research and iteration compared to scripts.
-- **Libraries**: Standard Python stack (BeautifulSoup for parsing, pandas for data, NetworkX for graphs, scikit-learn for TF-IDF/PCA) chosen for reliability, performance, and ecosystem compatibility.
-- **Outputs**: Data saved as CSV (human-readable), pickle (preserves complex objects), and search index (optimized for querying).
+A three-stage pipeline:
 
-This design transforms static wiki pages into a dynamic, queryable knowledge base, enabling users to discover characters through semantic, structural, and contextual lenses.
+1. **Context Filter** — optionally restrict to characters present in a specific book
+2. **Retrieval** — find candidates via exact match, Jaccard similarity (set overlap), or TF-IDF cosine similarity (semantic matching)
+3. **Ranking** — score candidates using hybrid mode (combines TF-IDF, network boosts, context roles) or specific metrics such as PageRank, centrality, or distance
 
-## 4. Outputs
+### Character Relationship Network
 
-- Processed character data in `data/got_characters.csv` and `data/got_characters.pkl`.
-- Search index in `data/got_search_engine_df.pkl`.
+The final co-occurrence graph (from Notebook 5) is exported as a GEXF file and loaded into **Gephi** for layout and visual styling. The network is then exported using Gephi's **Sigma.js plugin**, generating a self-contained website that runs entirely in the browser — no server required.
 
-## 5. Search Engine Usage
+---
 
-The search engine in `4.features_parser_&_search_engine.ipynb` allows querying characters with various ranking methods, including hybrid, TF-IDF, PageRank, etc.
+## 4. Interactive Network Map (Sigma.js)
+
+The character relationship network is published as an interactive website built with **Gephi + Sigma.js**.
+
+### How it was built
+
+1. The co-occurrence graph produced by Notebook 5 was imported into **Gephi**.
+2. A force-directed layout (ForceAtlas2) was applied to position nodes by relationship density.
+3. Node size was mapped to PageRank score; color was mapped to community (modularity clustering).
+4. The graph was exported using Gephi's **Sigma.js Export** plugin, which generates a ready-to-use `index.html` + `network/` data folder.
+
+### How to view it
+
+Open the exported site locally:
+
+```bash
+cd network-html-server/
+python -m http.server 8080
+# then open http://localhost:8080 in your browser
+```
+
+Or simply open `network-html-server/index.html` directly in a modern browser (Chrome/Firefox) — no server is needed for most browsers if CORS is not an issue.
+
+### Features of the map
+
+- **Zoom & pan** — scroll to zoom, click-drag to pan
+- **Node search** — type a character name to highlight them and their connections
+- **Hover tooltips** — shows character name and key attributes on hover
+- **Click to focus** — clicking a node highlights its direct neighbors and fades the rest
+- **Community coloring** — groups of strongly connected characters share a color
+
+---
+
+## 5. Outputs
+
+| File | Description |
+|---|---|
+| `data/got_characters.csv` | Human-readable character feature table |
+| `data/got_characters.pkl` | Full feature DataFrame (preserves complex objects) |
+| `data/got_search_engine_df.pkl` | Enriched search index with network metrics |
+| `data/GOT-characters-phrases-bert.csv` | Raw NER extractions from BERT |
+| `Gephi_files/` | Gephi project and GEXF graph exports |
+| `maps/` | Interactive Sigma.js network website |
+
+---
+
+## 6. Search Engine Usage
+
+The search engine in `4_features_parser_&_search_engine.ipynb` supports querying characters with multiple ranking strategies:
+
+```python
+advanced_search_dynamic(
+    query_name="Arya",
+    df=master_df,
+    current_book="A Game of Thrones",   # optional book filter
+    retrieve_by="tfidf",                # "exact", "jaccard", or "tfidf"
+    rank_by="hybrid",                   # "hybrid", "pagerank", "centrality", "distance"
+    top_n=5
+)
+```
+
+---
 
 ## Tuning Parameters
 
-Adjust parameters in the notebooks as needed, such as thresholds for feature extraction, similarity measures, and ranking metrics.
+| Parameter | Location | Effect |
+|---|---|---|
+| `MAX_TOKENS_P` / `STRIDE_P` | Notebook 1 | NER chunk size and overlap |
+| `COOC_WINDOW` | Notebook 1 | Co-occurrence window (sentences) |
+| `ROLE_BOOSTS` | Notebook 5 | Score multipliers per book role |
+| `top_n` | Notebook 4 & 5 | Number of search results returned |
+| Gephi ForceAtlas2 settings | Gephi UI | Network layout density and spread |
